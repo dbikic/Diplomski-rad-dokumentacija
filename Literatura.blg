@@ -1,12 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: JMBAG_Ime_Prezime.aux
-A level-1 auxiliary file: Intro.aux
-A level-1 auxiliary file: 01_Uvod.aux
-A level-1 auxiliary file: 02_Specifikacija_rada.aux
-A level-1 auxiliary file: Prilog_1.aux
-A level-1 auxiliary file: Literatura.aux
+The top-level auxiliary file: Literatura.aux
 The style file: tex_aux/IEEEtranHR.bst
+I found no \citation commands---while reading file Literatura.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -18,44 +14,45 @@ Database file #1: Literatura.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 3 entries,
+You've used 0 entries,
             4024 wiz_defined-function locations,
-            824 strings with 7558 characters,
-and the built_in function-call counts, 942 in all, are:
-= -- 57
-> -- 6
+            807 strings with 7223 characters,
+and the built_in function-call counts, 103 in all, are:
+= -- 0
+> -- 0
 < -- 0
-+ -- 4
-- -- 1
-* -- 38
-:= -- 179
-add.period$ -- 4
-call.type$ -- 3
-change.case$ -- 1
++ -- 0
+- -- 0
+* -- 19
+:= -- 26
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 73
-empty$ -- 93
-format.name$ -- 1
-if$ -- 181
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 3
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 19
-newline$ -- 38
-num.names$ -- 1
-pop$ -- 70
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 23
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 66
+skip$ -- 1
 stack$ -- 0
 substring$ -- 0
-swap$ -- 37
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 3
+type$ -- 0
 warning$ -- 0
-while$ -- 1
-width$ -- 4
-write$ -- 48
+while$ -- 0
+width$ -- 0
+write$ -- 22
+(There was 1 error message)

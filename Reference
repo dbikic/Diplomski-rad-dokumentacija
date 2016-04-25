@@ -1,0 +1,10 @@
+% Encoding: UTF-8
+
+@Article{qwe,
+  author  = {qwe},
+  title   = {qwe},
+  journal = {qwe},
+  year    = {1111},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

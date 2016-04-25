@@ -6,3 +6,7 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {kra\'ci opis podslike a}}}{11}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {kra\'ci opis podslike b}}}{11}{subfigure.2.2}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Prikaz procesa skeniranja NFC nalijepnice (1), zahtjeva za konfiguracijom poslovnice (2) i dobivanje konfiguracje poslovnice (3).\relax }}{21}{figure.caption.8}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Prikaz procesa otkrivanja BLE ogla\"{}iva?a (1), zahtjev za kodom skeniranog popusta (2), dobivanje koda za popust (3) i prikazivanje koda na blagajni za kona?no ostvarivanje popusta (4).\relax }}{22}{figure.caption.9}
+\addvspace {10\p@ }

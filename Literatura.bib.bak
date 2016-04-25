@@ -1,5 +1,4 @@
-% This file was created with JabRef 2.6.
-% Encoding: Cp1252
+% Encoding: windows-1252
 
 @BOOK{McFarland:2009,
   title = {CSS The Missing Manual},
@@ -27,11 +26,18 @@
   timestamp = {2012.06.05}
 }
 
-@ELECTRONIC{latex,
-  organization = {WikiBooks:~LaTeX.xxxxxxxxx},
-  url = {http://en.wikibooks.org/wiki/LaTeX/},
-  owner = {mjoler},
-  timestamp = {2012.06.05}
+@Electronic{latex,
+  url          = {http://en.wikibooks.org/wiki/LaTeX/},
+  organization = {WikiBooksQEWE:~LaTeX.},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{latexDva,
+  url          = {http://en.wikibooks.org/wiki/LaTeX/},
+  organization = {WikiBooksQEWE:~LaTeX.},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
 }
 
 @ELECTRONIC{mysql,
@@ -48,11 +54,11 @@
   timestamp = {2012.06.05}
 }
 
-@comment{jabref-meta: selector_publisher:}
+@WWW{mobilityReport,
+  author = {Ericsson},
+  title  = {Ericsson Mobility Report},
+  year   = {2016},
+  url    = {http://www.ericsson.com/res/docs/2016/mobility-report/ericsson-mobility-report-feb-2016-interim.pdf},
+}
 
-@comment{jabref-meta: selector_author:}
-
-@comment{jabref-meta: selector_journal:}
-
-@comment{jabref-meta: selector_keywords:}
-
+@Comment{jabref-meta: databaseType:biblatex;}

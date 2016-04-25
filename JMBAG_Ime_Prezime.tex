@@ -1,4 +1,7 @@
+% !TEX encoding = UTF-8 Unicode
 \input{tex_aux/rithesis_preamble}
+
+
 %
 %
 %
@@ -13,7 +16,7 @@
 \frontmatter   % - ne dirati
 
 % upisati naziv studija
-\degreesubject{Diplomski studij raèunarstva} % upisati odgovarajuci naziv studija
+\degreesubject{Diplomski studij raÃ¨unarstva} % upisati odgovarajuci naziv studija
 
 % upisati vrstu rada
 \documenttype{Diplomski rad}  % Zavrsni rad ili Diplomski rad
@@ -28,13 +31,13 @@
 
 %\makecopyright
 
-% Okruzenje za pisanje posvete. Maknuti komentare ukoliko se želi napisati posvetu.
+% Okruzenje za pisanje posvete. Maknuti komentare ukoliko se Âželi napisati posvetu.
 %\begin{dedication}
 	%Ovo je posveta nekome
 %\end{dedication}
 
 % Okruzenje za pisanje zahvale
-%\begin{acknowledgments} % maknuti komentare ukoliko se želi napisati zahvalu
+%\begin{acknowledgments} % maknuti komentare ukoliko se Âželi napisati zahvalu
 	%\include{Zahvala}  
 	% tekst upisati u datoteku ``Zahvala'' i ukloniti komentar ili ga upisati izravno ovdje
 %\end{acknowledgments}
@@ -50,7 +53,7 @@
 \begin{honestystatementpage}
 \end{honestystatementpage}
 
-% kreiranje popisa sadrzaja, slika i tabela - ništa ne dirati
+% kreiranje popisa sadrzaja, slika i tabela - niÂšta ne dirati
 \tableofcontents
 \listoffigures
 \listoftables
@@ -65,8 +68,10 @@
 \mainmatter		% ne dirati
 
 
-% Ovdje pomoæu include funkcije ucitavati kreirana poglavlja. Poglavljima dajte logicna imena s obzirom na sadrzaj prikazan u njima (bez razmaka u imenu).
-\include{Intro}   % ovo poslije staviti pod komentar kada se nauèi koristiti
+% Ovdje pomoÃ¦u include funkcije ucitavati kreirana poglavlja. Poglavljima dajte logicna imena s obzirom na sadrzaj prikazan u njima (bez razmaka u imenu).
+\include{Intro}   % ovo poslije staviti pod komentar kada se nauÃ¨i koristiti
+\include{01_Uvod}   % 
+\include{02_Specifikacija_rada}   % 
 %\include{Poglavlje_1}  % dati neko logicno ime umjesto ``Poglavlje_1''
 %\include{Poglavlje_2} 
 %\include{Poglavlje_3} % itd.
@@ -78,6 +83,7 @@
 %
 
 \include{Literatura}  % ovo je ime Bibtex datoteke koju korisnik kreira
+\include{Reference}  % ovo je ime Bibtex datoteke koju korisnik kreira
 
 
 \end{document}
