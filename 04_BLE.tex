@@ -1,2 +1,174 @@
-\chapter{Uvod}
-Ovo je uvodno poglavlje 
+\chapter{BLE tehnologija}
+Bluetooth Low Energy (BLE ili Bluetooth Smart) je be¸i?ni protokol koji uz pomo? radiovalova omogu?uje komunikaciju dva ili vi¨e ure?aja. Protokol je prvotno je razvijan od kompanije Nokia pod imenom Wibree, ali 2007. godine dolazi pod jurisdikciju neprofitnog tijela Bluetooth Special Interest Group (SIG) LINK. SIG je organizacija koja nadgleda razvoj Bluetooth tehnologije i osigurava standardizaciju Bluetooth kompatibilnih ure?aja. 2010. godine BLE postaje nova iteracija Bluetooth protokola (verzija 4.0.) iako je u po?etku bio zami¨ljen kao komplementarni protokol. Na slici ~\ref{fig:ble} je prikazan logo BLE-a.
+
+\begin{figure}[!htbp]
+	\begin{center}
+ \includegraphics[height=3cm,keepaspectratio=true]{ble_logo}
+ \caption{Logo BLE protokola}
+ \label{fig:ble}
+	\end{center}
+\end{figure}
+
+Glavna ideja BLE protokola je pru¸iti funkcionanost Bluetooth-a uz ¨to manju potro¨nju energije sa ure?ajima koji su manji, jeftiniji i optimiziraniji. U mobilnoj industriji Bluetooth protokol je ve? godinama standard te ga ve?ina ure?aja podr¸ava i korisnici ga koriste koriste u ve? standradnim primjenama (povezivanje mobitela sa be¸i?nom slu¨alicom, uparivanje sa automobilom, prijenos podataka izme?u ure?aja?). Me?utim, dolaskom BLE-a se podru?je primjene Bluetooth-a drasti?no pove?ava iz razloga ¨to je implementacija protokola puno dostupnija zbog slijede?ih razloga:
+
+\begin{itemize}
+	\item Danas gotovo svaki novi pametni telefon na tr¸i¨tu ima BLE ?ip i time je tehnologija dostupa potencijalno ogromnom tr¸i¨tu
+	\item ?ipovi su jeftiniji, manji i zahtjevaju manje energije, ¨to otvara vrata mnogim novim implementacijama elektroni?kih ure?aja
+	\item Protokol je za odre?ene primjene br¸i jer za razliku od klasi?nog Bluetooth-a ne zahtjeva autentikaciju ure?aja
+\end{itemize}
+
+BLE je temelj za iBeacon tehnologiju, koja pru¸a gotovo identi?ne funkcionalnosti ali je razvijana od tvrtke Apple pa se shodno tome striktno koristi samo sa Apple-ovim ure?ajima.
+
+\section{Arhitektura}
+
+BLE komunikacija se zasniva na radio valovima, u rasponu od 2.4 - 2.2835 GHz, preko kojih se ¨alju podatci, podjeljeni na pakete. Frekventni spektar BLE-a je podjeljen na 40 kanala od 2 MHz, te se svaki paket ¨alje zasebno kroz kanal [LINK CORE]. Paket se prije slanja modulira GFSK (Gaussian frequency shift modulation) modluacijom i zatim ¨alje kroz kanal, teoretski maksimalnom brzinom od 1 Mbit/s (u praksi je to ?esto manje zbog ograni?enja protokola i komunikacije radio valovima). Potro¨nja energije je dvostruko manja od klasi?nog Bluetooth-a i iznosi 15 mA pri maksimalnom optere?enju modula, te se stoga ure?aji mogu napajati sa dugmastim baterijama (na ~\ref{fig:ble_baterija} je prikazana baterija koja je napajala BLE ure?aj koji je kori¨ten u ovome radu) ¨to prili?no pridonosi prenosivosti, veli?ini i povoljnosti BLE ure?aja.
+
+
+\begin{figure}[!htbp]
+	\begin{center}
+ \includegraphics[height=4cm,keepaspectratio=true]{dugmasta_baterija}
+ \caption{Dugmasta baterija koja pokre?e BLE ure?aja}
+ \label{fig:ble_baterija}
+	\end{center}
+\end{figure}
+
+Domet protokola u teoriji iznosi ?ak do 100 metara, no u praksi je to do 5 metara iz razloga ¨to se cilja na to da ure?aji tro¨e ¨to manje energije u radu pa se koriste slabije baterije s kojima BLE ure?aj ipak ima dovoljno dalek domet za ve?inu primjena.
+
+
+\section{Topologija mre¸e}
+
+BLE ure?aj mo¸e komunicirati sa drugim ure?ajima preko dva na?ina rada: ogla¨avanje i uparivanje.
+
+\subsection{Ogla¨avanje}
+
+Kod ogla¨avanja ure?aj periodi?ki oda¨ilje signal kojeg detektiraju svi ure?ji u dometu. To je jednosmjerna komunikacija i u kojoj razlikujemo oda¨ilja?a koji konstantno ¨alje pakete (uvijek se ¨alje standardni paket od 31 B u kojem su osnovne informacije o ure?aju, a mogu?e je slati i dodatni paket sa dodatnim informacijama) i promatra?a koji konstantno skenira podru?je koje ga okru¸uje. Ovaj na?in rada se koristi kada se ¸eli s jednim BLE ure?ajem slati ista informacija na vi¨e ure?aja u dometu. Primjer ovakvog kori¨tenja BLE protokola je proizvod ``Automatic museum guide'' od tvtke Locatify \cite{automatic_museum_guide} . Proizvod uklju?uje:
+
+
+\begin{itemize}
+	\item Ogla¨iva?e (BLE ure?aje sa baterijom veli?ine kovanice)
+	\begin{itemize}
+		\item Postavljaju se u blizini muzejskih eksponata
+	\end{itemize}
+	\item CMS-a (Content management system)
+	\begin{itemize}
+		\item Sustav preko kojeg kustosi postavljaju sadr¸aj o eksponatu u audio, video i tekstualnom obliku
+	\end{itemize}
+	
+	\item Personaliziranu mobilnu aplikaciju
+	\begin{itemize}
+		\item Koriste?i BLE modul pametnog telefona konstantno skenira prostor i tra¸i ogla¨iva?e
+	\end{itemize}
+\end{itemize}
+
+Svrha prozivoda je ta da korisnik sa upaljenom mobilnom aplikacijom dobiva preko pametnog telefona odre?eni sadr¸aj kada u?e u domet ogla¨iva?a. To se posti¸e tako da mobilna aplikacija parsira ogla¨iva?ev paket sa dodatnim podacima i na temelju dobivenih informacija preko CMS-a dobiva odgovaraju?i sadr¸aj za specifi?an eksponat.
+Prednosti ovakvog ogla¨avanja su brzina i jednostavnost prijenosa, a mana je sigurnost, iz razloga ¨to odaslane pakete mogu primiti i ure?aji u dometu kojima ti paketi nisu namjenjeni.
+
+
+\subsection{Uparivanje}
+Uparivanje se koristi kod potrebe za sigurnom vezom izme?u dva ure?aja zbog dvosmjerne komunikacije. Kod komunikacije razlikujemo dvije vrste ure?aja:
+
+
+\begin{itemize}
+	\item Centralni ure?aj
+	\begin{itemize}
+		\item Skenira prostor i tra¸i ure?aje s kojima mo¸e komunicirati, te kada ih na?e inicira komunikaciju
+		\item Odre?uje pravila komunikacije
+	\end{itemize}
+	\item Peripetalni ure?aj
+	\begin{itemize}
+		\item Oda¨ilje ogla¨iva?ke pakete kojima javlja ure?ajima u blizini da je spreman za komunikaciju
+	\end{itemize}
+\end{itemize}
+
+Kada je komunikacija inicirana peripetalni ure?aj prestaje oda¨iljati ogla¨iva?ke pakete i komunicira samo sa centralnim ure?ajem. Obi?ajeni primjer ovakve komunikacije je komunikacija izme?u pametnog telefona i ure?aja sa nekim senzorom. Jedan od brojnih primjera je proizvod Rhythm+ od tvrtke Scosche \cite{scosche} . Radi se o pametnoj narukvici koja mjeri korisnikov puls te izmjerene podatke ¨alje centralnom ure?aju (pametnom telefonu sa kompatibilnom aplikacijom koja koristi dobivene podatke za kreiranje svoga sadr¸aja).
+Prednost uparivanja, kao na?ina rada BLE protokola, je sigurnost i optimizacija komunikacije. Ovaj na?in komunikacije je siguran jer se ure?aji moraju prepoznati i upariti da bi uop?e i moglo do?i do komunikacije, a optimizacija se posti¸e jer centralni ure?aj odre?uje pravila komunikacije (koli?ina podataka koja se ¨alje, vremenski intervali u kojima se slanja odvijaju) i samim time se pove?ava propusnost podataka. Tako?er, osigurava se i malena potro¨nja energije jer upareni ure?aji ¨alju podatke samo kada moraju, za razliku od na?ina rada gdje se paketi konstantno emitiraju.
+
+
+\section{Primjena}
+Primjena BLE ure?aja se temelji na profilu ure?aja koji je specificiran od strane SIG-a. Profili su uvedeni s namjerom da BLE ure?aji proizvedeni od razli?itih proizvo?a?a budu standardizirani i me?usobno kompatibilni. Tako?er, profili garantiraju da ure?aj, ovisno o svojoj primjeni, koristi BLE protokol na optimiziran na?in. Postoje dva op?a profila koja definiraju osnovna svojstva protokola:
+
+\begin{itemize}
+	\item Generic Access Profile (GAP)
+	\begin{itemize}
+		\item Specificira komunikaciju na najni¸oj razini (ogla¨avanje paketa i skeniranje okoline s ciljem ostvarivanja sigurn konekcije te ostvarivanje i odr¸avanje veze me?u ure?ajima)
+		\item Obavezno ga implementiraju svi BLE ure?aji
+	\end{itemize}
+	\item Generic Attribute Profile (GATT)
+	\begin{itemize}
+		\item Oslanja se na GAP te na vi¨oj razini definira modele paketa i mehanizme za otkrivanje ure?aja i samu komunikaciju
+	\end{itemize}
+\end{itemize}
+
+Nadalje, SIG je u specifikaciji BLE-a pru¸io i konfiguraciju GATT profila za razna podru?ja primjene, sve kako bi korisnicima olak¨ali implementaciju protokola u svoje proizvode. Konfiguracija uklju?uje definiranje komunikacije i na?ina rada ure?aja, kako bi protokol bio ¨to optimiziraniji. Neki od najzanimljivijih profila uklju?uju \cite{ble_profiles}: 
+
+
+\begin{itemize}
+	\item Prona?i me profil (FMP)
+	\begin{itemize}
+		\item Omogu?uje ure?aju da detektira lokaciju drugog ure?aja
+	\end{itemize}
+	
+	\item Profil neposredne blizine (PXP)
+	\begin{itemize}
+		\item Oslanja se na GAP te na vi¨oj razini definira modele paketa i mehanizme za otkrivanje ure?aja i samu komunikaciju
+	\end{itemize}
+	
+	\item Profil HID preko GATT-a (HOGP)
+	\begin{itemize}
+		\item Omogu?ava slanje HID (Human Interface Device) podataka preko BLE ure?aja
+		\item Ovaj profil se naj?e¨?e koristi za upravljanje tipkovnicama, mi¨evima i daljinskim ure?ajima
+	\end{itemize}
+	
+	\item Glukozni profil (GLP)
+	\begin{itemize}
+		\item Koristi se za mjerenje glukoze kod pacijenata
+	\end{itemize}
+	
+	\item Profil krvnog tlaka (BLP)
+	\begin{itemize}
+		\item Koristi se za mjerenje krvnog tlaka
+	\end{itemize}
+	
+	\item Profil otkucaja srca (HRP)
+	\begin{itemize}
+		\item Koristi se za mjerenje otkucaja srca
+	\end{itemize}
+	
+	\item Profil biciklisti?ke brzine i ritma (CSCP)
+	\begin{itemize}
+		\item Omogu?ava pra?enje brzine i ritma biciklisti?ke vo¸nje
+	\end{itemize}
+\end{itemize}
+
+Po navedenim profilima je vidljivo da je primjena BLE-a ¨iroka te da se BLE koristi u zdravstvu, sportu i rekreaciji, raznim senzorima i ra?unalstvu op?enito.
+
+Za potrebe ovog projekta kori¨ten je Gimbal Proximity Beacon Series 10 BLE ure?aj, koji je konfiguriran da radi u PXP profilu. Kupljen je preko internetske trgovine Gimbal \cite{gimbal_beacon} i prikazan na slici ~\ref{fig:gimbal_oglasivac}.
+
+\begin{figure}[!htbp]
+	\begin{center}
+ \includegraphics[height=7cm,keepaspectratio=true]{gimbal_s10}
+ \caption{Komunikacija dva NFC ure\dj aja}
+ \label{fig:gimbal_oglasivac}
+	\end{center}
+\end{figure}
+
+Specifikacija ogla¨iva?a:
+
+
+\begin{itemize}
+	\item Dimenzije: 40mm x 28 mm x 5.5 mm
+	\item Temperaturni senzor
+	\item Udaljenost prijenosa do 50 metara u idealnim uvjetima, u praksi do 10 metara
+	\item CR2032 baterija za napajanje
+	\item Kompatibilan sa iBeacon tehnologijom
+
+\end{itemize}
+
+
+
+
+
+
+
+
+

@@ -10,7 +10,13 @@
 \contentsline {subsection}{\numberline {2.1.1}Aktivna komunikacija}{10}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Pasivna komunikacija}{11}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Primjena}{12}{section.2.2}
-\contentsline {chapter}{\numberline {A}Naslov priloga}{15}{appendix.A}
-\contentsline {section}{\numberline {A.1}Naslov sekcije}{15}{section.A.1}
-\contentsline {section}{\numberline {A.2}Naslov sekcije}{15}{section.A.2}
-\contentsline {chapter}{Bibliografija}{16}{appendix*.11}
+\contentsline {chapter}{\numberline {3}BLE tehnologija}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Arhitektura}{16}{section.3.1}
+\contentsline {section}{\numberline {3.2}Topologija mre\IeC {\c \ }e}{17}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Ogla\"{}avanje}{17}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Uparivanje}{18}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Primjena}{20}{section.3.3}
+\contentsline {chapter}{\numberline {A}Naslov priloga}{23}{appendix.A}
+\contentsline {section}{\numberline {A.1}Naslov sekcije}{23}{section.A.1}
+\contentsline {section}{\numberline {A.2}Naslov sekcije}{23}{section.A.2}
+\contentsline {chapter}{Bibliografija}{24}{appendix*.14}
