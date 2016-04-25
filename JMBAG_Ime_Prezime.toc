@@ -1,7 +1,7 @@
 \select@language {croatian}
-\contentsline {chapter}{Popis slika}{vi}{chapter*.2}
-\contentsline {chapter}{Popis tablica}{vii}{chapter*.3}
-\contentsline {chapter}{Kazalo}{viii}{chapter*.4}
+\contentsline {chapter}{Popis slika}{viii}{chapter*.2}
+\contentsline {chapter}{Popis tablica}{ix}{chapter*.3}
+\contentsline {chapter}{Kazalo}{x}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Kako koristiti paket za pisanje Zavr\v snoga rada u \LaTeX -u}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Opis sadr\v zaja paketa}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}\v Cime se opremiti za pisanje rada}{3}{section.1.2}
