@@ -1,0 +1,289 @@
+\chapter{Kako koristiti paket za pisanje Završnoga rada u \LaTeX-u}
+Ovo su uvodne napomene za korištenje predloška za pisanje Završnoga ili Diplomskoga rada studenata Tehnièkoga fakulteta u Rijeci.
+
+Paket je pripremljen tako da student što prije može pisati vlastiti tekst u veæ pripremljenom predlošku koji æe, uz minimalno uèenje sintakse \LaTeX-a, studentu olakšati urediti svoj rad. U paketu su ukljuèene potrebne upute i sintaktièke strukture koje bi trebale udovoljiti potrebama veæine studenta, a dodatne informacije postoje u priruènicima odnosno na web stranicama na internetu koje su posveæene \LaTeX-u (vidi u nastavku).
+
+{\color{red} POZOR: paket treba biti prekopiran negdje na disk ne mijenjajuæi originalnu strukturi mapa (foldera) i ne mijenjajuæi nazive datoteka koje su u mapi \emph{tex\_aux}!}
+
+\section{Opis sadržaja paketa}
+Paket se sastoji od
+\begin{itemize}
+ \item datoteke \href{UPUTE.pdf}{\emph{UPUTE.pdf}} koja sadrži postupak instalacije potrebnih alata na raèunalo te korištenja paketa. \emph{UPUTE} su bazirane na Windows OS, a korisnici drugih OS si na naznaèenim web lokacijama samo trebaju naæi instalacije za njihov OS.
+ \item \verb|JMBAG_Ime_Prezime.tex| datoteke koja je središnja datoteka koja povezuje sve cjeline i kompajliranjem koje se dobije izlazni \verb|JMBAG_Ime_Prezime.pdf| dokument.\\ U ovoj se datoteci inicijalno nalaze i upute za korištenje paketa kao i primjeri osnovne uporabe najèešæih sintaktièkih struktura u \LaTeX-u koje bi trebale biti dovoljne veæini studenata za pisanje rada.
+ %
+ \item \verb|tex_aux| mape u kojoj su interne datoteke koje definiraju stilove i dr. Student s njima ne treba \emph{ništa} raditi, ali one trebaju biti u \verb|tex_aux| mapi pod glavnom mapom Završnoga rada, kao što je postavljeno u ovom paketu
+ %
+ \item mape \emph{slike} u koju student treba pohraniti sve slike koje æe koristiti u radu. Ime mape se ne smije preimenovati bez boljega poznavanja sintakse \LaTeX-a jer ovaj paket da bi ispravno radio oèekuje baš takvo ime mape
+ %
+ \item datoteke \verb|sintaksa_cestih_struktura.tex| koja ne sudjeluje izravno u kompajliranju pdf dokumenta, nego služi kao repozitorij u kojem su sadržane najèešæe potrebne sintaktièke strukture koje su spremne za kopiranje uz minimalnu prilagodbu parametara u studentovu radu
+ %
+ \item mape \href{run:manuals}{{\color{blue}manuals}} u kojoj se nalazi nekoliko najpopularnijih priruènika za uporabu \LaTeX-a. 
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Èime se opremiti za pisanje rada}
+Da bi se rad napisao pomoæu \LaTeX-a (a vrijedi svake lipe!), najprije je na raèunalo potrebno instalirati (barem) \LaTeX~ software, a uz to, premda nije nužan za pisanje rada, preporuèam i \emph{JabRef} software koji pomoæu intuitivnih suèelja korisniku omoguæava kreiranje popisa literature na vrlo sofisticirani naèin. 
+
+\subsection{Instalacija \LaTeX-a}
+\begin{enumerate}
+	\item odite na središnji \LaTeX~ portal: \url{http://www.latex-project.org/}
+	\item kliknite na poveznicu \href{http://www.latex-project.org/ftp.html}{Getting LaTeX} i potom uoèite i povucite instalaciju koja odgovara vašem OSu (npr.\ proTeXt za Windows, MacTeX za Mac, TeX Live za Linux). Pozor: download je velik i može duže potrajati èak i na brzoj vezi---dajte si dovoljno vremena za obaviti download.
+	\item Instalirajte \LaTeX~ nabavljen u prethodnoj toèki slijedeæi upute koje su date za tu instalaciju (npr. proTeXt za Windowse daje kratki pdf s uputama koje vas vode kroz instalaciju korak po korak).
+	\item Instalirajte si tekst-editor koji je pogodan za pisanje \LaTeX~ koda (npr.\ za Windows je popularan TeXnicCenter i dolazi veæ upakiran u proTeXt-u, za Mac je kvalitetan TeXShop koji sada takoðer dolazi u paketu s MacTeX-om).
+\end{enumerate}
+
+\subsection{Instalacija \emph{JabRef} softvera}
+\emph{JabRef} je legalno besplatno dostupni softver za Windows OS (za druge OS æete isto naæi takve programe) koji nam omoguæava opisivanje literature na lak naèin pomoæu intuitivnih suèelja, a kao rezultat kreira \emph{BibTeX} datoteku \emph{ime.bib} (gdje je \emph{ime} koje korisnik proizvoljno dodijeli pri pohrani) u kojoj je literatura opisana na naèin koji \LaTeX~ razumije i na osnovi toga automatski formira popis literature na kraju našega rada, a sukladno redoslijedu pozivanja pojedine literature u tekstu.
+
+\emph{Napomena: Korištenje BiBTeX programa kakav je \emph{JabRef} nije neophodno, ali praktièno je. Alternativni---lošiji---naèin jest ruèno opisati korištenu literaturu unutar \emph{tex} datoteke.\\ U datoteci po imenu \href{run:Literatura.tex}{{\color{blue}Literatura.tex}} koja je ukljuèena u ovaj paket veæ su namještene postavke kao da æe se literatura opisati pomoæu BiBTeX programa (npr.\ JabRef) i ne treba ništa mijenjati, a ispod toga se može proèitati upute i za drugi naèin (p)opisivanja literature.}
+
+Instalacijska datoteka za \emph{JabRef} se može pronaæi na webu na adresi \url{http://jabref.sourceforge.net/}.
+Preporuèeni postupak:
+\begin{enumerate}
+	\item povucite si i instalirajte posljednju stabilnu verziju \emph{JabRef}-a
+	\item inicijalno se upoznajte s najvažnijim opcijama u \emph{JabRef}-u:
+	\begin{enumerate}
+		\item uoèite ikonu (pod znakom ``+'' i tekstom \emph{New BibTeX Entry}) za unos nove jedinice literature (npr. knjige, èlanka, web portala i sl.)
+		\item kada kliknete za unos nove stavke literature, uoèite kakvi se sve tipovi literature nude za odabir. Odabirom opcije koja odgovara naslovu koji želite unijeti, otvorit æe vam se novi prozor s poljima u koja se može unijeti informacije o literaturi. Za odabrani tip literature samo su neka polja obavezna (nalaze se pod karticom (eng.\ \emph{tabom}) \emph{Required fields}), dok se pod drugim karticama može i ne mora unijeti dodatne informacije.
+		\item prije nego pohranite vaš unos sa \emph{Ctrl+S}, morate toj jedinici dodijeliti jedinstveni identifikator, tzv.\ \emph{Bibtexkey}, što je jedno od polja koja su obavezna za unos. Možete ruèno upisati neki proizvoljni string, ali pogodnije je generirati ga automatski. Za to uèiniti meðu ikonama na vrhu imate ikonu koja izgleda kao (èarobni) štapiæ sa zvjezdicama oko njega, klikom na kojega \emph{JabRef} automatski dodijeli jedinstveni BibTeX \emph{kljuè} za tu bibliografsku jedinicu. Pomoæu toga kljuèa se poslije bilo kada i bilo gdje u pisanju vašega rada možete pozvati na tu referencu, a \LaTeX~ æe sve ostalo obaviti za vas tj.\ dodijeliti joj odgovarajuæi broj u tekstu i s tim brojem uvrstiti u popis literature.
+		\item korisnik ima moguænost i promijeniti uzorak po kojem se kreira struktura automatski generiranoga jedinstvenoga BibTeX kljuèa tako da se ode u opciju izbornika \emph{Options $>>$ Preferences $>>$ BibTeX key generator} gdje je na vrhu prozora prikazan \emph{default} uzorak, npr. \verb|[auth]:[year]| što znaèi da se kljuè kreira na bazi \verb|prezime(autora):godina(rada)|. To se sada može urediti po nekom novom uzorku, no ovako definirani uzorak u biti zadovoljava, a ako igdje ima potrebe za dodatnim razlikovanjem, može se automatski generiran kljuè još ruèno napraviti korekcija dodavanjem na kraju npr.\ \verb|_a| itd.
+		\item klikom na karticu \emph{BibTeX source} možete vidjeti kako æe unos vaših podataka zapravo biti zapisan u vašoj \emph{ime.bib} datoteci koja æe se formirati od svih bibliografskih jedinica koje unesete.
+		\item Za \emph{ime} vaše bibliografske datoteke kod pohrane odaberite \emph{Literatura} jer to ime oèekuje ovaj paket. Inaèe se može dodijeliti proizvoljno ime, ali onda treba znati što i gdje promijeniti u središnjoj \LaTeX~ datoteci. Pozor: Datoteka \emph{Literatura.bib} koju ste tako kreirali mora se nalaziti unutar mape ovoga paketa da bi sve ispravno radilo! U paketu je za primjer veæ kreirana jedna datoteka istoga imena koju za vježbu student može i otvoriti u \emph{JabRef}-u, ali to su samo pokazne bibliografske jedinice unesene kao primjer, koje student treba u konaènici zamijeniti svojim stvarnim podacima.
+	\end{enumerate}
+\end{enumerate} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Kako (konaèno) poèeti pisati svoj rad}
+Najbrži start je sljedeæi:
+\begin{enumerate}
+	\item Pokrenite vaš \LaTeX~tekst-editor i iz njega otvorite pripremljeni predložak za pisanje rada \href{run:JMBAG_Ime_Prezime.tex}{{\color{blue}JMBAG\_Ime\_Prezime.tex}} koji se nalazi unutar ovoga paketa (obièno ga se može otvoriti i dvostrukim klikom na \emph{tex} datoteku ukoliko æe OS koristiti \LaTeX~ editor za otvaranje iste)
+	\item skrolajte niz dokumentu ništa ne mijenjajuæi, dok ne naiðete na retke u kojima su kratke upute koje upuæuju studenta što treba upisati u pripremljenu naredbu. U biti, u gornjem dijelu dokumenta nema u biti nièega za mijenjati, nego tek nakon linije koja sadrži \verb|\begin{document}|. Specifièni podaci koje student treba upisati bit æe uz naredbe:
+	%
+		\begin{itemize}
+			\item \verb|\degreesubject|: upisati vrstu studija (preddiplomski ili diplomski studij studentovoga usmjerenja)
+			\item \verb|\documenttype|: upisati \emph{Završni rad} ili \emph{Diplomski rad}
+			\item \verb|\title|: upisati naslov rada
+			\item \verb|\date|: upisati samo mjesec predaje rada. Godina se upisuje automatski.
+			\item \verb|\author|: upisati ime i prezime studenta
+			\item \verb|\jmbag|: zamijeniti postojeæi broj vlastitim JMBAG brojem 
+			\item \verb|\mentor|: upisati titulu i ime i prezime svojega mentora
+		\end{itemize}
+	%
+	\item Za prvu probu nakon unešenih podataka, kompajlirajte dokument na naèin da unutar vašega tekst-editora odaberete opciju izbornika (odnosno ikonu) koja glasi nešto poput \emph{Build and View (Current File)}. To pokrene postupak kompajliranja svega i rezultat bi trebao biti \emph{pdf} datoteka u kojoj æete vidjeti lijepo formatirane poèetne stranice rada. Pozor: 
+		\begin{itemize}
+			\item provjerite u postavkama editora da je izlazni format PDF. To se ili vidi negdje na ekranu vašega editora ili negdje pod opcijom koja glasi poput \emph{Select Output Profile} (vjerojatno pod \emph{Build} izbornikom) i nudi par izlaznih formata jedan od kojih je PDF.
+			\item nekada je potrebno 2-3 puta pokrenuti \emph{Build} operaciju da bi sve promjene bile ažurirane u \emph{pdf} dokumentu kao što su npr.\ brojevi referenca, popis literature i sl.
+		\end{itemize}
+		%
+	\item Za (i više nego) osnovnu sintaksu možete otvoriti datoteku \href{run:Intro.tex}{{\color{blue}Intro.tex}} koja je dio paketa i unutar koje su napisane i ove upute. Vidjet æete da da se odmah može pisati vaš tekst uz nekoliko osnovnih naredaba, kao što su:
+	\begin{itemize}
+		\item \verb|\chapter{Naslov poglavlja}| kojim definirate naslov poglavlja
+		\item \verb|\section{Naslov sekcije}| kojim definirate naslov sekcije unutar poglavlja
+		\item \verb|\subsection{Naslov podsekcije}| kojim definirate naslov podsekcije
+		\item \verb|\cite{bibtexkey}| kojom se pozivate na odreðenu literaturu jedinstveni kljuè koje je u BibTeX datoteci \href{run:Literatura.bib}{{\color{blue}Literatura.bib}} dan sa \emph{bibtex key}
+		\item \verb|\emph{tekst}| naredbu kojom se pomoæu italic slova naglašava neka rijeè ili fraza
+		\item \verb|\href| ili \verb|\url| naredba kojom se kreira poveznica na neku URL adresu ili dokument (ne pretjerujte s tim, odnosno uopæe ne morate to koristiti u radu, nego za vanjske reference koristiti samo \verb|\cite{}| naredbu, a za unutrašnje reference (na dijelove teksta) kombinaciju naredbi \verb|\label{ID}| i \verb|\ref{ID}| gdje se prvu postavi na dio teksta na koji æemo se poslije referencirati, a drugu na mjestu s kojega se referenciramo)
+		\item ostale sintakse kao što su ubacivanje slike, tabele ili jednadžba možete naæi u datoteci \href{run:sintaksa_cestih_struktura.tex}{{\color{blue}sintaksa\_cestih\_struktura.tex}} koja je dio paketa. Odabrane se strukture može kopirati i zalijepiti u vaš tekst, uz minimalne prilagodbe kao što su naziv slike, velièina slike, opis i ID slike, a analogno i za tabele i jednadžbe.
+		\item Konaèno, za više detalja o bilo èemu, potražite informacije u priruènicima koji su priloženi u mapi \href{run:manuals}{{\color{blue}manuals}} ili na webu, gdje se, meðu obiljem drugih informacija, nalaze i korisne \href{http://en.wikibooks.org/wiki/LaTeX/}{wiki stranice} o \LaTeX-u pomoæu kojih se obièno brzo pronaðe upute i zadovoljavajuæe rješenje kojom sintaksom se može urediti željeni dio teksta.
+  	\end{itemize}
+\item Savjet: svako poglavlje napišite u novoj datoteci koju imenujte prikladnim imenom (bez razmaka u imenu) i potom ih samo pozivajte iz glavnoga dokumenta \emph{JMBAG\_Ime\_Prezime.tex} pomoæu \verb|\include{ime_datoteke}| naredbe.
+\end{enumerate}
+
+Nadam se da æe vam ovaj dokument pomoæi u pripremi teksta vašega rada i omoguæiti trošiti glavninu vremena na sadržaj rada, a manje na formatiranje rada jer to bi za vas sada trebao obaviti \LaTeX! 
+No, fair-playa radi, potrebno je napomenuti i sljedeæe: \LaTeX~ je vrlo osjetljiv na pogreške u sintaksi naredbi (da, baš kao svaki programski jezik) pa vas može povremeno zagnjaviti javljanjem pogreške koju nikako ne uspijevate uoèiti gdje je. Iskustvo kojim se izbjegava ta nelagoda jest sljedeæe:
+\begin{itemize}
+	\item budite koncentrirani dok pišete \LaTeX~naredbe
+	\item kompajlirajte tekst prije nego se skupi puno teksta jer tako æete imati manje teksta za prekontrolirati u sluèaju pogreške
+	\item ako niste sigurni hoæe li vam raditi neka naredba nakon pisanja, radije odmah kompajlirajte tekst da vidite što æete dobiti i riješite dvojbu, nego èekati da se skupi još dubioza, kada æe biti teže detektirati koja naredba zapravo izaziva probleme (\LaTeX~ov prozor s porukama nije odveæ precizan u lociranju i opisu pogrešaka)
+\end{itemize}
+
+%%%%%%%% POGLAVLJE ZAVRSENO %%%%%%%%%%%%%%%
+
+
+\chapter{Primjeri najèešæih sintaktièkih struktura}
+Ovo se poglavlje u ovome trenutku i ne mora èitati, ali za one koje se žele bolje pripremiti prije samoga poèetka pisanja rada, sigurno æe pomoæi. 
+
+U nastavku su opisane najèešæe sintaktièke strukture, a koje za buduæe potrebe imate pohranjene i u datoteci \href{run:sintaksa_cestih_struktura.tex}{{\color{blue}sintaksa\_cestih\_struktura.tex}} koja je sastavni dio glavne mape ovoga paketa.
+
+\section{Ubacivanje slike}
+Na Slici~\ref{fig:prva} je prikazana osnovna shema HPM sustava.
+\begin{figure}[!htbp]
+	\begin{center}
+ \includegraphics[height=4cm,width=8cm,keepaspectratio=true]{HPMsystem}
+ \caption{Primjer ubacivanja slike}
+ \label{fig:prva}
+	\end{center}
+\end{figure}
+
+Znak \verb|~| iza rijeèi Slici osigurava toèno jedan znak razmaka, što pomaže ukoliko je rijèe Slika na kraju retka, da ne razdvoji rijeè Slika i pripadajuæi broj slike.
+Parametri slike \emph{width} i \emph{height} odreðuju maksimalne dopuštene dimenzije pri èemu se primarno poštuje manju navedenu dimenziju, a \emph{keepaspectratio} osigurava zadržavanje odnosa dimenzija slike, odnosno sprjeèava deformaciju slike, nakon proizvoljno unesenih velièina.
+
+Uoèi da sve oznake tj.\ \emph{labeli} ne smiju imati razmak u imenu. To vrijedi i opæenito, a ne samo za slike.
+
+Takoðer, uoèi da nije potrebno pisati ekstenziju slike jer to je ureðeno u postavkama glavnoga dokumenta pa time štedi trud. Ekstenzije koje se može izostaviti su: \emph{jpg}, \emph{jpeg}, \emph{png} i \emph{pdf}.
+
+Shema prikazana na Slici~\ref{fig:prva} æe biti korištena i za potrebe iduæih primjera, a {\color{blue} u mapi na vašem disku ju obrišite nakon što poènete pohranjivati vlastite slike vezane uz vaš rad}.
+
+
+\section{Ubacivanje podslika}
+%
+\begin{figure}[!htpb]
+	  \begin{center}
+	   \subfloat[kraæi opis podslike a]{\label{fig:HPM_a} \includegraphics[height=5cm,width=8cm,keepaspectratio=true]{HPMsystem}} \\ %\hspace{10pt}
+	   \subfloat[kraæi opis podslike b]{\label{fig:HPM_b} \includegraphics[height=5cm,width=8cm,keepaspectratio=true]{HPMsystem}}
+\caption{Primjer ubacivanja više podslika. Ovo je opis cijele slike.}
+\label{fig:HPMsystem_2}
+	  \end{center}
+\end{figure}
+
+Na Slici~\ref{fig:HPMsystem_2} su prikazane dvije podslike. 
+Podslika~\ref{fig:HPM_a} pokazuje shemu HPM sustava, a podslika~\ref{fig:HPM_b} -- to isto.
+
+
+\section{Ubacivanje tabele} \label{tabela}
+Više detalja o kreiranju tabela proèitajte u literaturi, a sljedeæi blok vam omoguæava kreiranje jednostavne tabele, kao što je prikazano u Tabeli~\ref{tab:prva}.
+\begin{table}[!htbp]
+\caption{Ovo je primjer izrade tabele}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+variabla & vrijednost 1 & vrijednost 2  \\ [0.5ex]
+\hline \hline  
+A & 5 & 3 \\ [0.5ex]
+B & 4 & 2 \\ [0.5ex]
+\hline
+\end{tabular}
+\label{tab:prva}
+\end{table}
+
+Podaci koji su u stupcima se u tabeli razdvajaju znakom \&. Novi redak se na kraju aktualnoga retka formira znakom \verb|\\|. Broj stupaca se definira iza \emph{tabular} time što se navedu slova koja oznaèavaju poravnavanje teksta u svakom stupcu, a broj slova znaèi broj stupaca koji æe biti kreiran u tabeli.
+
+
+\section{Referenca na literaturu, sekciju, stranicu}
+Na pojedinu se literaturu jednostavno uputi korištenjem naredbe \verb|\cite{bitex_key}| gdje je \emph{bibtex\_key} identifikator te bibliografske jedinice u bibtex datoteci. Npr.\ \verb|\cite{latex}| æe u tekstu pokazati broj te bibliografske jedinice u uglatoj zagradi \cite{latex}, te ju s istim brojem uvrsiti u popis literature (Bibliografiju) na kraju rada.
+
+Ako se želimo referirati na tekst u nekoj drugoj sekciji, kao npr. na dio gdje se opisuje kreiranje tabele, tada kraj te sekcije stavimo oznaku \verb|\label{ID}|, npr.\ \verb|\label{tabela}|, a na željenom mjestu u tekstu se na to referiramo pomoæu \verb|\ref{ID}|, npr.\ \verb|\ref{tabela}|. Tako možemo onda napisati da je kreiranje tabele opisano u Sekciji~\verb|~\ref{tabela}|, što proizvede tekst koji glasi ``u Sekciji~\ref{tabela}''.
+
+Ako želimo navesti stranicu u našem radu u kojoj se nalazi neki dio informacije o kojem govorimo, tada na isti naèin primijenimo \verb|\label{ID}| oznaku, a za referiranje na tu stranicu koristimo sintaksu \verb|\pageref{ID}|. 
+Tako npr.\ možemo reæi da je primjer kreiranja tabele opisan na stranici~\verb|\pageref{tabela}|, što æe za rezultat ima tekst u kojem piše da je primjer kreiranja tabele ``opisan na stranici~\pageref{tabela}''.
+
+\section{Naglašavanje teksta}
+\subsection{Navodnici}
+Za navodnike s lijeve strane fraze (otvaranje navodnika) koristi se 2x jednostruki navodnik koji se na tipkovnici nalazi lijevo od broja 1, a za navodnike s desne strane fraze (zatvaranja navodnika) se koristi 2x jednostruki navodnik koji se na tipkovnici nalazi na tipki \emph{æ}, što proizvede npr.\ ``abc''.
+
+Alternativno, u ovom paketu je pripremljena i naredba \verb|\navod{abc}| gdje je \emph{abc} tekst koji se stavlja izmeðu navodnika, tj.\ \navod{abc}.
+
+\subsection{Kosa i podebljana slova}
+Naglašeni tekst (slièno kosim slovima) možemo dobiti uporabom naredbe \verb|\emph{abc}| gdje je \emph{abc} neki tekst koji se želi naglasiti.
+
+Kosa slova (italic) možemo dobiti uporabom naredbe \verb|\textit{abc}| gdje je \textit{abc} neki tekst koji se želi naglasiti.
+
+Podebljana slova možemo postiæi uporabom naredbe \verb|\textbf{abc}| gdje je \textbf{abc} neki tekst koji želimo podebljati.
+
+\section{Verbatim okruženje}
+Verbatim okruženje omoguæava ispis teksta u izvornom obliku, bez da ga \LaTeX~ tumaèi po svojoj default sintaksi. To je pogodno kada se npr.\ na stranicu želi kopirati dio programskoga koda iz nekog jezika i želimo zadržati sve izvorne znakove, a ne da \LaTeX poène javljati pogreške kod kompajliranja jer æe ih bez toga interpretirati kao pogreške u sintaksi.
+
+Postoji kraæi i duži oblik verbatima. Kraæi služi za kraæu frazu od jedne ili par rijeèi, a duži za više redaka.
+
+Kraæi ima sintaksu: \verb+\verb|neka fraza|+
+
+Duži ima sintaksu:\\
+\verb|\begin{verbatim}| \\
+\verb|neki tekst| \\
+\verb|\end{verbatim}| \\
+
+
+\section{Kreiranje jedne jednadžbe ili serije jednadžba}
+
+\subsection{Kreiranje jedne jednadžbe}
+Jednadžba se napiše u posebnom matematièkom modu koji se kreira pomoæu bloka:
+\begin{equation}
+ A = B + C   \label{eq:prva}
+\end{equation}
+
+Jednadžba~\eqref{eq:prva} je jedna jednostavna numerirana jednadžba. Ako ju se ne želi numerirati, onda se nakon rijeèi \emph{begin} stavi zvjezdica, tj.\ \emph{begin\*}.
+
+\subsection{Kreiranje više jednadžba}
+Više se jednadžba kreira \emph{subequations} blokom:
+\begin{subequations}
+Dvije jednadžbe mogu npr.\ glasiti:
+\begin{align}
+        A &= B + C  				\label{subeq:prva} \\
+        D &= F + G				  \label{subeq:druga}
+\end{align}
+\label{subeq:obje}
+\end{subequations}
+
+U \eqref{subeq:prva} je prikazano dobivanje vrijednosti $A$, a u \eqref{subeq:druga} je prikazano dobivanje vrijednosti $D$. Jed.~\eqref{subeq:obje} je èuveni studentov zakon!
+
+\section{Liste}
+Liste su èeste forme u tekstu kojima se na pregledni naèin nabrajaju neke stavke. Stavke obièno navodimo s toèkama na poèetku, ili s brojevima ili sa slovima. U \LaTeX~u su upravo ta tri stila unaprijed definirana, a moguæe su i složenije definicije stilova i kombinacije lista.
+
+\subsection{Lista s toèkama}
+Lista s toèkama se postigne blokom
+\begin{verbatim}
+\begin{itemize}
+	\item prva stavka
+	\item druga stavka
+\end{itemize}
+\end{verbatim}
+što na ekranu proizvede:
+\begin{itemize}
+	\item prva stavka
+	\item druga stavka
+\end{itemize}
+
+\subsection{Numerirana lista s brojevima}
+Numerirana lista s brojevima se postigne blokom
+\begin{verbatim}
+\begin{enumerate}
+	\item prva stavka
+	\item druga stavka
+\end{enumerate}
+\end{verbatim}
+što na ekranu proizvede:
+\begin{enumerate}
+	\item prva stavka
+	\item druga stavka
+\end{enumerate}
+
+
+\subsection{Slovèano numerirana lista}
+Takva se lista može postiæi u sklopu opæenitije forme koja omoguæuje proizvoljni opis ispred pojedine stavke, pomoæu sljedeæega bloka:
+\begin{verbatim}
+\begin{description}
+	\item[a)] prva stavka
+	\item[b)] druga stavka
+\end{description}
+\end{verbatim}
+što na ekranu proizvede:
+\begin{description}
+	\item[a)] prva stavka
+	\item[b)] druga stavka
+\end{description}
+
+
+
+\section{Završne napomene}
+Ovime zakljuèujemo upute koje æe najveæem broju studenata biti dovoljne (ili barem dovoljna osnova) za uspješno pisanje Završnoga odnosno Diplomskoga rada.
+
+Prije nego prijeðete na kreiranje vlastitoga sadržaja uèinite sljedeæe:
+\begin{enumerate}
+	\item u mapi \href{run:slike}{{\color{blue}slike}}, obriðite datoteku \verb|HPMsystem.png| jer je ona samo služila za ilustracije u uputama
+	%
+	\item u glavnoj datoteci  \href{run:JMBAG\_Ime\_Prezime.tex}{{\color{blue}JMBAG\_Ime\_Prezime.tex}} stavite znak komentare ``\%'' ispred linije \verb|\include{Intro}| kojom se pozivaju ove upute, èime to više neæe biti ukljuèeno u tekst vlastitoga rada
+	%
+	\item otvorite datoteku \href{run:Poglavlje\_1.tex}{{\color{blue}Poglavlje\_1.tex}} i poènite pisati svoj vlastiti tekst uz postavljanje naslova poglavlja i sekcija po vlastitom izboru, a na kraju promijenite ime te datoteke u nešto što odgovara sadržaju vašega poglavlja i to ime stavite u \verb|\include| naredbu umjesto inicijalnoga naziva \verb|Poglavlje_1|. Konaèno, da bi se tekst toga poglavlja kompajlirao u izlazni dokument, uklonite znak komentara ``\%'' ispred te \verb|\include| naredbe. Tako uèinite i za sva nova poglavlja koja æete potom kreirati.
+\end{enumerate}
+
+
+Svoje dojmove o razumljivosti i praktiènosti ovoga materijala možete emailati klikom \href{mailto:mjoler@riteh.hr}{{\color{blue}ovdje}}.
+
+Ugodan rad!
+
+
+Miroslav Joler
+
+
+
+%%%%%  POGLAVLJE ZAVRSENO  %%%%%

@@ -1,0 +1,53 @@
+% preamble for the RiTeh thesis template
+
+\documentclass[botnum,a4paper,11,oneside,final]{tex_aux/rithesis}
+%\usepackage[latin1]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+%%%%%%% adjustment for croatian
+\usepackage[croatian]{babel}
+\usepackage[cp1250]{inputenc}	% this ensures croatian special letters are correctly printed with Windows
+
+\usepackage{graphicx}	% this enables import of graphics
+\usepackage[labelsep=space,format=hang]{caption}  % adjusts caption style
+\usepackage{subfig}	% this enables use of subfigures
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{fancyhdr}
+\usepackage{amsfonts}
+%\usepackage{amsthm}
+%\usepackage{pdfsync}
+% This package is used to tell TeXShop where things are in the PDF file.
+% Command-click at any spot in the PDF and it will jump to the corresponding
+% location in the source file.
+\usepackage{epsfig}		% to use eps figures; maybe not necessary to use here with Mac
+\usepackage{epstopdf}	% this automatically converts any eps-figure into a pdf-figure
+\usepackage[section]{placeins} % da slika ne upada u sljedeci section
+
+\hyphenation{sko-ko-vi-toj}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}	% this converts any tif-figure into a png-figure (Mac directly supports pdf, jpg, png, and mps formats, but additionally can use tif and eps when they are automatically converted in png, and pdf, respectively, using the above two packages
+\DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}  % ekstenzije koje ne treba pisati uz ime slike
+\graphicspath{{slike/}}   % mjesto gdje su smjestene slike
+
+%\usepackage{makeidx}	% this enables creation of index
+%\usepackage{showidx}
+%\makeindex			% this makes index automatically, based on author's entries
+
+%\usepackage{eufrak}
+%\usepackage[mathcal]{euscript}
+\usepackage{psfrag}
+%\usepackage{url} 
+\usepackage{hyperref}
+\hypersetup{
+breaklinks,
+colorlinks=true,
+linkcolor=black,
+citecolor=black,
+filecolor=black,
+urlcolor=black
+}
+
+\setcounter{topnumber}{1} \setcounter{bottomnumber}{1}
+
+\newcommand{\navod}[1]{``#1''}

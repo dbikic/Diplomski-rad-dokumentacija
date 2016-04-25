@@ -1,0 +1,83 @@
+\input{tex_aux/rithesis_preamble}
+%
+%
+%
+
+% pomocu \includeonly moze se kompajlirati samo odredjeno poglavlje, da se skrati vrijeme kompajliranja, dok se ne isprave pogreske u tom poglavlju npr.:
+
+%\includeonly{Poglavlje_2}
+
+
+\begin{document}
+
+\frontmatter   % - ne dirati
+
+% upisati naziv studija
+\degreesubject{Diplomski studij raèunarstva} % upisati odgovarajuci naziv studija
+
+% upisati vrstu rada
+\documenttype{Diplomski rad}  % Zavrsni rad ili Diplomski rad
+
+\title{Ispitivanje Near Field Communication i Bluetooth Low Energy tehnologija na Android ure\dj ajima}   % upisati specificni naslov rada
+
+\date{Svibanj, \thisyear.}   % upisati samo aktualni mjesec predaje rada
+
+\author{Dino Biki\'{c}}  % upisati svoje ime i prezime
+\jmbag{0069053128}  % upisati vlastiti JMBAG
+\maketitle		% ne dirati
+
+%\makecopyright
+
+% Okruzenje za pisanje posvete. Maknuti komentare ukoliko se želi napisati posvetu.
+%\begin{dedication}
+	%Ovo je posveta nekome
+%\end{dedication}
+
+% Okruzenje za pisanje zahvale
+%\begin{acknowledgments} % maknuti komentare ukoliko se želi napisati zahvalu
+	%\include{Zahvala}  
+	% tekst upisati u datoteku ``Zahvala'' i ukloniti komentar ili ga upisati izravno ovdje
+%\end{acknowledgments}
+
+\mentor{doc.dr.sc.~Miroslav Joler}   % zamijeniti podacima o svojem mentoru
+\maketitleabstract
+
+% kreira mjesto za umetnuti stranicu s opisom zadatka - ne dirati
+\begin{assignmentpage}
+\end{assignmentpage}
+
+% kreira mjesto za umetnuti stranicu s izjavom o samostalnoj izradbi zadatka - ne dirati
+\begin{honestystatementpage}
+\end{honestystatementpage}
+
+% kreiranje popisa sadrzaja, slika i tabela - ništa ne dirati
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Lista kratica koristenih u tekstu. Kratice upisati u datoteku ``Kratice.tex'' koja je prilozena u paketu.
+% Nije obavezno. Ako se ne zeli koristiti, onda ovaj blok staviti u komentar pomocu znaka %
+\begin{glossary}{Longest string}
+	\input{Kratice}
+\end{glossary}
+
+% kreiranje glavnoga dijela rada
+\mainmatter		% ne dirati
+
+
+% Ovdje pomoæu include funkcije ucitavati kreirana poglavlja. Poglavljima dajte logicna imena s obzirom na sadrzaj prikazan u njima (bez razmaka u imenu).
+\include{Intro}   % ovo poslije staviti pod komentar kada se nauèi koristiti
+%\include{Poglavlje_1}  % dati neko logicno ime umjesto ``Poglavlje_1''
+%\include{Poglavlje_2} 
+%\include{Poglavlje_3} % itd.
+
+% ispod \appendix zaglavlja pomocu \include dodati poglavlja s prilozima
+\appendix
+\include{Prilog_1}  % dati neko suvislo ime umjesto ovoga
+%\include{Prilog_2}  % itd.
+%
+
+\include{Literatura}  % ovo je ime Bibtex datoteke koju korisnik kreira
+
+
+\end{document}
