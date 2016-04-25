@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  25 APR 2016 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  25 APR 2016 21:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -522,14 +522,14 @@ Package pdftex.def Info: slike/nfc_logo.png used on input line 18.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./slike/nfc_forsquare.png> <./slike/nfc_logo.png>]
-<slike/nfc_diagram.png, id=200, 860.21375pt x 248.93pt>
+<slike/nfc_diagram.png, id=201, 860.21375pt x 248.93pt>
 File: slike/nfc_diagram.png Graphic file (type png)
 
 <use slike/nfc_diagram.png>
 Package pdftex.def Info: slike/nfc_diagram.png used on input line 37.
 (pdftex.def)             Requested size: 393.3011pt x 113.81102pt.
  [9 <./slike/nfc_diagram.png>] [10] [11] [12]
-<slike/NTAG2161.png, id=221, 602.25pt x 542.025pt>
+<slike/NTAG2161.png, id=229, 602.25pt x 542.025pt>
 File: slike/NTAG2161.png Graphic file (type png)
  <use slike/NTAG2161.png>
 Package pdftex.def Info: slike/NTAG2161.png used on input line 148.
@@ -548,25 +548,25 @@ Dodatak A.
 \openout2 = `Literatura.aux'.
 
  (./Literatura.tex (./JMBAG_Ime_Prezime.bbl
-Underfull \hbox (badness 1762) in paragraph at lines 38--41
+Underfull \hbox (badness 1762) in paragraph at lines 26--29
 []\OT1/cmr/m/n/12 Ericsson. (2016) Eric-sson mo-bi-lity re-port. [Online]. Dos-
 
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 38--41
+Underfull \hbox (badness 1565) in paragraph at lines 26--29
 \OT1/cmr/m/n/12 tupno na: [][]$http : / / www . ericsson . com / res / docs / 2
 016 / mobility-[]report /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 \OT1/cmr/m/n/12 / / www . nxp . com / products / identi^^Lcation-[]and-[]securi
 ty / smart-[]label-[]and-[]tag-[]ics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 \OT1/cmr/m/n/12 ntag / nfc-[]forum-[]type-[]2-[]tag-[]compliant-[]ic-[]with-[]1
 44-[]504-[]888-[]bytes-[]user-[]memory :
  []
@@ -591,10 +591,10 @@ Package rerunfilecheck Info: File `JMBAG_Ime_Prezime.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 7964 strings out of 493089
- 119142 string characters out of 6134842
- 217552 words of memory out of 5000000
- 11204 multiletter control sequences out of 15000+600000
+ 7968 strings out of 493089
+ 119230 string characters out of 6134842
+ 217633 words of memory out of 5000000
+ 11206 multiletter control sequences out of 15000+600000
  11367 words of font info for 42 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  44i,7n,39p,1293b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -604,10 +604,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on JMBAG_Ime_Prezime.pdf (25 pages, 647215 bytes).
+Output written on JMBAG_Ime_Prezime.pdf (25 pages, 647881 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

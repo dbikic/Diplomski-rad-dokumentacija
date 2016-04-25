@@ -29,7 +29,7 @@ NFC komunikacija se sastoji od dva ure\dj aja koja u sebi sadr\v{z}e antene u ob
 	\item Ure\dj aj koji slu\v{s}a i \v{c}eka da komunikacija bude inicirana
 \end{itemize}
 
-Komunikacija se vr\v{s}i preko magnetskog polja koje se stvara izme\dj u antena, sli\v{c}no kao kod elektri\v{c}nog transformatora. Komunikacija se vr\v{s}i na frekvenciji od 13.56 MHz i brzine je do 424 kbit/s. Maksimalna udaljenost izme\dj u dva ure\dj aja koja komuniciraju je 4 cm\textsuperscript{3}. Na slici ~\ref{fig:nfc_arhitektura} su prikazana oba ure\dj aja te magnetsko polje izme\dj u njih.
+Komunikacija se vr\v{s}i preko magnetskog polja koje se stvara izme\dj u antena, sli\v{c}no kao kod elektri\v{c}nog transformatora \cite{nfc_techonology}. Komunikacija se vr\v{s}i na frekvenciji od 13.56 MHz i brzine je do 424 kbit/s. Maksimalna udaljenost izme\dj u dva ure\dj aja koja komuniciraju je 4 cm\textsuperscript{3}. Na slici ~\ref{fig:nfc_arhitektura} su prikazana oba ure\dj aja te magnetsko polje izme\dj u njih.
 
 
 \begin{figure}[!htbp]
@@ -64,7 +64,7 @@ Nadalje, ovisno o vrstama NFC ure\dj aja koji komuniciraju, komunikacija se dije
 
 Aktivna NFC komunikacija ozna\v{c}ava komunikaciju u dva smjera izme\dj u dva NFC ure\dj aja koji imaju vlastite izvore napajanja i napravljeni su po specifikaciji ISO/IEC 18000-3. Komunikacija se vr\v{s}i tako da ure\dj aj koji \v{z}eli poslati poruku aktivira svoje magnetsko polje preko kojega se poruka po\v{s}alje te ga deaktivira kada \v{z}eli primiti poruku. Ovakva komunikacija zahtjeva dodatnu logiku koja definira pravila komunikacije.
 
-Aktivni NFC ure\dj aji se po arhitekturi dijele na:
+Aktivni NFC ure\dj aji se po arhitekturi dijele na \cite{nfc_types}:
 
 \begin{itemize}
 	\item NFC-A ure\dj aje
@@ -92,11 +92,11 @@ Aktivni NFC ure\dj aji se po arhitekturi dijele na:
 
 \subsection{Pasivna komunikacija}
 
-Pasivna komunikacija se vr\v{s}i izme\dj u aktivnog i pasivnog ure\dj aja, na na\v{c}in da aktivni ure\dj aj \v{s}alje signal nosioc kroz svoje elektromagnetsko polje. Ukoliko je pasivni ure\dj aj u dometu polje \'{c}e inducirati napon u njegovoj zavojnici te \'{c}e biti u stanju modulirati postoje\'{c}e polje, koriste\'{c}i ASK (amplitude-shift keying) modulaciju. To je znak aktivnom ure\dj aju da je komunikacija ostvarena. Nadalje, aktivni ure\dj aj pita pasivni koju vrstu komunikacije koristi (npr. komunikacija mo\v{z}e biti enkriptirana - koristi se kod pla\'{c}anja kreditnim karticama), te ovisno o odgovoru \v{s}alje odgovaraju\'{c}e zahtjeve za \v{c}itanjem memorije, \v{s}to mu pasivni i pru\v{z}a, nakon \v{s}to ih uspje\v{s}no validira.
+Pasivna komunikacija se vr\v{s}i izme\dj u aktivnog i pasivnog ure\dj aja, na na\v{c}in da aktivni ure\dj aj \v{s}alje signal nosioc kroz svoje elektromagnetsko polje \cite{nfc_arhitektura}. Ukoliko je pasivni ure\dj aj u dometu polje \'{c}e inducirati napon u njegovoj zavojnici te \'{c}e biti u stanju modulirati postoje\'{c}e polje, koriste\'{c}i ASK (amplitude-shift keying) modulaciju. To je znak aktivnom ure\dj aju da je komunikacija ostvarena. Nadalje, aktivni ure\dj aj pita pasivni koju vrstu komunikacije koristi (npr. komunikacija mo\v{z}e biti enkriptirana - koristi se kod pla\'{c}anja kreditnim karticama), te ovisno o odgovoru \v{s}alje odgovaraju\'{c}e zahtjeve za \v{c}itanjem memorije, \v{s}to mu pasivni i pru\v{z}a, nakon \v{s}to ih uspje\v{s}no validira.
 
 
 
-Tipovi pasivnih NFC ure\dj aja uklju\v{c}uju:
+Tipovi pasivnih NFC ure\dj aja uklju\v{c}uju \cite{nfc_pasivni}:
 
 \begin{itemize}
 	\item Tip 1

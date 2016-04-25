@@ -21,18 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{latex}
-\BIBentryALTinterwordspacing
-WikiBooksQEWE:~LaTeX. [Online]. Dostupno na:
-  \url{http://en.wikibooks.org/wiki/LaTeX/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{latexDva}
-\BIBentryALTinterwordspacing
-WikiBooksQEWE:~LaTeX. [Online]. Dostupno na:
-  \url{http://en.wikibooks.org/wiki/LaTeX/}
-\BIBentrySTDinterwordspacing
-
 \bibitem{mobilityReport}
 \BIBentryALTinterwordspacing
 Ericsson. (2016) Ericsson mobility report. [Online]. Dostupno na:
@@ -49,6 +37,28 @@ Forsquare. [Online]. Dostupno na: \url{https://foursquare.com/}
 Nfc forum. [Online]. Dostupno na: \url{http://nfc-forum.org/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{nfc_techonology}
+R.~. Schwarz, ``Near field communication (nfc) technology and measurements,''
+  2013.
+
+\bibitem{nfc_types}
+\BIBentryALTinterwordspacing
+Nearfieldcommunication.org. Nfc signaling technologies. [Online]. Dostupno na:
+  \url{http://www.nearfieldcommunication.org/nfc-signaling.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nfc_arhitektura}
+\BIBentryALTinterwordspacing
+------. Near field communication technology standards. [Online]. Dostupno na:
+  \url{http://www.nearfieldcommunication.org/technology.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nfc_pasivni}
+\BIBentryALTinterwordspacing
+N.~forum. Tag type technical specifications. [Online]. Dostupno na:
+  \url{http://nfc-forum.org/our-work/specifications-and-application-documents/specifications/tag-type-technical-specifications/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{whiztags}
 \BIBentryALTinterwordspacing
 Whiztags. [Online]. Dostupno na:
@@ -57,7 +67,7 @@ Whiztags. [Online]. Dostupno na:
 
 \bibitem{nat_modul}
 \BIBentryALTinterwordspacing
-N.~Products. Ntag216 nfc modul specifikacija. [Online]. Dostupno na:
+Ntag216 nfc modul specifikacija. [Online]. Dostupno na:
   \url{http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216}
 \BIBentrySTDinterwordspacing
 
