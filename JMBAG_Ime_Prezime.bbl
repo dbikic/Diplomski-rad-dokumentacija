@@ -71,6 +71,30 @@ Ntag216 nfc modul specifikacija. [Online]. Dostupno na:
   \url{http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216}
 \BIBentrySTDinterwordspacing
 
+\bibitem{sig}
+\BIBentryALTinterwordspacing
+SIG. Bluetooth special interest group. [Online]. Dostupno na:
+  \url{https://www.bluetooth.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ble_specification}
+\BIBentryALTinterwordspacing
+Bluetooth core specification. Bluetooth Special Interest Group. [Online].
+  Dostupno na:
+  \url{https://www.bluetooth.com/specifications/adopted-specifications}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ble_introduction}
+\BIBentryALTinterwordspacing
+Argenox. Introduction to bluetooth low energy (ble) v4.0. [Online]. Dostupno
+  na:
+  \url{http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ble_getting_started}
+C.~C. K.~T. Robert~Davidson, Akiba, \emph{Getting Started with Bluetooth Low
+  Energy}.\hskip 1em plus 0.5em minus 0.4em\relax O'Reilly Media, Inc.
+
 \bibitem{automatic_museum_guide}
 \BIBentryALTinterwordspacing
 Locatify. Automatic museum guide. [Online]. Dostupno na:

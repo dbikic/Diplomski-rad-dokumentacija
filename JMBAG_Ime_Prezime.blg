@@ -146,51 +146,102 @@ Repeated entry---line 331 of file Literatura.bib
  : @www{gimbal_beacon
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 343 of file Literatura.bib
+ : @www{sig
+ :         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 349 of file Literatura.bib
+ : @www{sig
+ :         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 355 of file Literatura.bib
+ : @www{sig
+ :         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 367 of file Literatura.bib
+ : @www{ble_introduction
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 373 of file Literatura.bib
+ : @www{ble_introduction
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 379 of file Literatura.bib
+ : @www{ble_introduction
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 392 of file Literatura.bib
+ : @book{ble_getting_started
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 399 of file Literatura.bib
+ : @book{ble_getting_started
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 406 of file Literatura.bib
+ : @book{ble_getting_started
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 420 of file Literatura.bib
+ : @www{ble_specification
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 427 of file Literatura.bib
+ : @www{ble_specification
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 434 of file Literatura.bib
+ : @www{ble_specification
+ :                       ,
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in nfc_techonology
+Too many commas in name 1 of "Robert Davidson, Akiba, Carles Cufí, Kevin Townsend" for entry ble_getting_started
+while executing---line 2411 of file tex_aux/IEEEtranHR.bst
+Warning--empty year in ble_getting_started
 
 Done.
-You've used 13 entries,
+You've used 17 entries,
             4024 wiz_defined-function locations,
-            864 strings with 8874 characters,
-and the built_in function-call counts, 4024 in all, are:
-= -- 272
-> -- 46
+            879 strings with 9362 characters,
+and the built_in function-call counts, 5242 in all, are:
+= -- 359
+> -- 59
 < -- 0
-+ -- 24
-- -- 11
-* -- 104
-:= -- 761
-add.period$ -- 22
-call.type$ -- 13
-change.case$ -- 11
++ -- 31
+- -- 14
+* -- 130
+:= -- 988
+add.period$ -- 30
+call.type$ -- 17
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 336
-empty$ -- 420
-format.name$ -- 11
-if$ -- 833
+cite$ -- 19
+duplicate$ -- 438
+empty$ -- 559
+format.name$ -- 14
+if$ -- 1098
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 87
-newline$ -- 86
-num.names$ -- 11
-pop$ -- 303
+int.to.str$ -- 17
+missing$ -- 111
+newline$ -- 104
+num.names$ -- 14
+pop$ -- 387
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 295
+skip$ -- 393
 stack$ -- 0
 substring$ -- 1
-swap$ -- 167
+swap$ -- 216
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 13
-warning$ -- 1
-while$ -- 11
-width$ -- 15
-write$ -- 135
-(There were 33 error messages)
+type$ -- 17
+warning$ -- 2
+while$ -- 14
+width$ -- 19
+write$ -- 169
+(There were 46 error messages)
