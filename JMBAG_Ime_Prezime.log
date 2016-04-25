@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  25 APR 2016 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  25 APR 2016 21:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -588,16 +588,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `JMBAG_Ime_Prezime.out' has not changed.
 (rerunfilecheck)             Checksum: 467E236691FA67E0453B219AF1C8A977;849.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
  7964 strings out of 493089
  119142 string characters out of 6134842
- 217549 words of memory out of 5000000
+ 217552 words of memory out of 5000000
  11204 multiletter control sequences out of 15000+600000
  11367 words of font info for 42 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -608,7 +604,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on JMBAG_Ime_Prezime.pdf (25 pages, 647310 bytes).
+Output written on JMBAG_Ime_Prezime.pdf (25 pages, 647215 bytes).
 PDF statistics:
  298 PDF objects out of 1000 (max. 8388607)
  253 compressed objects within 3 object streams
