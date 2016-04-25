@@ -44,4 +44,21 @@ Ericsson. (2016) Ericsson mobility report. [Online]. Dostupno na:
 Forsquare. [Online]. Dostupno na: \url{https://foursquare.com/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{nfc_forum}
+\BIBentryALTinterwordspacing
+Nfc forum. [Online]. Dostupno na: \url{http://nfc-forum.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{whiztags}
+\BIBentryALTinterwordspacing
+Whiztags. [Online]. Dostupno na:
+  \url{http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nat_modul}
+\BIBentryALTinterwordspacing
+N.~Products. Ntag216 nfc modul specifikacija. [Online]. Dostupno na:
+  \url{http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

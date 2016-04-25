@@ -1,42 +1,16 @@
 \select@language {croatian}
-\contentsline {chapter}{Popis slika}{viii}{chapter*.2}
-\contentsline {chapter}{Popis tablica}{ix}{chapter*.3}
-\contentsline {chapter}{Kazalo}{x}{chapter*.4}
-\contentsline {chapter}{\numberline {1}Kako koristiti paket za pisanje Zavr\v snoga rada u \LaTeX -u}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Opis sadr\v zaja paketa}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}\v Cime se opremiti za pisanje rada}{3}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Instalacija \LaTeX -a}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Instalacija \emph {JabRef} softvera}{3}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Kako (kona\v cno) po\v ceti pisati svoj rad}{6}{section.1.3}
-\contentsline {chapter}{\numberline {2}Primjeri naj\v ce\v s\'cih sintakti\v ckih struktura}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Ubacivanje slike}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Ubacivanje podslika}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}Ubacivanje tabele}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}Referenca na literaturu, sekciju, stranicu}{12}{section.2.4}
-\contentsline {section}{\numberline {2.5}Nagla\v savanje teksta}{12}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Navodnici}{12}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Kosa i podebljana slova}{13}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Verbatim okru\v zenje}{13}{section.2.6}
-\contentsline {section}{\numberline {2.7}Kreiranje jedne jednad\v zbe ili serije jednad\v zba}{14}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Kreiranje jedne jednad\v zbe}{14}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Kreiranje vi\v se jednad\v zba}{14}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Liste}{14}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Lista s to\v ckama}{15}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Numerirana lista s brojevima}{15}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Slov\v cano numerirana lista}{16}{subsection.2.8.3}
-\contentsline {section}{\numberline {2.9}Zavr\v sne napomene}{16}{section.2.9}
-\contentsline {chapter}{\numberline {3}Uvod}{18}{chapter.3}
-\contentsline {chapter}{\numberline {4}Specifikacija rada}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Specifikacija sustava}{20}{section.4.1}
-\contentsline {section}{\numberline {4.2}Rezultati}{23}{section.4.2}
-\contentsline {chapter}{\numberline {5}NFC tehnologija}{25}{chapter.5}
-\contentsline {chapter}{\numberline {6}Uvod}{27}{chapter.6}
-\contentsline {chapter}{\numberline {7}Uvod}{28}{chapter.7}
-\contentsline {chapter}{\numberline {8}Uvod}{29}{chapter.8}
-\contentsline {chapter}{\numberline {9}Uvod}{30}{chapter.9}
-\contentsline {chapter}{\numberline {10}Uvod}{31}{chapter.10}
-\contentsline {chapter}{\numberline {11}Uvod}{32}{chapter.11}
-\contentsline {chapter}{\numberline {A}Naslov priloga}{33}{appendix.A}
-\contentsline {section}{\numberline {A.1}Naslov sekcije}{33}{section.A.1}
-\contentsline {section}{\numberline {A.2}Naslov sekcije}{33}{section.A.2}
-\contentsline {chapter}{Bibliografija}{34}{appendix*.11}
+\contentsline {chapter}{Popis slika}{vii}{chapter*.2}
+\contentsline {chapter}{Popis tablica}{viii}{chapter*.3}
+\contentsline {chapter}{Kazalo}{ix}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Specifikacija rada}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Specifikacija sustava}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Rezultati}{5}{section.1.2}
+\contentsline {chapter}{\numberline {2}NFC tehnologija}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Arhitektura}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Aktivna komunikacija}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Pasivna komunikacija}{11}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Primjena}{12}{section.2.2}
+\contentsline {chapter}{\numberline {A}Naslov priloga}{15}{appendix.A}
+\contentsline {section}{\numberline {A.1}Naslov sekcije}{15}{section.A.1}
+\contentsline {section}{\numberline {A.2}Naslov sekcije}{15}{section.A.2}
+\contentsline {chapter}{Bibliografija}{16}{appendix*.11}
