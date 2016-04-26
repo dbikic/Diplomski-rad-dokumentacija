@@ -79,8 +79,8 @@ SIG. Bluetooth special interest group. [Online]. Dostupno na:
 
 \bibitem{ble_specification}
 \BIBentryALTinterwordspacing
-Bluetooth core specification. Bluetooth Special Interest Group. [Online].
-  Dostupno na:
+(2016) Bluetooth core specification. Bluetooth Special Interest Group.
+  [Online]. Dostupno na:
   \url{https://www.bluetooth.com/specifications/adopted-specifications}
 \BIBentrySTDinterwordspacing
 
@@ -118,6 +118,52 @@ C.~S. Corp. (2015) Bluetooth® low energy (ble) profiles and services. [Online].
 \BIBentryALTinterwordspacing
 G.~Store. Gimbal proximity beacon series 10. [Online]. Dostupno na:
   \url{http://store.gimbal.com/collections/beacons/products/s10}
+\BIBentrySTDinterwordspacing
+
+\bibitem{git}
+\BIBentryALTinterwordspacing
+L.~Torvalds. (2005). [Online]. Dostupno na: \url{https://git-scm.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{git_flow}
+\BIBentryALTinterwordspacing
+V.~Driessen. (2010) A successful git branching model. [Online]. Dostupno na:
+  \url{http://nvie.com/posts/a-successful-git-branching-model/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{github}
+\BIBentryALTinterwordspacing
+Github. [Online]. Dostupno na: \url{https://github.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{html}
+\BIBentryALTinterwordspacing
+Html. [Online]. Dostupno na: \url{https://www.w3.org/html/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{css}
+\BIBentryALTinterwordspacing
+Css. [Online]. Dostupno na: \url{https://www.w3.org/Style/CSS/Overview.en.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{javascript}
+\BIBentryALTinterwordspacing
+Javascript. [Online]. Dostupno na: \url{https://www.javascript.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{atom}
+\BIBentryALTinterwordspacing
+Atom. [Online]. Dostupno na: \url{https://atom.io/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{xampp}
+\BIBentryALTinterwordspacing
+Xampp. [Online]. Dostupno na: \url{https://www.apachefriends.org/index.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{filezilla}
+\BIBentryALTinterwordspacing
+Filezilla. [Online]. Dostupno na: \url{https://filezilla-project.org/}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

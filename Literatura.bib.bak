@@ -19,41 +19,6 @@
   timestamp = {2012.06.05}
 }
 
-@ELECTRONIC{jquery,
-  organization = {jQuery},
-  url = {http://jquery.com},
-  owner = {mjoler},
-  timestamp = {2012.06.05}
-}
-
-@Electronic{latex,
-  url          = {http://en.wikibooks.org/wiki/LaTeX/},
-  organization = {WikiBooksQEWE:~LaTeX.},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{latexDva,
-  url          = {http://en.wikibooks.org/wiki/LaTeX/},
-  organization = {WikiBooksQEWE:~LaTeX.},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@ELECTRONIC{mysql,
-  organization = {MySQL},
-  url = {http://www.mysql.com},
-  owner = {mjoler},
-  timestamp = {2012.06.05}
-}
-
-@ELECTRONIC{php,
-  organization = {PHP},
-  url = {http://www.php.net},
-  owner = {mjoler},
-  timestamp = {2012.06.05}
-}
-
 @WWW{mobilityReport,
   author = {Ericsson},
   title  = {Ericsson Mobility Report},
@@ -71,36 +36,6 @@
   url   = {http://nfc-forum.org/},
 }
 
-@WWW{nfc_forum,
-  title = {NFC forum},
-  url   = {http://nfc-forum.org/},
-}
-
-@WWW{nfc_forum,
-  title = {NFC forum},
-  url   = {http://nfc-forum.org/},
-}
-
-@WWW{nfc_forum,
-  title = {NFC forum},
-  url   = {http://nfc-forum.org/},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
 @WWW{whiztags,
   author = {Whiztags},
   url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
@@ -112,44 +47,6 @@
   url    = {http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216},
 }
 
-@WWW{nat_modul,
-  editor = {NXP Products},
-  title  = {NTAG216 NFC modul specifikacija},
-  url    = {http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216},
-}
-
-@WWW{nat_modul,
-  editor = {NXP Products},
-  title  = {NTAG216 NFC modul specifikacija},
-  url    = {http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216},
-}
-
-@WWW{nat_modul,
-  editor = {NXP Products},
-  title  = {NTAG216 NFC modul specifikacija},
-  url    = {http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216},
-}
-
-@Article{nfc_techonology,
-  author = {Rohde \& Schwarz},
-  title  = {Near Field Communication (NFC) Technology and Measurements},
-  year   = {2013.},
-  date   = {2013-03-06},
-}
-
-@Article{nfc_techonology,
-  author = {Rohde \& Schwarz},
-  title  = {Near Field Communication (NFC) Technology and Measurements},
-  year   = {2013.},
-  date   = {2013-03-06},
-}
-
-@Article{nfc_techonology,
-  author = {Rohde \& Schwarz},
-  title  = {Near Field Communication (NFC) Technology and Measurements},
-  year   = {2013.},
-  date   = {2013-03-06},
-}
 
 @Article{nfc_techonology,
   author = {Rohde \& Schwarz},
@@ -164,64 +61,10 @@
   url    = {http://www.nearfieldcommunication.org/nfc-signaling.html},
 }
 
-@WWW{nfc_types,
-  author = {Nearfieldcommunication.org},
-  title  = {NFC Signaling Technologies},
-  url    = {http://www.nearfieldcommunication.org/nfc-signaling.html},
-}
-
-@WWW{nfc_types,
-  author = {Nearfieldcommunication.org},
-  title  = {NFC Signaling Technologies},
-  url    = {http://www.nearfieldcommunication.org/nfc-signaling.html},
-}
-
-@WWW{nfc_types,
-  author = {Nearfieldcommunication.org},
-  title  = {NFC Signaling Technologies},
-  url    = {http://www.nearfieldcommunication.org/nfc-signaling.html},
-}
-
 @WWW{nfc_pasivni,
   author = {NFC forum},
   title  = {Tag Type Technical Specifications},
   url    = {http://nfc-forum.org/our-work/specifications-and-application-documents/specifications/tag-type-technical-specifications/},
-}
-
-@WWW{nfc_pasivni,
-  author = {NFC forum},
-  title  = {Tag Type Technical Specifications},
-  url    = {http://nfc-forum.org/our-work/specifications-and-application-documents/specifications/tag-type-technical-specifications/},
-}
-
-@WWW{nfc_pasivni,
-  author = {NFC forum},
-  title  = {Tag Type Technical Specifications},
-  url    = {http://nfc-forum.org/our-work/specifications-and-application-documents/specifications/tag-type-technical-specifications/},
-}
-
-@WWW{nfc_pasivni,
-  author = {NFC forum},
-  title  = {Tag Type Technical Specifications},
-  url    = {http://nfc-forum.org/our-work/specifications-and-application-documents/specifications/tag-type-technical-specifications/},
-}
-
-@WWW{nfc_arhitektura,
-  author = {Nearfieldcommunication.org},
-  title  = {Near Field Communication Technology Standards},
-  url    = {http://www.nearfieldcommunication.org/technology.html},
-}
-
-@WWW{nfc_arhitektura,
-  author = {Nearfieldcommunication.org},
-  title  = {Near Field Communication Technology Standards},
-  url    = {http://www.nearfieldcommunication.org/technology.html},
-}
-
-@WWW{nfc_arhitektura,
-  author = {Nearfieldcommunication.org},
-  title  = {Near Field Communication Technology Standards},
-  url    = {http://www.nearfieldcommunication.org/technology.html},
 }
 
 @WWW{nfc_arhitektura,
@@ -236,46 +79,63 @@
   url    = {https://locatify.com/automatic-museum-guide/},
 }
 
-@WWW{automatic_museum_guide,
-  author = {Locatify},
-  title  = {Automatic Museum Guide},
-  url    = {https://locatify.com/automatic-museum-guide/},
-}
-
-@WWW{automatic_museum_guide,
-  author = {Locatify},
-  title  = {Automatic Museum Guide},
-  url    = {https://locatify.com/automatic-museum-guide/},
-}
-
-@WWW{automatic_museum_guide,
-  author = {Locatify},
-  title  = {Automatic Museum Guide},
-  url    = {https://locatify.com/automatic-museum-guide/},
-}
-
 @Online{scosche,
   author = {Scosche},
   title  = {Heart Rate Monitor Armband},
   url    = {http://www.scosche.com/rhythm+},
 }
 
-@Online{scosche,
-  author = {Scosche},
-  title  = {Heart Rate Monitor Armband},
-  url    = {http://www.scosche.com/rhythm+},
+@WWW{ble_profiles,
+  author = {Cypress Semiconductor Corp.},
+  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
+  year   = {2015},
+  date   = {2015-12-04},
+  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
 }
 
-@Online{scosche,
-  author = {Scosche},
-  title  = {Heart Rate Monitor Armband},
-  url    = {http://www.scosche.com/rhythm+},
+@WWW{gimbal_beacon,
+  author = {Gimbal Store},
+  title  = {Gimbal Proximity Beacon Series 10},
+  url    = {http://store.gimbal.com/collections/beacons/products/s10},
 }
 
-@Online{scosche,
-  author = {Scosche},
-  title  = {Heart Rate Monitor Armband},
-  url    = {http://www.scosche.com/rhythm+},
+@WWW{sig,
+  author = {SIG},
+  title  = {Bluetooth Special Interest Group},
+  url    = {https://www.bluetooth.com/},
+}
+
+
+@WWW{ble_introduction,
+  author = {Argenox},
+  title  = {Introduction to Bluetooth Low Energy (BLE) v4.0},
+  url    = {http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/},
+}
+
+@Book{ble_getting_started,
+  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
+  title     = {Getting Started with Bluetooth Low Energy},
+  date      = {May 2014},
+  publisher = {O'Reilly Media, Inc.},
+}
+
+@WWW{ble_specification,
+  title        = {Bluetooth Core Specification},
+  year         = {2016},
+  url          = {https://www.bluetooth.com/specifications/adopted-specifications},
+  organization = {Bluetooth Special Interest Group},
+}
+
+@WWW{git,
+  author = {Linus Torvalds},
+  year   = {2005},
+  url    = {https://git-scm.com/},
+}
+
+@WWW{git,
+  author = {Linus Torvalds},
+  year   = {2005},
+  url    = {https://git-scm.com/},
 }
 
 @WWW{ble_profiles,
@@ -310,76 +170,96 @@
   url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
 }
 
-@WWW{gimbal_beacon,
-  author = {Gimbal Store},
-  title  = {Gimbal Proximity Beacon Series 10},
-  url    = {http://store.gimbal.com/collections/beacons/products/s10},
+@WWW{ble_profiles,
+  author = {Cypress Semiconductor Corp.},
+  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
+  year   = {2015},
+  date   = {2015-12-04},
+  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
 }
 
-@WWW{gimbal_beacon,
-  author = {Gimbal Store},
-  title  = {Gimbal Proximity Beacon Series 10},
-  url    = {http://store.gimbal.com/collections/beacons/products/s10},
+@WWW{ble_profiles,
+  author = {Cypress Semiconductor Corp.},
+  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
+  year   = {2015},
+  date   = {2015-12-04},
+  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
 }
 
-@WWW{gimbal_beacon,
-  author = {Gimbal Store},
-  title  = {Gimbal Proximity Beacon Series 10},
-  url    = {http://store.gimbal.com/collections/beacons/products/s10},
+@WWW{ble_profiles,
+  author = {Cypress Semiconductor Corp.},
+  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
+  year   = {2015},
+  date   = {2015-12-04},
+  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
 }
 
-@WWW{gimbal_beacon,
-  author = {Gimbal Store},
-  title  = {Gimbal Proximity Beacon Series 10},
-  url    = {http://store.gimbal.com/collections/beacons/products/s10},
+@WWW{ble_profiles,
+  author = {Cypress Semiconductor Corp.},
+  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
+  year   = {2015},
+  date   = {2015-12-04},
+  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
 }
 
-@WWW{sig,
-  author = {SIG},
-  title  = {Bluetooth Special Interest Group},
-  url    = {https://www.bluetooth.com/},
+@WWW{ble_profiles,
+  author = {Cypress Semiconductor Corp.},
+  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
+  year   = {2015},
+  date   = {2015-12-04},
+  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
 }
 
-@WWW{sig,
-  author = {SIG},
-  title  = {Bluetooth Special Interest Group},
-  url    = {https://www.bluetooth.com/},
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
 }
 
-@WWW{sig,
-  author = {SIG},
-  title  = {Bluetooth Special Interest Group},
-  url    = {https://www.bluetooth.com/},
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
 }
 
-@WWW{sig,
-  author = {SIG},
-  title  = {Bluetooth Special Interest Group},
-  url    = {https://www.bluetooth.com/},
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
 }
 
-@WWW{ble_introduction,
-  author = {Argenox},
-  title  = {Introduction to Bluetooth Low Energy (BLE) v4.0},
-  url    = {http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/},
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
 }
 
-@WWW{ble_introduction,
-  author = {Argenox},
-  title  = {Introduction to Bluetooth Low Energy (BLE) v4.0},
-  url    = {http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/},
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
 }
 
-@WWW{ble_introduction,
-  author = {Argenox},
-  title  = {Introduction to Bluetooth Low Energy (BLE) v4.0},
-  url    = {http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/},
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
 }
 
-@WWW{ble_introduction,
-  author = {Argenox},
-  title  = {Introduction to Bluetooth Low Energy (BLE) v4.0},
-  url    = {http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/},
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
+}
+
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
+}
+
+@WWW{whiztags,
+  author = {Whiztags},
+  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
+}
+
+@Book{ble_getting_started,
+  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
+  title     = {Getting Started with Bluetooth Low Energy},
+  date      = {May 2014},
+  publisher = {O'Reilly Media, Inc.},
 }
 
 @Book{ble_getting_started,
@@ -410,32 +290,266 @@
   publisher = {O'Reilly Media, Inc.},
 }
 
-@WWW{ble_specification,
-  title        = {Bluetooth Core Specification},
-  date         = {2016},
-  url          = {https://www.bluetooth.com/specifications/adopted-specifications},
-  organization = {Bluetooth Special Interest Group},
+@Book{ble_getting_started,
+  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
+  title     = {Getting Started with Bluetooth Low Energy},
+  date      = {May 2014},
+  publisher = {O'Reilly Media, Inc.},
 }
 
-@WWW{ble_specification,
-  title        = {Bluetooth Core Specification},
-  date         = {2016},
-  url          = {https://www.bluetooth.com/specifications/adopted-specifications},
-  organization = {Bluetooth Special Interest Group},
+@Book{ble_getting_started,
+  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
+  title     = {Getting Started with Bluetooth Low Energy},
+  date      = {May 2014},
+  publisher = {O'Reilly Media, Inc.},
 }
 
-@WWW{ble_specification,
-  title        = {Bluetooth Core Specification},
-  date         = {2016},
-  url          = {https://www.bluetooth.com/specifications/adopted-specifications},
-  organization = {Bluetooth Special Interest Group},
+@Book{ble_getting_started,
+  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
+  title     = {Getting Started with Bluetooth Low Energy},
+  date      = {May 2014},
+  publisher = {O'Reilly Media, Inc.},
 }
 
-@WWW{ble_specification,
-  title        = {Bluetooth Core Specification},
-  date         = {2016},
-  url          = {https://www.bluetooth.com/specifications/adopted-specifications},
-  organization = {Bluetooth Special Interest Group},
+@Book{ble_getting_started,
+  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
+  title     = {Getting Started with Bluetooth Low Energy},
+  date      = {May 2014},
+  publisher = {O'Reilly Media, Inc.},
+}
+
+@Electronic{jquery,
+  url          = {http://jquery.com},
+  organization = {jQuery},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{jquery,
+  url          = {http://jquery.com},
+  organization = {jQuery},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{jquery,
+  url          = {http://jquery.com},
+  organization = {jQuery},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{latex,
+  url          = {http://en.wikibooks.org/wiki/LaTeX/},
+  organization = {WikiBooksQEWE:~LaTeX.},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{latex,
+  url          = {http://en.wikibooks.org/wiki/LaTeX/},
+  organization = {WikiBooksQEWE:~LaTeX.},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{latex,
+  url          = {http://en.wikibooks.org/wiki/LaTeX/},
+  organization = {WikiBooksQEWE:~LaTeX.},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{latexDva,
+  url          = {http://en.wikibooks.org/wiki/LaTeX/},
+  organization = {WikiBooksQEWE:~LaTeX.},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{latexDva,
+  url          = {http://en.wikibooks.org/wiki/LaTeX/},
+  organization = {WikiBooksQEWE:~LaTeX.},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{latexDva,
+  url          = {http://en.wikibooks.org/wiki/LaTeX/},
+  organization = {WikiBooksQEWE:~LaTeX.},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{mysql,
+  url          = {http://www.mysql.com},
+  organization = {MySQL},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{mysql,
+  url          = {http://www.mysql.com},
+  organization = {MySQL},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{mysql,
+  url          = {http://www.mysql.com},
+  organization = {MySQL},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{php,
+  url          = {http://www.php.net},
+  organization = {PHP},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{php,
+  url          = {http://www.php.net},
+  organization = {PHP},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@Electronic{php,
+  url          = {http://www.php.net},
+  organization = {PHP},
+  owner        = {mjoler},
+  timestamp    = {2012.06.05},
+}
+
+@WWW{git_flow,
+  author = {Vincent Driessen},
+  title  = {A successful Git branching model},
+  year   = {2010},
+  date   = {2010-01-05},
+  url    = {http://nvie.com/posts/a-successful-git-branching-model/},
+}
+
+@WWW{git_flow,
+  author = {Vincent Driessen},
+  title  = {A successful Git branching model},
+  year   = {2010},
+  date   = {2010-01-05},
+  url    = {http://nvie.com/posts/a-successful-git-branching-model/},
+}
+
+@WWW{git_flow,
+  author = {Vincent Driessen},
+  title  = {A successful Git branching model},
+  year   = {2010},
+  date   = {2010-01-05},
+  url    = {http://nvie.com/posts/a-successful-git-branching-model/},
+}
+
+@WWW{github,
+  title = {Github},
+  url   = {https://github.com/},
+}
+
+@WWW{github,
+  title = {Github},
+  url   = {https://github.com/},
+}
+
+@WWW{github,
+  title = {Github},
+  url   = {https://github.com/},
+}
+
+@WWW{html,
+  title = {HTML},
+  url   = {https://www.w3.org/html/},
+}
+
+@WWW{html,
+  title = {HTML},
+  url   = {https://www.w3.org/html/},
+}
+
+@WWW{html,
+  title = {HTML},
+  url   = {https://www.w3.org/html/},
+}
+
+@WWW{css,
+  title = {CSS},
+  url   = {https://www.w3.org/Style/CSS/Overview.en.html},
+}
+
+@WWW{css,
+  title = {CSS},
+  url   = {https://www.w3.org/Style/CSS/Overview.en.html},
+}
+
+@WWW{css,
+  title = {CSS},
+  url   = {https://www.w3.org/Style/CSS/Overview.en.html},
+}
+
+@WWW{javascript,
+  title = {JavaScript},
+  url   = {https://www.javascript.com/},
+}
+
+@WWW{javascript,
+  title = {JavaScript},
+  url   = {https://www.javascript.com/},
+}
+
+@WWW{javascript,
+  title = {JavaScript},
+  url   = {https://www.javascript.com/},
+}
+
+@WWW{atom,
+  title = {Atom},
+  url   = {https://atom.io/},
+}
+
+@WWW{atom,
+  title = {Atom},
+  url   = {https://atom.io/},
+}
+
+@WWW{atom,
+  title = {Atom},
+  url   = {https://atom.io/},
+}
+
+@WWW{xampp,
+  title = {XAMPP},
+  url   = {https://www.apachefriends.org/index.html},
+}
+
+@WWW{xampp,
+  title = {XAMPP},
+  url   = {https://www.apachefriends.org/index.html},
+}
+
+@WWW{xampp,
+  title = {XAMPP},
+  url   = {https://www.apachefriends.org/index.html},
+}
+
+@WWW{filezilla,
+  title = {FileZilla},
+  url   = {https://filezilla-project.org/},
+}
+
+@WWW{filezilla,
+  title = {FileZilla},
+  url   = {https://filezilla-project.org/},
+}
+
+@WWW{filezilla,
+  title = {FileZilla},
+  url   = {https://filezilla-project.org/},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
