@@ -1,10 +1,15 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: JMBAG_Ime_Prezime.aux
+A level-1 auxiliary file: 01_Uvod.aux
 A level-1 auxiliary file: 02_Specifikacija_rada.aux
 A level-1 auxiliary file: 03_NFC.aux
 A level-1 auxiliary file: 04_BLE.aux
 A level-1 auxiliary file: 05_Izvedba.aux
+A level-1 auxiliary file: 06_Android_aplikacija.aux
+A level-1 auxiliary file: 07_Internetska_aplikacija.aux
+A level-1 auxiliary file: 08_Usporedba.aux
+A level-1 auxiliary file: 09_Zakljucak.aux
 A level-1 auxiliary file: Prilog_1.aux
 A level-1 auxiliary file: Literatura.aux
 The style file: tex_aux/IEEEtranHR.bst
@@ -191,6 +196,134 @@ Repeated entry---line 550 of file Literatura.bib
  : @www{filezilla
  :               ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 560 of file Literatura.bib
+ : @www{androidManifest
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 565 of file Literatura.bib
+ : @www{androidManifest
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 574 of file Literatura.bib
+ : @www{NdefMessage
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 578 of file Literatura.bib
+ : @www{NdefMessage
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 587 of file Literatura.bib
+ : @www{ndef_discovered
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 592 of file Literatura.bib
+ : @www{ndef_discovered
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 602 of file Literatura.bib
+ : @www{bluetoothAdapter
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 607 of file Literatura.bib
+ : @www{bluetoothAdapter
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 617 of file Literatura.bib
+ : @www{bluetoothLeScaner
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 622 of file Literatura.bib
+ : @www{bluetoothLeScaner
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 632 of file Literatura.bib
+ : @www{androidDialog
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 637 of file Literatura.bib
+ : @www{androidDialog
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 647 of file Literatura.bib
+ : @www{materialDesign
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 652 of file Literatura.bib
+ : @www{materialDesign
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 662 of file Literatura.bib
+ : @www{telephonyManager
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 667 of file Literatura.bib
+ : @www{telephonyManager
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 677 of file Literatura.bib
+ : @www{jcenter
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 682 of file Literatura.bib
+ : @www{jcenter
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 694 of file Literatura.bib
+ : @www{mvp
+ :         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 701 of file Literatura.bib
+ : @www{mvp
+ :         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 714 of file Literatura.bib
+ : @www{nfcTools
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 720 of file Literatura.bib
+ : @www{nfcTools
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 731 of file Literatura.bib
+ : @www{okhttp
+ :            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 736 of file Literatura.bib
+ : @www{okhttp
+ :            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 746 of file Literatura.bib
+ : @www{gson
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 751 of file Literatura.bib
+ : @www{gson
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 761 of file Literatura.bib
+ : @www{butterKnife
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 766 of file Literatura.bib
+ : @www{butterKnife
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 776 of file Literatura.bib
+ : @www{eventBus
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 781 of file Literatura.bib
+ : @www{eventBus
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 791 of file Literatura.bib
+ : @www{json
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 796 of file Literatura.bib
+ : @www{json
+ :          ,
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -200,45 +333,45 @@ while executing---line 2411 of file tex_aux/IEEEtranHR.bst
 Warning--empty year in ble_getting_started
 
 Done.
-You've used 26 entries,
+You've used 42 entries,
             4024 wiz_defined-function locations,
-            910 strings with 9815 characters,
-and the built_in function-call counts, 7703 in all, are:
-= -- 521
-> -- 74
+            974 strings with 11401 characters,
+and the built_in function-call counts, 11841 in all, are:
+= -- 774
+> -- 93
 < -- 0
-+ -- 42
-- -- 16
-* -- 185
-:= -- 1415
-add.period$ -- 41
-call.type$ -- 26
-change.case$ -- 22
++ -- 59
+- -- 17
+* -- 272
+:= -- 2111
+add.period$ -- 58
+call.type$ -- 42
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 659
-empty$ -- 842
-format.name$ -- 16
-if$ -- 1628
+cite$ -- 44
+duplicate$ -- 1045
+empty$ -- 1339
+format.name$ -- 17
+if$ -- 2524
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 167
-newline$ -- 149
-num.names$ -- 16
-pop$ -- 599
+int.to.str$ -- 42
+missing$ -- 264
+newline$ -- 229
+num.names$ -- 17
+pop$ -- 981
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 583
+skip$ -- 896
 stack$ -- 0
 substring$ -- 1
-swap$ -- 322
+swap$ -- 491
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 26
+type$ -- 42
 warning$ -- 2
-while$ -- 16
-width$ -- 28
-write$ -- 245
-(There were 45 error messages)
+while$ -- 17
+width$ -- 44
+write$ -- 375
+(There were 77 error messages)

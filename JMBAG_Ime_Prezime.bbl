@@ -166,4 +166,95 @@ Xampp. [Online]. Dostupno na: \url{https://www.apachefriends.org/index.html}
 Filezilla. [Online]. Dostupno na: \url{https://filezilla-project.org/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{mvp}
+\BIBentryALTinterwordspacing
+A.~Leiva. (2014) Mvp for android: how to organize the presentation layer.
+  [Online]. Dostupno na: \url{http://antonioleiva.com/mvp-android/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{androidManifest}
+\BIBentryALTinterwordspacing
+Android manifest. [Online]. Dostupno na:
+  \url{http://developer.android.com/guide/topics/manifest/manifest-intro.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NdefMessage}
+\BIBentryALTinterwordspacing
+ [Online]. Dostupno na:
+  \url{http://developer.android.com/reference/android/nfc/NdefMessage.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ndef_discovered}
+\BIBentryALTinterwordspacing
+Android action ndef discovered. [Online]. Dostupno na:
+  \url{http://developer.android.com/reference/android/nfc/NfcAdapter.html#ACTION_NDEF_DISCOVERED}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nfcTools}
+\BIBentryALTinterwordspacing
+(2016) Nfc tools. [Online]. Dostupno na:
+  \url{https://play.google.com/store/apps/details?id=com.wakdev.wdnfc}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bluetoothLeScaner}
+\BIBentryALTinterwordspacing
+Bluetoothlescanner. [Online]. Dostupno na:
+  \url{http://developer.android.com/intl/es/reference/android/bluetooth/le/BluetoothLeScanner.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bluetoothAdapter}
+\BIBentryALTinterwordspacing
+Bluetoothadapter. [Online]. Dostupno na:
+  \url{http://developer.android.com/intl/es/reference/android/bluetooth/BluetoothAdapter.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{materialDesign}
+\BIBentryALTinterwordspacing
+Material design. [Online]. Dostupno na:
+  \url{https://www.google.com/design/spec/components/buttons-floating-action-button.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{androidDialog}
+\BIBentryALTinterwordspacing
+Android dialogs. [Online]. Dostupno na:
+  \url{http://developer.android.com/intl/es/guide/topics/ui/dialogs.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{telephonyManager}
+\BIBentryALTinterwordspacing
+Android teplephony manager. [Online]. Dostupno na:
+  \url{http://developer.android.com/intl/es/reference/android/telephony/TelephonyManager.html#getDeviceId()}
+\BIBentrySTDinterwordspacing
+
+\bibitem{jcenter}
+\BIBentryALTinterwordspacing
+jcenter. [Online]. Dostupno na: \url{https://bintray.com/bintray/jcenter}
+\BIBentrySTDinterwordspacing
+
+\bibitem{okhttp}
+\BIBentryALTinterwordspacing
+Okhttp. [Online]. Dostupno na: \url{http://square.github.io/okhttp/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gson}
+\BIBentryALTinterwordspacing
+Gson. [Online]. Dostupno na: \url{https://github.com/google/gson}
+\BIBentrySTDinterwordspacing
+
+\bibitem{butterKnife}
+\BIBentryALTinterwordspacing
+Butterknife. [Online]. Dostupno na:
+  \url{http://jakewharton.github.io/butterknife/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{eventBus}
+\BIBentryALTinterwordspacing
+Eventbus. [Online]. Dostupno na: \url{http://greenrobot.org/eventbus/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{json}
+\BIBentryALTinterwordspacing
+Json. [Online]. Dostupno na: \url{http://www.json.org/}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
