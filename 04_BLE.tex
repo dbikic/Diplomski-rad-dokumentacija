@@ -17,6 +17,9 @@ Glavna ideja BLE protokola je pru\v{z}iti funkcionanost Bluetooth-a uz \v{s}to m
 	\item Protokol je za odre\dj ene primjene br\v{z}i jer za razliku od klasi\v{c}nog Bluetooth-a ne zahtjeva autentikaciju ure\dj aja
 \end{itemize}
 
+
+BLE tehnologiju treba gledati kao pro¨irenje funkcionalnosti klasi\v{c}nog Bluetootha koji je primarno fokusiran na kontinuiranu razmjenu podataka relativno velikom brzinom, dok je BLE fokusiran na manju potro\v{s}nju energije pri komunikaciji. Manja potro\v{s}nja energije rezultira i ve\'{c}im brojem paralelnih konekcija (klasi\v{c}ni Bluetooth mo¸e imati do 7 paralelnih konekcija, a BLE teoretski beskona\v{c}no). Danas obe iteracije Bluetooth specifikacije mogu koegzistirati na tr¸i¨tu, upravo zbog razli\v{c}itih primjena.
+
 BLE je temelj za iBeacon tehnologiju, koja pru\v{z}a gotovo identi\v{c}ne funkcionalnosti ali je razvijana od tvrtke Apple pa se shodno tome striktno koristi samo sa Apple-ovim ure\dj ajima.
 
 \section{Arhitektura}
@@ -32,7 +35,7 @@ BLE komunikacija se zasniva na radio valovima, u rasponu od 2.4 - 2.2835 GHz, pr
 	\end{center}
 \end{figure}
 
-Domet protokola u teoriji iznosi \v{c}ak do 100 metara, no u praksi je to do 5 metara iz razloga \v{s}to se cilja na to da ure\dj aji tro\v{s}e \v{s}to manje energije u radu pa se koriste slabije baterije s kojima BLE ure\dj aj ipak ima dovoljno dalek domet za ve\'{c}inu primjena.
+Domet protokola u teoriji iznosi \v{c}ak do 100 metara u idealnim uvjetima, no u praksi je to do 10 metara. U praksi je manji domet zbog radio komunikacije, odnosno na oda\v{s}iljani radio signal mogu utjecati razne interferencije (apsorpcija signala u medij kroz koji prolazi, drugi signali), te iz razloga \v{s}to se cilja na to da ure\dj aji tro\v{s}e \v{s}to manje energije u radu pa se koriste slabije baterije s kojima BLE ure\dj aj ipak ima dovoljno dalek domet za ve\'{c}inu primjena.
 
 
 \section{Topologija mre\v{z}e}
