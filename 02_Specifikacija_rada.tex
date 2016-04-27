@@ -8,7 +8,7 @@ Zbog svega navedenog, temeljna ideja ovog rada je implementirati oba protokola u
 
 \section{Specifikacija sustava}
 
-Glavna ideja sustava je kreirati mobilnu aplikaciju i administrativno su\v{c}elje koje bi trgova\v{c}ki lanci koristili za promociju proizvoda u svojim poslovnicama. Ideja je da trgova\v{c}ki lanaci preko internetskog su\v{c}elja kreiraju popuste za svoje proizvode u odabranim poslovinicama, a zatim kupci pomo\'{c}u mobilne aplikacije ostvaruju kreirane popuste. Korisni\v{c}ko iskustvo je zami\v{s}ljeno tako da korisnik prilikom ulaza u poslovnicu, pomo\'{c}u pametnog telefona sa instaliranom aplikacijom te NFC i BLE modulom, skenira NFC naljepnicu koja aplikaciji daje informaciju u koju je poslovnicu korisnik u\v{s}ao. Mobilna aplikacija zatim dohva\'{c}a konfiguraciju te poslovnice poslovnice sa poslu\v{z}itelja, te je ta akcija je prikazana na slici ~\ref{fig:skeniranjeNaljepnice}.
+Glavna ideja sustava je kreirati platformu za mobilno ogla\v{s}avanje, Sustav \v{c}ine mobilna aplikacija i administrativno su\v{c}elje koje bi trgova\v{c}ki lanci koristili za promociju proizvoda u svojim poslovnicama. Ideja je da trgova\v{c}ki lanaci preko internetskog su\v{c}elja kreiraju popuste za svoje proizvode u odabranim poslovinicama, a zatim kupci pomo\'{c}u mobilne aplikacije ostvaruju kreirane popuste. Korisni\v{c}ko iskustvo je zami\v{s}ljeno tako da korisnik prilikom ulaza u poslovnicu, pomo\'{c}u pametnog telefona sa instaliranom aplikacijom te NFC i BLE modulom, skenira NFC naljepnicu koja aplikaciji daje informaciju u koju je poslovnicu korisnik u\v{s}ao. Mobilna aplikacija zatim dohva\'{c}a konfiguraciju te poslovnice poslovnice sa poslu\v{z}itelja, te je ta akcija je prikazana na slici ~\ref{fig:skeniranjeNaljepnice}.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -18,7 +18,7 @@ Glavna ideja sustava je kreirati mobilnu aplikaciju i administrativno su\v{c}elj
 	\end{center}
 \end{figure}
 
-Kada je aplikacija dobila konfiguraciju po\v{c}inje sa skeniranjem okoline, s ciljem nala\v{z}enja BLE ure\dj aja. Proizvodi na akciji imaju u svojoj neposrednoj blizini BLE ogla\v{s}iva? te korisniku koji prolazi pokraj police od proizvoda, ukoliko ima upaljenu aplikaciju, prona\dj eni popust postaje vidljiv u aplikaciji. Tada, ukoliko se odlu\v{c}i na iskori\v{s}tavanje popusta, kreira zahtjev za kodom popusta. Zahtjev je vezan za korisnikov ure\dj aj (zbog za\v{s}tite od zloupotrebe - svaki ure\dj aj mo\v{z}e jedan popust ostvariti maksimalno jedan put) te korisnik dobiva kod za popust kojeg je, s ciljem ostvarivanja popusta, du\v{z}an prikazati na blagajni. Opisani postupci su prikazani na slici  ~\ref{fig:otkrivanjeBLEa}.
+Kada je aplikacija dobila konfiguraciju po\v{c}inje sa skeniranjem okoline, s ciljem nala\v{z}enja BLE ure\dj aja. Proizvodi na akciji imaju u svojoj neposrednoj blizini BLE ogla\v{s}iva\v{c} te korisniku koji prolazi pokraj police od proizvoda, ukoliko ima upaljenu aplikaciju, prona\dj eni popust postaje vidljiv u aplikaciji. Tada, ukoliko se odlu\v{c}i na iskori\v{s}tavanje popusta, kreira zahtjev za kodom popusta. Zahtjev je vezan za korisnikov ure\dj aj (zbog za\v{s}tite od zloupotrebe - svaki ure\dj aj mo\v{z}e jedan popust ostvariti maksimalno jedan put) te korisnik dobiva kod za popust kojeg je, s ciljem ostvarivanja popusta, du\v{z}an prikazati na blagajni. Opisani postupci su prikazani na slici  ~\ref{fig:otkrivanjeBLEa}.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -48,7 +48,7 @@ Resursi potrebni za ostvarivanje aktivnosti uklju\v{c}uju:
 
 \section{Rezultati}
 
-Rezultat ovog rada je teoretska obrada dva sli\v{c}na be\v{z}i?na protokola za prijenos podataka te sustav koji objedinjuje i NFC i BLE protokol te uz pomo\'{c}u njihovih specifi\v{c}nosti korisnicima pru\v{z}a novo i druga\v{c}ije iskustvo u obavljanju kupovine. Prakti\v{c}ni dio rada uklju\v{c}uje u potpunosti funkcionalnu internetsku i mobilnu aplikaciju. Internetska aplikacija se sastoji od dva dijela:
+Rezultat ovog rada je teoretska obrada dva sli\v{c}na be\v{z}i\v{c}na protokola za prijenos podataka te sustav koji objedinjuje i NFC i BLE protokol te uz pomo\'{c}u njihovih specifi\v{c}nosti korisnicima pru\v{z}a novo i druga\v{c}ije iskustvo u obavljanju kupovine. Prakti\v{c}ni dio rada uklju\v{c}uje u potpunosti funkcionalnu internetsku i mobilnu aplikaciju. Internetska aplikacija se sastoji od dva dijela:
 
 \begin{itemize}
 	\item Su\v{c}elje za trgova\v{c}ke lance
@@ -64,7 +64,7 @@ Rezultat ovog rada je teoretska obrada dva sli\v{c}na be\v{z}i?na protokola za p
 	\end{itemize}
 \end{itemize}
 
-Funkcionalnosti mobilne aplikacij uklju?uju:
+Funkcionalnosti mobilne aplikacij uklju\v{c}uju:
 \begin{enumerate}
 	\item Skeniranje NFC naljepnica
 	\item Tra\v{z}enje BLE ogla\v{s}iva\v{c}a u okolini

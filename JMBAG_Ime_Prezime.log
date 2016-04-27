@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  27 APR 2016 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  27 APR 2016 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -901,11 +901,16 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 (./09_Zakljucak.tex
 Poglavlje 3.
-[12
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 1.
+
+) [12
 
 
 
-]) [13]
+] [13]
 \openout2 = `Prilog_1.aux'.
 
  (./Prilog_1.tex
@@ -933,14 +938,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `JMBAG_Ime_Prezime.out' has not changed.
-(rerunfilecheck)             Checksum: B313144CD3BF8922147374483A20F08F;1076.
+(rerunfilecheck)             Checksum: 253EC66BEC2C483E8100331BB5EE6BB4;1076.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 16487 strings out of 493089
- 320274 string characters out of 6134842
+ 16486 strings out of 493089
+ 320260 string characters out of 6134842
  358453 words of memory out of 5000000
- 19666 multiletter control sequences out of 15000+600000
+ 19665 multiletter control sequences out of 15000+600000
  13793 words of font info for 51 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  44i,7n,39p,10418b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -951,7 +956,7 @@ usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on JMBAG_Ime_Prezime.pdf (24 pages, 407902 bytes).
+Output written on JMBAG_Ime_Prezime.pdf (24 pages, 406192 bytes).
 PDF statistics:
  302 PDF objects out of 1000 (max. 8388607)
  258 compressed objects within 3 object streams
