@@ -1,6 +1,6 @@
 \chapter{Internetska aplikacija}
 
-Internetska aplikacija se sastoji od korisni\v{c}kog su\v{c}elja za internetske korisnike i aplikacijskog programskog su\v{c}elja (API) za mobilne korisnike. Zajedni\v{c}ko objema aplikacijama je kori\v{s}tenje iste baze podataka koja slu\v{z}i kao centralni repozitorij podataka. U nastavku ovog poglavlja je prvo obja\v{s}njena struktura baze, a zatim implementacija internetske aplikacije i API su\v{c}elja.
+Internetska aplikacija se sastoji od korisni\v{c}kog su\v{c}elja za internetske korisnike i (API) za mobilne korisnike. Zajedni\v{c}ko objema aplikacijama je kori\v{s}tenje iste baze podataka koja slu\v{z}i kao centralni repozitorij podataka. U nastavku ovog poglavlja je prvo obja\v{s}njena struktura baze, a zatim implementacija internetske aplikacije i API su\v{c}elja.
 
 \section{Baza podataka}
 
@@ -128,9 +128,9 @@ Za svaku popust u poslovnici je mogu\'{c}eno i pregledavanje kodova koji su izda
 
 Na su\v{c}elju su prikazane informacije o popustu koje uklju\v{c}uju identifikator korisnika (IMEI broj njegovog pametnog telefona), aktivacijski kod, vrijeme aktiviranja koda i opcija brisanja aktivacije.
 
-\subsection{Aplikacijsko programsko su\v{c}elje}
+\subsection{API su\v{c}elje}
 
-Aplikacijsko programsko su\v{c}elje (Aplication Programming Interface) ozna\v{c}ava skup pravila komunikacije kojeg koriste dva ra\v{c}unalna sustava kako bi razmijenili informacije. U sklopu ovog projekta je su\v{c}elje moralo biti implementirano kako bi mobilna aplikacija mogla komunicirati sa bazom podataka koju koristi internetska aplikacija. Komunikacija se vr\v{s}i tako da mobilna aplikacija radi API zahtjev sa ispravom metodom (GET ili POST) na ispravnu internetsku lokaciju. Ovisno o tipu komunikacije, zahtjev mora sadr\v{z}avati odre\dj ene podatke kako bi su\v{c}elje znalo napraviti ispravan zahtjev prema bazi (primjer je aktivacija popusta pri \v{c}emu je mobilna aplikacija u zahtjevu du\v{z}na poslati ure\dj ajev IMEI). Kada su podaci izvu\v{c}eni iz baze podataka, potrebno ih je serijalizirati u format koji je podoban za slanje i kojeg primatelj zna interpretirati. Za potrebe ove aplikacije je kori\v{s}ten JSON format \cite{json} (JavaScript Object Notation), koji specificira podatke kao kolekciju parova ime-vrijednost. Vrijednost mo\v{z}e biti primitiv, objekt i lista primitiva/objekta. Na slici ~\ref{fig:web_json} je prikazana konfiguracija poslovnice koja se \v{s}alje preko API-a, u JSON formatu.
+API su\v{c}elje ozna\v{c}ava skup pravila komunikacije kojeg koriste dva ra\v{c}unalna sustava kako bi razmijenili informacije. U sklopu ovog projekta je su\v{c}elje moralo biti implementirano kako bi mobilna aplikacija mogla komunicirati sa bazom podataka koju koristi internetska aplikacija. Komunikacija se vr\v{s}i tako da mobilna aplikacija radi API zahtjev sa ispravom metodom (GET ili POST) na ispravnu internetsku lokaciju. Ovisno o tipu komunikacije, zahtjev mora sadr\v{z}avati odre\dj ene podatke kako bi su\v{c}elje znalo napraviti ispravan zahtjev prema bazi (primjer je aktivacija popusta pri \v{c}emu je mobilna aplikacija u zahtjevu du\v{z}na poslati ure\dj ajev IMEI). Kada su podaci izvu\v{c}eni iz baze podataka, potrebno ih je serijalizirati u format koji je podoban za slanje i kojeg primatelj zna interpretirati. Za potrebe ove aplikacije je kori\v{s}ten JSON format \cite{json} (JavaScript Object Notation), koji specificira podatke kao kolekciju parova ime-vrijednost. Vrijednost mo\v{z}e biti primitiv, objekt i lista primitiva/objekta. Na slici ~\ref{fig:web_json} je prikazana konfiguracija poslovnice koja se \v{s}alje preko API-a, u JSON formatu.
 
 
 \begin{figure}[!htbp]

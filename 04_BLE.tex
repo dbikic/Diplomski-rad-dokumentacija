@@ -1,5 +1,5 @@
 \chapter{BLE tehnologija}
-Bluetooth Low Energy (BLE ili Bluetooth Smart) je be\v{z}i\v{c}ni protokol koji uz pomo\'{c} radiovalova omogu\'{c}uje komunikaciju dva ili vi\v{s}e ure\dj aja. Protokol je prvotno je razvijan od kompanije Nokia pod imenom Wibree, ali 2007. godine dolazi pod jurisdikciju neprofitnog tijela Bluetooth Special Interest Group (SIG) \cite{sig}. SIG je organizacija koja nadgleda razvoj Bluetooth tehnologije i osigurava standardizaciju Bluetooth kompatibilnih ure\dj aja. 2010. godine BLE postaje nova iteracija Bluetooth protokola (verzija 4.0.) iako je u po\v{c}etku bio zami\v{s}ljen kao komplementarni protokol. Aktualna verzija specifikacije je 4.2 \cite{ble_specification}. Na na slici ~\ref{fig:ble} je prikazan logo BLE-a.
+BLE ( naziva se jo\v{s} i Bluetooth Smart) je be\v{z}i\v{c}ni protokol koji uz pomo\'{c} radiovalova omogu\'{c}uje komunikaciju dva ili vi\v{s}e ure\dj aja. Protokol je prvotno je razvijan od kompanije Nokia pod imenom Wibree, ali 2007. godine dolazi pod jurisdikciju neprofitnog tijela SIG \cite{sig}. SIG je organizacija koja nadgleda razvoj Bluetooth tehnologije i osigurava standardizaciju Bluetooth kompatibilnih ure\dj aja. 2010. godine BLE postaje nova iteracija Bluetooth protokola (verzija 4.0.) iako je u po\v{c}etku bio zami\v{s}ljen kao komplementarni protokol. Aktualna verzija specifikacije je 4.2 \cite{ble_specification}. Na na slici ~\ref{fig:ble} je prikazan logo BLE-a.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -18,13 +18,13 @@ Glavna ideja BLE protokola je pru\v{z}iti funkcionanost Bluetooth-a uz \v{s}to m
 \end{itemize}
 
 
-BLE tehnologiju treba gledati kao pro¨irenje funkcionalnosti klasi\v{c}nog Bluetootha koji je primarno fokusiran na kontinuiranu razmjenu podataka relativno velikom brzinom, dok je BLE fokusiran na manju potro\v{s}nju energije pri komunikaciji. Manja potro\v{s}nja energije rezultira i ve\'{c}im brojem paralelnih konekcija (klasi\v{c}ni Bluetooth mo¸e imati do 7 paralelnih konekcija, a BLE teoretski beskona\v{c}no). Danas obe iteracije Bluetooth specifikacije mogu koegzistirati na tr¸i¨tu, upravo zbog razli\v{c}itih primjena.
+BLE tehnologiju treba gledati kao pro\v{s}irenje funkcionalnosti klasi\v{c}nog Bluetootha koji je primarno fokusiran na kontinuiranu razmjenu podataka relativno velikom brzinom, dok je BLE fokusiran na manju potro\v{s}nju energije pri komunikaciji. Manja potro\v{s}nja energije rezultira i ve\'{c}im brojem paralelnih konekcija (klasi\v{c}ni Bluetooth mo\v{z}e imati do 7 paralelnih konekcija, a BLE teoretski beskona\v{c}no). Danas obe iteracije Bluetooth specifikacije mogu koegzistirati na tr\v{z}i\v{s}tu, upravo zbog razli\v{c}itih primjena.
 
 BLE je temelj za iBeacon tehnologiju, koja pru\v{z}a gotovo identi\v{c}ne funkcionalnosti ali je razvijana od tvrtke Apple pa se shodno tome striktno koristi samo sa Apple-ovim ure\dj ajima.
 
 \section{Arhitektura}
 
-BLE komunikacija se zasniva na radio valovima, u rasponu od 2.4 - 2.2835 GHz, preko kojih se \v{s}alju podatci, podjeljeni na pakete. Frekventni spektar BLE-a je podjeljen na 40 kanala od 2 MHz, te se svaki paket \v{s}alje zasebno kroz kanal \cite{ble_introduction}. Paket se prije slanja modulira GFSK (Gaussian frequency shift modulation) modluacijom i zatim \v{s}alje kroz kanal, teoretski maksimalnom brzinom od 1 Mbit/s (u praksi je to \v{c}esto manje zbog ograni\v{c}enja protokola i komunikacije radio valovima). Potro\v{s}nja energije je dvostruko manja od klasi\v{c}nog Bluetooth-a i iznosi 15 mA pri maksimalnom optere\'{c}enju modula, te se stoga ure\dj aji mogu napajati sa dugmastim baterijama (na ~\ref{fig:ble_baterija} je prikazana baterija koja je napajala BLE ure\dj aj koji je kori\v{s}ten u ovome radu) \v{s}to prili\v{c}no pridonosi prenosivosti, veli\v{c}ini i povoljnosti BLE ure\dj aja.
+BLE komunikacija se zasniva na radio valovima, u rasponu od 2.4 - 2.2835 GHz, preko kojih se \v{s}alju podatci, podjeljeni na pakete. Frekventni spektar BLE-a je podjeljen na 40 kanala od 2 MHz, te se svaki paket \v{s}alje zasebno kroz kanal \cite{ble_introduction}. Paket se prije slanja modulira GFSK modluacijom i zatim \v{s}alje kroz kanal, teoretski maksimalnom brzinom od 1 Mbit/s (u praksi je to \v{c}esto manje zbog ograni\v{c}enja protokola i komunikacije radio valovima). Potro\v{s}nja energije je dvostruko manja od klasi\v{c}nog Bluetooth-a i iznosi 15 mA pri maksimalnom optere\'{c}enju modula, te se stoga ure\dj aji mogu napajati sa dugmastim baterijama (na ~\ref{fig:ble_baterija} je prikazana baterija koja je napajala BLE ure\dj aj koji je kori\v{s}ten u ovome radu) \v{s}to prili\v{c}no pridonosi prenosivosti, veli\v{c}ini i povoljnosti BLE ure\dj aja.
 
 
 \begin{figure}[!htbp]
@@ -52,7 +52,7 @@ Kod ogla\v{s}avanja ure\dj aj periodi\v{c}ki oda\v{s}ilje signal kojeg detektira
 	\begin{itemize}
 		\item Postavljaju se u blizini muzejskih eksponata
 	\end{itemize}
-	\item CMS-a (Content management system)
+	\item CMS-a
 	\begin{itemize}
 		\item Sustav preko kojeg kustosi postavljaju sadr\v{z}aj o eksponatu u audio, video i tekstualnom obliku
 	\end{itemize}
@@ -92,12 +92,12 @@ Prednost uparivanja, kao na\v{c}ina rada BLE protokola, je sigurnost i optimizac
 Primjena BLE ure\dj aja se temelji na profilu ure\dj aja koji je specificiran od strane SIG-a. Profili su uvedeni s namjerom da BLE ure\dj aji proizvedeni od razli\v{c}itih proizvo\dj a\v{c}a budu standardizirani i me\dj usobno kompatibilni. Tako\dj er, profili garantiraju da ure\dj aj, ovisno o svojoj primjeni, koristi BLE protokol na optimiziran na\v{c}in. Postoje dva op\'{c}a profila koja definiraju osnovna svojstva protokola \cite{ble_getting_started}:
 
 \begin{itemize}
-	\item Generic Access Profile (GAP)
+	\item GAP
 	\begin{itemize}
 		\item Specificira komunikaciju na najni\v{z}oj razini (ogla\v{s}avanje paketa i skeniranje okoline s ciljem ostvarivanja sigurn konekcije te ostvarivanje i odr\v{z}avanje veze me\dj u ure\dj ajima)
 		\item Obavezno ga implementiraju svi BLE ure\dj aji
 	\end{itemize}
-	\item Generic Attribute Profile (GATT)
+	\item GATT
 	\begin{itemize}
 		\item Oslanja se na GAP te na vi\v{s}oj razini definira modele paketa i mehanizme za otkrivanje ure\dj aja i samu komunikaciju
 	\end{itemize}

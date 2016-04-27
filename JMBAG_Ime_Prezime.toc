@@ -6,53 +6,53 @@
 \contentsline {section}{\numberline {2.1}Specifikacija sustava}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Rezultati}{6}{section.2.2}
 \contentsline {chapter}{\numberline {3}NFC tehnologija}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Arhitektura}{10}{section.3.1}
+\contentsline {section}{\numberline {3.1}Arhitektura}{9}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Aktivna komunikacija}{11}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Pasivna komunikacija}{12}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Primjena}{13}{section.3.2}
-\contentsline {chapter}{\numberline {4}BLE tehnologija}{16}{chapter.4}
-\contentsline {section}{\numberline {4.1}Arhitektura}{18}{section.4.1}
-\contentsline {section}{\numberline {4.2}Topologija mre\v {z}e}{19}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Ogla\v {s}avanje}{19}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Uparivanje}{20}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Primjena}{21}{section.4.3}
-\contentsline {chapter}{\numberline {5}Izvedba}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Mobilna aplikacija}{26}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Tehnologija}{26}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Alati}{28}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Internetska aplikacija}{28}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Tehnologije}{28}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Alati}{29}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {6}Android aplikacija}{31}{chapter.6}
-\contentsline {section}{\numberline {6.1}Arhitektura}{31}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}MVP}{31}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}NFC komunikacija}{35}{subsection.6.1.2}
-\contentsline {subsubsection}{Priprema NFC naljepnice}{37}{section*.20}
-\contentsline {subsection}{\numberline {6.1.3}BLE komunikacija}{37}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Implementacija ekrana}{39}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Po\v {c}etni ekran}{39}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Ekran poslovnice}{41}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Ekran detalja popusta}{43}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Ekran postavki}{43}{subsection.6.2.4}
-\contentsline {section}{\numberline {6.3}Kori\v {s}tene knji\v {z}nice}{46}{section.6.3}
-\contentsline {chapter}{\numberline {7}Internetska aplikacija}{48}{chapter.7}
-\contentsline {section}{\numberline {7.1}Baza podataka}{48}{section.7.1}
-\contentsline {section}{\numberline {7.2}Internetska aplikacija}{50}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Su\v {c}elje za pristup}{50}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Po\v {c}etno su\v {c}elje}{51}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Poslovnica}{51}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Popust}{53}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Pregled kodova popusta}{54}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Aplikacijsko programsko su\v {c}elje}{54}{subsection.7.2.6}
-\contentsline {chapter}{\numberline {8}Usporedba NFC-a i BLE-a}{56}{chapter.8}
-\contentsline {subsubsection}{Domet}{56}{section*.35}
-\contentsline {subsubsection}{Sigurnost}{57}{section*.36}
-\contentsline {subsubsection}{Potro\v {s}nja energije}{57}{section*.37}
-\contentsline {subsubsection}{Cijena}{57}{section*.38}
-\contentsline {subsubsection}{Dostupnost}{58}{section*.39}
-\contentsline {subsubsection}{Primjena}{58}{section*.40}
-\contentsline {chapter}{\numberline {9}Zaklju\v {c}ak}{59}{chapter.9}
-\contentsline {chapter}{\numberline {A}Naslov priloga}{61}{appendix.A}
-\contentsline {section}{\numberline {A.1}Naslov sekcije}{61}{section.A.1}
-\contentsline {section}{\numberline {A.2}Naslov sekcije}{61}{section.A.2}
-\contentsline {chapter}{Bibliografija}{62}{appendix*.41}
+\contentsline {chapter}{\numberline {4}BLE tehnologija}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Arhitektura}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Topologija mre\v {z}e}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Ogla\v {s}avanje}{18}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Uparivanje}{19}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Primjena}{20}{section.4.3}
+\contentsline {chapter}{\numberline {5}Izvedba}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}Mobilna aplikacija}{25}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Tehnologija}{25}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Alati}{27}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Internetska aplikacija}{27}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Tehnologije}{27}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Alati}{28}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {6}Android aplikacija}{30}{chapter.6}
+\contentsline {section}{\numberline {6.1}Arhitektura}{30}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}MVP}{30}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}NFC komunikacija}{34}{subsection.6.1.2}
+\contentsline {subsubsection}{Priprema NFC naljepnice}{36}{section*.20}
+\contentsline {subsection}{\numberline {6.1.3}BLE komunikacija}{36}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Implementacija ekrana}{38}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Po\v {c}etni ekran}{38}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Ekran poslovnice}{40}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Ekran detalja popusta}{42}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Ekran postavki}{42}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}Kori\v {s}tene knji\v {z}nice}{45}{section.6.3}
+\contentsline {chapter}{\numberline {7}Internetska aplikacija}{47}{chapter.7}
+\contentsline {section}{\numberline {7.1}Baza podataka}{47}{section.7.1}
+\contentsline {section}{\numberline {7.2}Internetska aplikacija}{49}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Su\v {c}elje za pristup}{49}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Po\v {c}etno su\v {c}elje}{50}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Poslovnica}{50}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Popust}{52}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Pregled kodova popusta}{53}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}API su\v {c}elje}{53}{subsection.7.2.6}
+\contentsline {chapter}{\numberline {8}Usporedba NFC-a i BLE-a}{55}{chapter.8}
+\contentsline {subsubsection}{Domet}{55}{section*.35}
+\contentsline {subsubsection}{Sigurnost}{56}{section*.36}
+\contentsline {subsubsection}{Potro\v {s}nja energije}{56}{section*.37}
+\contentsline {subsubsection}{Cijena}{56}{section*.38}
+\contentsline {subsubsection}{Dostupnost}{57}{section*.39}
+\contentsline {subsubsection}{Primjena}{57}{section*.40}
+\contentsline {chapter}{\numberline {9}Zaklju\v {c}ak}{58}{chapter.9}
+\contentsline {chapter}{\numberline {A}Naslov priloga}{60}{appendix.A}
+\contentsline {section}{\numberline {A.1}Naslov sekcije}{60}{section.A.1}
+\contentsline {section}{\numberline {A.2}Naslov sekcije}{60}{section.A.2}
+\contentsline {chapter}{Bibliografija}{61}{appendix*.41}

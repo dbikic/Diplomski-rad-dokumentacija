@@ -33,45 +33,45 @@ Warning--empty journal in mobilePayments
 Warning--empty year in mobilePayments
 
 Done.
-You've used 54 entries,
+You've used 55 entries,
             4024 wiz_defined-function locations,
-            1024 strings with 12614 characters,
-and the built_in function-call counts, 15312 in all, are:
-= -- 1006
-> -- 128
+            1027 strings with 12653 characters,
+and the built_in function-call counts, 15565 in all, are:
+= -- 1021
+> -- 129
 < -- 0
-+ -- 79
++ -- 80
 - -- 24
-* -- 363
-:= -- 2728
-add.period$ -- 75
-call.type$ -- 54
-change.case$ -- 49
+* -- 368
+:= -- 2770
+add.period$ -- 76
+call.type$ -- 55
+change.case$ -- 50
 chr.to.int$ -- 0
-cite$ -- 60
-duplicate$ -- 1357
-empty$ -- 1722
+cite$ -- 61
+duplicate$ -- 1381
+empty$ -- 1753
 format.name$ -- 25
-if$ -- 3263
+if$ -- 3318
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 339
-newline$ -- 285
+int.to.str$ -- 55
+missing$ -- 345
+newline$ -- 290
 num.names$ -- 23
-pop$ -- 1253
+pop$ -- 1277
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1161
+skip$ -- 1180
 stack$ -- 0
 substring$ -- 3
-swap$ -- 640
+swap$ -- 650
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 54
+type$ -- 55
 warning$ -- 6
 while$ -- 23
-width$ -- 56
-write$ -- 474
+width$ -- 57
+write$ -- 482
 (There was 1 error message)

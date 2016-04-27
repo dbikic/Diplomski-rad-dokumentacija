@@ -272,6 +272,11 @@ Android teplephony manager. [Online]. Dostupno na:
   \url{http://developer.android.com/intl/es/reference/android/telephony/TelephonyManager.html#getDeviceId()}
 \BIBentrySTDinterwordspacing
 
+\bibitem{groovy}
+\BIBentryALTinterwordspacing
+Groovy. [Online]. Dostupno na: \url{http://www.groovy-lang.org/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{jcenter}
 \BIBentryALTinterwordspacing
 jcenter. [Online]. Dostupno na: \url{https://bintray.com/bintray/jcenter}

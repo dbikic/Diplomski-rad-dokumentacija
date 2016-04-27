@@ -281,7 +281,7 @@
 
 @WWW{bleSecurity,
   author = {Bluetooth SIG},
-  title  = {?Security, Bluetooth Smart (Low Energy)},
+  title  = {Bluetooth Smart (Low Energy) Security},
   year   = {2016},
   url    = {https://developer.bluetooth.org/TechnologyOverview/Pages/LE-Security.aspx},
 }
