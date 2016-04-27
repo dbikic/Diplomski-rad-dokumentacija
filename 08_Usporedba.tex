@@ -1,30 +1,29 @@
 \chapter{Usporedba NFC-a i BLE-a}
 
 
-BLE i NFC su dva be¸i?na komunikacijska protokola te ovo poglavlje slu¸i kao usporedba istih. Po¨to su zanovani na razli?itim tehnologijama, protokoli imaju razli?ite karakteristike i razli?itu primjenu. 
-Nastavak poglavlja je koncipiran kao usporedba opisanih protokola u kontekstu dometa, sigurnosti, potro¨nje energije, cijene i primjene. 
+BLE i NFC su dva be\v{z}i\v{c}na komunikacijska protokola te ovo poglavlje slu\v{z}i kao usporedba istih. Po\v{s}to su zanovani na razli\v{c}itim tehnologijama, protokoli imaju razli\v{c}ite karakteristike i razli\v{c}itu primjenu. 
+Nastavak poglavlja je koncipiran kao usporedba opisanih protokola u kontekstu dometa, sigurnosti, potro\v{s}nje energije, cijene i primjene. 
 
 \subsubsection{Domet}
 
-BLE tehnologija mjeri svoj domet u metrima (u praksi do 10 metara) a NFC tehnologija mjeri svoj domet u centimetrima (do 10 centimetara). Iz dometa protokola je vidljivo da BLE pru¸a korisnicima ve?u fleksibilnost pri kori¨tenju, dok je kod NFC-a korisnik primoran prisloniti svoj ure?aj na NFC ure?aj. Projektant sustava koji se bazira na ovim tehnologijama moraja biti svjestan ograni?enja koje pru¸aju protokoli i shodno tome mora postaviti ure?aje u prostoru na na?in da kori¨tenje korisnicima bude ¨to jednostavnije.
+BLE tehnologija mjeri svoj domet u metrima (u praksi do 10 metara) a NFC tehnologija mjeri svoj domet u centimetrima (do 10 centimetara). Iz dometa protokola je vidljivo da BLE pru\v{z}a korisnicima ve\'{c}u fleksibilnost pri kori\v{s}tenju, dok je kod NFC-a korisnik primoran prisloniti svoj ure\dj aj na NFC ure\dj aj. Projektant sustava koji se bazira na ovim tehnologijama moraja biti svjestan ograni\v{c}enja koje pru\v{z}aju protokoli i shodno tome mora postaviti ure\dj aje u prostoru na na\v{c}in da kori\v{s}tenje korisnicima bude \v{s}to jednostavnije.
 
 \subsubsection{Sigurnost}
 
-BLE koristi enkripciju prilikom oda¨iljanja podataka (128 bitnu AES kriptografiju) \cite{}, iako kod kori¨tenja protokola u obiliku ogla¨iva?a i nema velikih sigurnosnih rizika jer je svrha ure?aja samo ogla¨avati svoje prisutstvo u prostoru.  Po¨to se NFC koristi za delikatnije transakcije (recimo pla?anje sa kreditnom karticom) sigurnost je tu ve?i problem nego kod BLE-a (http://www.nearfieldcommunication.org/nfc-security.html). Postoje rizici od prislu¨kivanja transakcije, manipulacije podataka koji se prenose kroz komunikacijski kanal i kra?e ure?aja i vr¨enja ne¸eljenih transakcija. Navedeni problemi se rje¨avaju osiguravanjem sigurnog kanala izme?u NFC ure?aja (pomo?u Diffie-Hellmann algoritma) i enkripcije podataka koji se razmjenjuju (3DES ili AES kriptografija ili ) HTTPS. Tako?er, korisnik protokola ima va¸nu ulogu u sigurnosti jer je domet malen i mo¸e uo?iti nepravilnosti u komunikaciji.
+BLE koristi uparivanje ure\dj aja i enkripciju (128 bitnu AES kriptografiju) prilikom oda\v{s}iljanja podataka  \cite{bleSecurity}, iako kod kori\v{s}tenja protokola u obiliku ogla\v{s}iva\v{c}a i nema velikih sigurnosnih rizika jer je svrha ure\dj aja samo ogla\v{s}avati svoje prisutstvo u prostoru.  Po\v{s}to se NFC koristi za delikatnije transakcije (recimo pla\'{c}anje sa kreditnom karticom) sigurnost je tu ve\'{c}i problem nego kod BLE-a . Postoje rizici od prislu\v{s}kivanja transakcije, manipulacije podataka koji se prenose kroz komunikacijski kanal i kra\dj e ure\dj aja i vr\v{s}enja ne\v{z}eljenih transakcija \cite{nfcSecurity}. Navedeni problemi se rje\v{s}avaju osiguravanjem sigurnog kanala izme\dj u NFC ure\dj aja (pomo\'{c}u Diffie-Hellmann algoritma) i enkripcije podataka koji se razmjenjuju (3DES ili AES kriptografija ili ) \cite{nfcSecurityTwo}. Tako\dj er, korisnik protokola ima va\v{z}nu ulogu u sigurnosti jer je domet kratak pa mo\v{z}e uo\v{c}iti nepravilnosti u komunikaciji.
 
-\subsubsection{Potro¨nja energije}
-Oba protokola tro¨e jednako struje u kori¨tenju (oko 15 mA), dok NFC tro¨i ne¨to manje energije u stanju mirovanja (BLE oko \SI{1}{\micro\ampere} a NFC manje of \SI{1}{\micro\ampere}) HTTPS . Navedeni iznosi potro¨nje energije kod oba protokola zaista malena u usporedbi sa drugim be¸i?nim komunikacijskim protokolima.
+\subsubsection{Potro\v{s}nja energije}
+Oba protokola tro\v{s}e jednako struje u kori\v{s}tenju (oko 15 mA), dok NFC tro\v{s}i ne\v{s}to manje energije u stanju mirovanja (BLE oko \SI{1}{\micro\ampere} a NFC manje of \SI{1}{\micro\ampere}) \cite{mobilePayments}. Navedeni iznosi potro\v{s}nje energije kod oba protokola zaista malena u usporedbi sa drugim be\v{z}i\v{c}nim komunikacijskim protokolima.
 
-http://newscience.ul.com/wp-content/uploads/2014/04/mobile_payment_transactions_ble_and_or_nfc.pdf
 
 \subsubsection{Cijena}
-Generalno cijene modula za oba protokola su relativno niske i time su pristupa?ni proizvo?a?ima da ih integrirju u svoje proizvode, s time da su NFC ure?aji jeftiniji. NFC naljepnice kori¨tene u ovom projektu su ko¨tale 7.67 kn po naljepnici, dok su BLE ogla¨iva?i ko¨tali 33.06 kn po komadu.
+Generalno cijene modula za oba protokola su relativno niske i time su pristupa\v{c}ni proizvo\dj a\v{c}ima da ih integrirju u svoje proizvode, s time da su NFC ure\dj aji jeftiniji. NFC naljepnice kori\v{s}tene u ovom projektu su ko\v{s}tale 7.67 kn po naljepnici \cite{whiztags}, dok su BLE ogla\v{s}iva\v{c}i ko\v{s}tali 33.06 kn po komadu \cite{gimbal_beacon}.
 
 \subsubsection{Dostupnost}
-Oba protokola su danas prili?no dostupna prosje?nom ?ovjeku jer se obi?no ugra?uju u pametne telefone. Tako?er, na internetu postoje mnoge trgovine koje prodaju ure?aje koji implementiraju ove protokole.
+Oba protokola su danas prili\v{c}no dostupna prosje\v{c}nom \v{c}ovjeku jer se obi\v{c}no ugra\dj uju u pametne telefone. Tako\dj er, na internetu postoje mnoge trgovine koje prodaju ure\dj aje koji implementiraju ove protokole.
 
 \subsubsection{Primjena}
-I jedan i drugi protokol se koriste kod be¸i?nog prijenosa malih koli?ina podataka ali zbog navedenih posebitosti imaju razli?itu primjenu u praksi. BLE se zbog ve?eg dometa uglavnom koristi za informaciju o tome gdje se korisnik nalazi u prostoru (mo¸e se koristi vi¨e BLE ure?aja te korisnikova aplikacija mo¸e na temelju ja?ine signala, pomo?u trijangulacije, odrediti dovoljno to?nu lokaciju), dok se NFC zbog manjeg dometa koristi u situacijama u kojima je potrebna neka akcija od korisnika (zbog ve?e razine sigurnosti NFC ima primjenu kod komunikacije osjetljivim podacima). Tako?er, NFC komunikacija je mogu?a izme?u samo dva ure?aja dok se kod BLE-a komunikacija teoretski mo¸e voditi izme?u beskona?no ure?aja (u praksi do 20 HTTPS LINK ONO). 
+I jedan i drugi protokol se koriste kod be\v{z}i\v{c}nog prijenosa malih koli\v{c}ina podataka ali zbog navedenih posebitosti imaju razli\v{c}itu primjenu u praksi. BLE se zbog ve\'{c}eg dometa uglavnom koristi za informaciju o tome gdje se korisnik nalazi u prostoru (mo\v{z}e se koristi vi\v{s}e BLE ure\dj aja te korisnikova aplikacija mo\v{z}e na temelju ja\v{c}ine signala, pomo\'{c}u trijangulacije, odrediti dovoljno to\v{c}nu lokaciju), dok se NFC zbog manjeg dometa koristi u situacijama u kojima je potrebna neka akcija od korisnika (zbog ve\'{c}e razine sigurnosti NFC ima primjenu kod komunikacije osjetljivim podacima). Tako\dj er, NFC komunikacija je mogu\'{c}a izme\dj u samo dva ure\dj aja dok se kod BLE-a komunikacija teoretski mo\v{z}e voditi izme\dj u beskona\v{c}no ure\dj aja (u praksi do 20 \cite{mobilePayments}). 
 
 
 

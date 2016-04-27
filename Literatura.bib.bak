@@ -112,13 +112,6 @@
   url    = {http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/},
 }
 
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
 @WWW{ble_specification,
   title        = {Bluetooth Core Specification},
   year         = {2016},
@@ -132,211 +125,11 @@
   url    = {https://git-scm.com/},
 }
 
-@WWW{git,
-  author = {Linus Torvalds},
-  year   = {2005},
-  url    = {https://git-scm.com/},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{ble_profiles,
-  author = {Cypress Semiconductor Corp.},
-  title  = {Bluetooth® Low Energy (BLE) Profiles and Services},
-  year   = {2015},
-  date   = {2015-12-04},
-  url    = {http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
-@WWW{whiztags,
-  author = {Whiztags},
-  url    = {http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain},
-}
-
 @Book{ble_getting_started,
   author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
   title     = {Getting Started with Bluetooth Low Energy},
   date      = {May 2014},
   publisher = {O'Reilly Media, Inc.},
-}
-
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
-@Book{ble_getting_started,
-  author    = {Robert Davidson, Akiba, Carles Cufí, Kevin Townsend},
-  title     = {Getting Started with Bluetooth Low Energy},
-  date      = {May 2014},
-  publisher = {O'Reilly Media, Inc.},
-}
-
-@Electronic{jquery,
-  url          = {http://jquery.com},
-  organization = {jQuery},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{jquery,
-  url          = {http://jquery.com},
-  organization = {jQuery},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{jquery,
-  url          = {http://jquery.com},
-  organization = {jQuery},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
 }
 
 @Electronic{latex,
@@ -346,72 +139,10 @@
   timestamp    = {2012.06.05},
 }
 
-@Electronic{latex,
-  url          = {http://en.wikibooks.org/wiki/LaTeX/},
-  organization = {WikiBooksQEWE:~LaTeX.},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{latex,
-  url          = {http://en.wikibooks.org/wiki/LaTeX/},
-  organization = {WikiBooksQEWE:~LaTeX.},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{latexDva,
-  url          = {http://en.wikibooks.org/wiki/LaTeX/},
-  organization = {WikiBooksQEWE:~LaTeX.},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{latexDva,
-  url          = {http://en.wikibooks.org/wiki/LaTeX/},
-  organization = {WikiBooksQEWE:~LaTeX.},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{latexDva,
-  url          = {http://en.wikibooks.org/wiki/LaTeX/},
-  organization = {WikiBooksQEWE:~LaTeX.},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
 
 @Electronic{mysql,
   url          = {http://www.mysql.com},
   organization = {MySQL},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{mysql,
-  url          = {http://www.mysql.com},
-  organization = {MySQL},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{mysql,
-  url          = {http://www.mysql.com},
-  organization = {MySQL},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{php,
-  url          = {http://www.php.net},
-  organization = {PHP},
-  owner        = {mjoler},
-  timestamp    = {2012.06.05},
-}
-
-@Electronic{php,
-  url          = {http://www.php.net},
-  organization = {PHP},
   owner        = {mjoler},
   timestamp    = {2012.06.05},
 }
@@ -431,45 +162,9 @@
   url    = {http://nvie.com/posts/a-successful-git-branching-model/},
 }
 
-@WWW{git_flow,
-  author = {Vincent Driessen},
-  title  = {A successful Git branching model},
-  year   = {2010},
-  date   = {2010-01-05},
-  url    = {http://nvie.com/posts/a-successful-git-branching-model/},
-}
-
-@WWW{git_flow,
-  author = {Vincent Driessen},
-  title  = {A successful Git branching model},
-  year   = {2010},
-  date   = {2010-01-05},
-  url    = {http://nvie.com/posts/a-successful-git-branching-model/},
-}
-
 @WWW{github,
   title = {Github},
   url   = {https://github.com/},
-}
-
-@WWW{github,
-  title = {Github},
-  url   = {https://github.com/},
-}
-
-@WWW{github,
-  title = {Github},
-  url   = {https://github.com/},
-}
-
-@WWW{html,
-  title = {HTML},
-  url   = {https://www.w3.org/html/},
-}
-
-@WWW{html,
-  title = {HTML},
-  url   = {https://www.w3.org/html/},
 }
 
 @WWW{html,
@@ -482,39 +177,9 @@
   url   = {https://www.w3.org/Style/CSS/Overview.en.html},
 }
 
-@WWW{css,
-  title = {CSS},
-  url   = {https://www.w3.org/Style/CSS/Overview.en.html},
-}
-
-@WWW{css,
-  title = {CSS},
-  url   = {https://www.w3.org/Style/CSS/Overview.en.html},
-}
-
 @WWW{javascript,
   title = {JavaScript},
   url   = {https://www.javascript.com/},
-}
-
-@WWW{javascript,
-  title = {JavaScript},
-  url   = {https://www.javascript.com/},
-}
-
-@WWW{javascript,
-  title = {JavaScript},
-  url   = {https://www.javascript.com/},
-}
-
-@WWW{atom,
-  title = {Atom},
-  url   = {https://atom.io/},
-}
-
-@WWW{atom,
-  title = {Atom},
-  url   = {https://atom.io/},
 }
 
 @WWW{atom,
@@ -527,26 +192,6 @@
   url   = {https://www.apachefriends.org/index.html},
 }
 
-@WWW{xampp,
-  title = {XAMPP},
-  url   = {https://www.apachefriends.org/index.html},
-}
-
-@WWW{xampp,
-  title = {XAMPP},
-  url   = {https://www.apachefriends.org/index.html},
-}
-
-@WWW{filezilla,
-  title = {FileZilla},
-  url   = {https://filezilla-project.org/},
-}
-
-@WWW{filezilla,
-  title = {FileZilla},
-  url   = {https://filezilla-project.org/},
-}
-
 @WWW{filezilla,
   title = {FileZilla},
   url   = {https://filezilla-project.org/},
@@ -557,36 +202,8 @@
   url   = {http://developer.android.com/guide/topics/manifest/manifest-intro.html},
 }
 
-@WWW{androidManifest,
-  title = {Android Manifest},
-  url   = {http://developer.android.com/guide/topics/manifest/manifest-intro.html},
-}
-
-@WWW{androidManifest,
-  title = {Android Manifest},
-  url   = {http://developer.android.com/guide/topics/manifest/manifest-intro.html},
-}
-
 @WWW{NdefMessage,
   url = {http://developer.android.com/reference/android/nfc/NdefMessage.html},
-}
-
-@WWW{NdefMessage,
-  url = {http://developer.android.com/reference/android/nfc/NdefMessage.html},
-}
-
-@WWW{NdefMessage,
-  url = {http://developer.android.com/reference/android/nfc/NdefMessage.html},
-}
-
-@WWW{ndef_discovered,
-  title = {Android action NDEF DISCOVERED},
-  url   = {http://developer.android.com/reference/android/nfc/NfcAdapter.html#ACTION_NDEF_DISCOVERED},
-}
-
-@WWW{ndef_discovered,
-  title = {Android action NDEF DISCOVERED},
-  url   = {http://developer.android.com/reference/android/nfc/NfcAdapter.html#ACTION_NDEF_DISCOVERED},
 }
 
 @WWW{ndef_discovered,
@@ -599,39 +216,9 @@
   url   = {http://developer.android.com/intl/es/reference/android/bluetooth/BluetoothAdapter.html},
 }
 
-@WWW{bluetoothAdapter,
-  title = {BluetoothAdapter},
-  url   = {http://developer.android.com/intl/es/reference/android/bluetooth/BluetoothAdapter.html},
-}
-
-@WWW{bluetoothAdapter,
-  title = {BluetoothAdapter},
-  url   = {http://developer.android.com/intl/es/reference/android/bluetooth/BluetoothAdapter.html},
-}
-
 @WWW{bluetoothLeScaner,
   title = {BluetoothLeScanner},
   url   = {http://developer.android.com/intl/es/reference/android/bluetooth/le/BluetoothLeScanner.html},
-}
-
-@WWW{bluetoothLeScaner,
-  title = {BluetoothLeScanner},
-  url   = {http://developer.android.com/intl/es/reference/android/bluetooth/le/BluetoothLeScanner.html},
-}
-
-@WWW{bluetoothLeScaner,
-  title = {BluetoothLeScanner},
-  url   = {http://developer.android.com/intl/es/reference/android/bluetooth/le/BluetoothLeScanner.html},
-}
-
-@WWW{androidDialog,
-  title = {Android Dialogs},
-  url   = {http://developer.android.com/intl/es/guide/topics/ui/dialogs.html},
-}
-
-@WWW{androidDialog,
-  title = {Android Dialogs},
-  url   = {http://developer.android.com/intl/es/guide/topics/ui/dialogs.html},
 }
 
 @WWW{androidDialog,
@@ -644,26 +231,6 @@
   url   = {https://www.google.com/design/spec/components/buttons-floating-action-button.html},
 }
 
-@WWW{materialDesign,
-  title = {Material Design},
-  url   = {https://www.google.com/design/spec/components/buttons-floating-action-button.html},
-}
-
-@WWW{materialDesign,
-  title = {Material Design},
-  url   = {https://www.google.com/design/spec/components/buttons-floating-action-button.html},
-}
-
-@WWW{telephonyManager,
-  title = {Android Teplephony Manager},
-  url   = {http://developer.android.com/intl/es/reference/android/telephony/TelephonyManager.html#getDeviceId()},
-}
-
-@WWW{telephonyManager,
-  title = {Android Teplephony Manager},
-  url   = {http://developer.android.com/intl/es/reference/android/telephony/TelephonyManager.html#getDeviceId()},
-}
-
 @WWW{telephonyManager,
   title = {Android Teplephony Manager},
   url   = {http://developer.android.com/intl/es/reference/android/telephony/TelephonyManager.html#getDeviceId()},
@@ -672,30 +239,6 @@
 @WWW{jcenter,
   title = {jCenter},
   url   = {https://bintray.com/bintray/jcenter},
-}
-
-@WWW{jcenter,
-  title = {jCenter},
-  url   = {https://bintray.com/bintray/jcenter},
-}
-
-@WWW{jcenter,
-  title = {jCenter},
-  url   = {https://bintray.com/bintray/jcenter},
-}
-
-@WWW{mvp,
-  author = {Antonio Leiva},
-  title  = {MVP for Android: how to organize the presentation layer},
-  year   = {2014},
-  url    = {http://antonioleiva.com/mvp-android/},
-}
-
-@WWW{mvp,
-  author = {Antonio Leiva},
-  title  = {MVP for Android: how to organize the presentation layer},
-  year   = {2014},
-  url    = {http://antonioleiva.com/mvp-android/},
 }
 
 @WWW{mvp,
@@ -711,41 +254,9 @@
   url   = {https://play.google.com/store/apps/details?id=com.wakdev.wdnfc},
 }
 
-@WWW{nfcTools,
-  title = {NFC Tools},
-  year  = {2016},
-  url   = {https://play.google.com/store/apps/details?id=com.wakdev.wdnfc},
-}
-
-@WWW{nfcTools,
-  title = {NFC Tools},
-  year  = {2016},
-  url   = {https://play.google.com/store/apps/details?id=com.wakdev.wdnfc},
-}
-
 @WWW{okhttp,
   title = {OkHttp},
   url   = {http://square.github.io/okhttp/},
-}
-
-@WWW{okhttp,
-  title = {OkHttp},
-  url   = {http://square.github.io/okhttp/},
-}
-
-@WWW{okhttp,
-  title = {OkHttp},
-  url   = {http://square.github.io/okhttp/},
-}
-
-@WWW{gson,
-  title = {GSON},
-  url   = {https://github.com/google/gson},
-}
-
-@WWW{gson,
-  title = {GSON},
-  url   = {https://github.com/google/gson},
 }
 
 @WWW{gson,
@@ -758,26 +269,6 @@
   url   = {http://jakewharton.github.io/butterknife/},
 }
 
-@WWW{butterKnife,
-  title = {ButterKnife},
-  url   = {http://jakewharton.github.io/butterknife/},
-}
-
-@WWW{butterKnife,
-  title = {ButterKnife},
-  url   = {http://jakewharton.github.io/butterknife/},
-}
-
-@WWW{eventBus,
-  title = {EventBus},
-  url   = {http://greenrobot.org/eventbus/},
-}
-
-@WWW{eventBus,
-  title = {EventBus},
-  url   = {http://greenrobot.org/eventbus/},
-}
-
 @WWW{eventBus,
   title = {EventBus},
   url   = {http://greenrobot.org/eventbus/},
@@ -788,14 +279,23 @@
   url   = {http://www.json.org/},
 }
 
-@WWW{json,
-  title = {JSON},
-  url   = {http://www.json.org/},
+@WWW{bleSecurity,
+  author = {Bluetooth SIG},
+  title  = {?Security, Bluetooth Smart (Low Energy)},
+  year   = {2016},
+  url    = {https://developer.bluetooth.org/TechnologyOverview/Pages/LE-Security.aspx},
 }
 
-@WWW{json,
-  title = {JSON},
-  url   = {http://www.json.org/},
+@WWW{nfcSecurity,
+  author = {NearFieldCommunication.org},
+  title  = {Security Concerns with NFC Technology},
+  url    = {http://www.nearfieldcommunication.org/nfc-security.html},
+}
+
+@Article{nfcSecurityTwo,
+  author = {Ernst Haselsteiner and Klemens Breitfuß},
+  title  = {Security in Near Field Communication (NFC)},
+  date   = {Jan. 28, 2012},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

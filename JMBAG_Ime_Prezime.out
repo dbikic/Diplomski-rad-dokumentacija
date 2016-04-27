@@ -1,9 +1,18 @@
 \BOOKMARK [0][-]{chapter*.2}{Popis slika}{}% 1
 \BOOKMARK [0][-]{chapter*.3}{Popis tablica}{}% 2
 \BOOKMARK [0][-]{chapter*.4}{Kazalo}{}% 3
-\BOOKMARK [0][-]{chapter.1}{Usporedba NFC-a i BLE-a}{}% 4
-\BOOKMARK [0][-]{chapter.2}{Zaklju?ak}{}% 5
-\BOOKMARK [0][-]{appendix.A}{Naslov priloga}{}% 6
-\BOOKMARK [1][-]{section.A.1}{Naslov sekcije}{appendix.A}% 7
-\BOOKMARK [1][-]{section.A.2}{Naslov sekcije}{appendix.A}% 8
-\BOOKMARK [0][-]{appendix*.11}{Bibliografija}{}% 9
+\BOOKMARK [0][-]{chapter.1}{Internetska aplikacija}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Baza podataka}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Internetska aplikacija}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{Sucelje za pristup}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Pocetno sucelje}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.3}{Poslovnica}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.4}{Popust}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.5}{Pregled kodova popusta}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.6}{Aplikacijsko programsko sucelje}{section.1.2}% 12
+\BOOKMARK [0][-]{chapter.2}{Usporedba NFC-a i BLE-a}{}% 13
+\BOOKMARK [0][-]{chapter.3}{Zaklju?ak}{}% 14
+\BOOKMARK [0][-]{appendix.A}{Naslov priloga}{}% 15
+\BOOKMARK [1][-]{section.A.1}{Naslov sekcije}{appendix.A}% 16
+\BOOKMARK [1][-]{section.A.2}{Naslov sekcije}{appendix.A}% 17
+\BOOKMARK [0][-]{appendix*.19}{Bibliografija}{}% 18

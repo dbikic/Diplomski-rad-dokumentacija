@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  27 APR 2016 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  27 APR 2016 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,8 +674,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 LaTeX Warning: Unused global option(s):
     [11].
 
-(./JMBAG_Ime_Prezime.aux (./08_Usporedba.aux) (./09_Zakljucak.aux)
-(./Prilog_1.aux) (./Literatura.aux) (./Reference.aux))
+(./JMBAG_Ime_Prezime.aux (./07_Internetska_aplikacija.aux) (./08_Usporedba.aux)
+(./09_Zakljucak.aux) (./Prilog_1.aux) (./Literatura.aux) (./Reference.aux))
 \openout1 = `JMBAG_Ime_Prezime.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -761,43 +761,132 @@ Non-PDF special ignored!
 
 ] [4
 
-] (./JMBAG_Ime_Prezime.toc)
+] (./JMBAG_Ime_Prezime.toc [5
+
+])
 \tf@toc=\write5
 \openout5 = `JMBAG_Ime_Prezime.toc'.
 
- [5
-
-]
+ [6]
 (./JMBAG_Ime_Prezime.lof)
 \tf@lof=\write6
 \openout6 = `JMBAG_Ime_Prezime.lof'.
 
- [6
+ [7
 
 ] (./JMBAG_Ime_Prezime.lot)
 \tf@lot=\write7
 \openout7 = `JMBAG_Ime_Prezime.lot'.
 
- [7
+ [8
 
 ] (./Kratice.tex)
-[8
+[9
 
 ]
+\openout2 = `07_Internetska_aplikacija.aux'.
+
+ (./07_Internetska_aplikacija.tex
+Poglavlje 1.
+<slike/web_baza.png, id=154, 963.6pt x 645.41125pt>
+File: slike/web_baza.png Graphic file (type png)
+ <use slike/web_baza.png>
+Package pdftex.def Info: slike/web_baza.png used on input line 12.
+(pdftex.def)             Requested size: 424.79399pt x 284.52756pt.
+
+[1
+
+
+
+] [2 <./slike/web_baza.png>]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 50.
+
+<slike/web_login.png, id=166, 402.50375pt x 297.11pt>
+File: slike/web_login.png Graphic file (type png)
+
+<use slike/web_login.png>
+Package pdftex.def Info: slike/web_login.png used on input line 56.
+(pdftex.def)             Requested size: 192.73897pt x 142.26378pt.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 63.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 63.
+
+[3 <./slike/web_login.png>]
+<slike/web_glavni.png, id=172, 1087.06125pt x 358.33875pt>
+File: slike/web_glavni.png Graphic file (type png)
+
+<use slike/web_glavni.png>
+Package pdftex.def Info: slike/web_glavni.png used on input line 70.
+(pdftex.def)             Requested size: 431.58229pt x 142.26378pt.
+
+Overfull \hbox (1.58229pt too wide) in paragraph at lines 70--71
+ [] 
+ []
+
+<slike/web_poslovnicaa.png, id=174, 558.085pt x 330.23375pt>
+File: slike/web_poslovnicaa.png Graphic file (type png)
+
+<use slike/web_poslovnicaa.png>
+Package pdftex.def Info: slike/web_poslovnicaa.png used on input line 85.
+(pdftex.def)             Requested size: 336.5993pt x 199.16928pt.
+
+<slike/web_popusti.png, id=177, 1086.0575pt x 283.0575pt>
+File: slike/web_popusti.png Graphic file (type png)
+
+<use slike/web_popusti.png>
+Package pdftex.def Info: slike/web_popusti.png used on input line 95.
+(pdftex.def)             Requested size: 425.7482pt x 110.96556pt.
+ [4 <./slike/web_glavni.png>]
+<slike/web_dodaj_popust.png, id=184, 310.15875pt x 532.99126pt>
+File: slike/web_dodaj_popust.png Graphic file (type png)
+
+<use slike/web_dodaj_popust.png>
+Package pdftex.def Info: slike/web_dodaj_popust.png used on input line 110.
+(pdftex.def)             Requested size: 165.57597pt x 284.52756pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./slike/web_poslovnicaa.png> <./slike/web_popusti.png>]
+<slike/web_kodovi.png, id=191, 1084.05pt x 161.60374pt>
+File: slike/web_kodovi.png Graphic file (type png)
+
+<use slike/web_kodovi.png>
+Package pdftex.def Info: slike/web_kodovi.png used on input line 123.
+(pdftex.def)             Requested size: 419.89963pt x 62.59596pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./slike/web_dodaj_popust.png>]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 131.
+
+[7 <./slike/web_kodovi.png>] <slike/web_json.png, id=203, 429.605pt x 481.8pt>
+File: slike/web_json.png Graphic file (type png)
+
+<use slike/web_json.png>
+Package pdftex.def Info: slike/web_json.png used on input line 138.
+(pdftex.def)             Requested size: 228.33853pt x 256.0748pt.
+) [8 <./slike/web_json.png>]
 \openout2 = `08_Usporedba.aux'.
 
  (./08_Usporedba.tex
-Poglavlje 1.
-
-Overfull \hbox (7.3177pt too wide) in paragraph at lines 13--14
-\OT1/cmr/m/n/12 (https://developer.bluetooth.org/TechnologyOverview/Pages/LE-Se
-curity.aspx), iako
- []
-
+Poglavlje 2.
 
 Underfull \vbox (badness 6758) has occurred while \output is active []
 
- [1
+ [9
 
 
 
@@ -806,111 +895,66 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [2]) [3]
+) [10]) [11]
 \openout2 = `09_Zakljucak.aux'.
 
 
 (./09_Zakljucak.tex
-Poglavlje 2.
-[4
+Poglavlje 3.
+[12
 
 
 
-]) [5]
+]) [13]
 \openout2 = `Prilog_1.aux'.
 
  (./Prilog_1.tex
 Dodatak A.
-) [6
+) [14
 
 
 
 ]
 \openout2 = `Literatura.aux'.
 
- (./Literatura.tex (./JMBAG_Ime_Prezime.bbl
-Underfull \hbox (badness 1521) in paragraph at lines 26--29
-[]\OT1/cmr/m/n/12 Ericsson. (2016) Eric-sson mo-bi-lity re-port. [Online]. Dos-
-
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 26--29
-\OT1/cmr/m/n/12 tupno na: [][]$http : / / www . ericsson . com / res / docs / 2
-016 / mobility-[]report /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
-\OT1/cmr/m/n/12 www . nxp . com / products / identi^^Lcation-[]and-[]security /
- smart-[]label-[]and-[]tag-[]ics /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
-\OT1/cmr/m/n/12 ntag / nfc-[]forum-[]type-[]2-[]tag-[]compliant-[]ic-[]with-[]1
-44-[]504-[]888-[]bytes-[]user-[]memory :
- []
-
-[7
+ (./Literatura.tex (./JMBAG_Ime_Prezime.bbl)) [15
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
- [8]
-Underfull \hbox (badness 4739) in paragraph at lines 189--192
-[]\OT1/cmr/m/n/12 Android ac-tion ndef dis-co-ve-red. [Online]. Dos-tupno
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--228
-\OT1/cmr/m/n/12 android . com / intl / es / reference / android / telephony / T
-elephonyManager . html #
- []
-
-)) [9]
 \openout2 = `Reference.aux'.
 
 
 No file Reference.tex.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
-(./JMBAG_Ime_Prezime.aux (./08_Usporedba.aux) (./09_Zakljucak.aux)
-(./Prilog_1.aux) (./Literatura.aux) (./Reference.aux))
+(./JMBAG_Ime_Prezime.aux (./07_Internetska_aplikacija.aux) (./08_Usporedba.aux)
+(./09_Zakljucak.aux) (./Prilog_1.aux) (./Literatura.aux) (./Reference.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `JMBAG_Ime_Prezime.out' has not changed.
-(rerunfilecheck)             Checksum: 356469D7A9F09EF7D8C2D24BC3869C5F;463.
+(rerunfilecheck)             Checksum: B313144CD3BF8922147374483A20F08F;1076.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 16480 strings out of 493089
- 319720 string characters out of 6134842
- 363655 words of memory out of 5000000
- 19663 multiletter control sequences out of 15000+600000
- 13833 words of font info for 51 fonts, out of 8000000 for 9000
+ 16487 strings out of 493089
+ 320274 string characters out of 6134842
+ 358453 words of memory out of 5000000
+ 19666 multiletter control sequences out of 15000+600000
+ 13793 words of font info for 51 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 44i,6n,39p,10418b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,7n,39p,10418b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on JMBAG_Ime_Prezime.pdf (17 pages, 119865 bytes).
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on JMBAG_Ime_Prezime.pdf (24 pages, 407902 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
+ 302 PDF objects out of 1000 (max. 8388607)
  258 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
