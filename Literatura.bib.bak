@@ -298,4 +298,53 @@
   date   = {Jan. 28, 2012},
 }
 
+@Article{mobilePayments,
+  author = {Swen van Klaarbergen},
+  title  = {Mobile Payment Transactions: BLE and/or NFC?},
+}
+
+@WWW{dalvikArt,
+  title = {ART and Dalvik},
+  url   = {https://source.android.com/devices/tech/dalvik/},
+}
+
+@WWW{androidDominacija,
+  author = {Farhad Manjoo},
+  title  = {A Murky Road Ahead for Android, Despite Market Dominance},
+  year   = {2015},
+  url    = {http://www.nytimes.com/2015/05/28/technology/personaltech/a-murky-road-ahead-for-android-despite-market-dominance.html},
+}
+
+@WWW{googlePlay,
+  title = {Google Play},
+  url   = {https://play.google.com/store},
+}
+
+@WWW{kupnjaAndroida,
+  author = {Own Thomas},
+  title  = {Google exec: Android was “best deal ever”},
+  year   = {2010},
+  url    = {http://venturebeat.com/2010/10/27/google-exec-android-was-best-deal-ever/},
+}
+
+@WWW{gradle,
+  title = {Gradle},
+  url   = {http://gradle.org/},
+}
+
+@WWW{androidStudio,
+  title = {Android Studio},
+  url   = {http://developer.android.com/tools/studio/index.html},
+}
+
+@WWW{inteliJ,
+  title = {IntelliJ IDEA},
+  url   = {https://www.jetbrains.com/idea/},
+}
+
+@WWW{kotlin,
+  title = {Kotlin},
+  url   = {https://kotlinlang.org/},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

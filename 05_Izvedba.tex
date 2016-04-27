@@ -1,6 +1,6 @@
 \chapter{Izvedba}
 
-Sustav kreiran kao prakti\v{c}ni dio ovoga rada se sastoji od mobilne i internetske aplikacije te je shodno tome ovo poglavlje podjeljeno na dva dijela u kojima su opisane korit\v{s}tene tehnologije i alati, te motivi za odabir istih. Iako su aplikacije iz razli\v{c}itih podru\v{c}ja ra\v{c}unarstva, razvoj im je organiziran i vo\dj en na isti nain, koriste\'{c}i alat Git \cite{git}. Git je alat kojeg je kreirao tim Linusa Torvaldsa (otac Linuxa i jedan od najbitnijih i zna\v{c}ajniji u ra\v{c}unarstvu uop\'{c}e) za potrebe razvoja jezgre Linux-a. Git slu\v{z}i za verzioniranje i organizaciju koda i funkcionira na na\v{c}in da korisnik grupira napravljene promjene u cjeline (commit-ove) koji \v{c}ine logi\v{c}ke cjeline (branch-eve) koje obi\v{c}no predstavljaju funkcionalnosti aplikacije. Na taj na\v{c}in je cijeli razvoj projekta evidentiran i u bilo kojem trenutku se mo\v{z}e vratiti na neko pro\v{s}lo stanje. Posebno je koristan u organizaciji timova od vi\v{s}e ljudi jer omogu\'{c}ava da vi\v{s}e ljudi radi na razl\v{c}iitim djelovima projketa (\v{c}ak i na istom kodu jer posjeduje mehanizam za rje\v{s}avanje konflikata nastalih ure\dj enjem iste linije koda od vi\v{s}e programera). U praksi se koriste i razli?ite metode kori\v{s}tenja Git-a, od kojih je naj\'{c}e\v{s}\'{c}e kori\v{s}tena ``Git flow?? \cite{git_flow}, koja specificira organizaciju branch-eva s ciljem standardizacije i efektivnijeg kori\v{s}tenja Git-a. Nadalje, u praksi se Git koristi u kombinaciji sa platformama za pohranjivanje projekata \v{s}to omogu\'{c}uje decentralizaciju projekta, kolaboraciju vi\v{s}e programera i sigurnost (rezervna kopija je serveru). Oba projekta koriste platformu Github \cite{github} koja je jedna od najkori\v{s}tenijih platformi za projekte otvorenog koda. Uz navedene prednosti, Github pru\v{z}a i dodatne statistike i informacije o projektu, kao npr. aktivnost graf napravljenih commitova u vremenu, prikazan na slici  ~\ref{fig:commits}.
+Sustav kreiran kao prakti\v{c}ni dio ovoga rada se sastoji od mobilne i internetske aplikacije te je shodno tome ovo poglavlje podjeljeno na dva dijela u kojima su opisane korit\v{s}tene tehnologije i alati, te motivi za odabir istih. Iako su aplikacije iz razli\v{c}itih podru\v{c}ja ra\v{c}unarstva, razvoj im je organiziran i vo\dj en na isti nain, koriste\'{c}i alat Git \cite{git}. Git je alat kojeg je kreirao tim Linusa Torvaldsa (otac Linuxa i jedan od najbitnijih i zna\v{c}ajniji u ra\v{c}unarstvu uop\'{c}e) za potrebe razvoja jezgre Linux-a. Git slu\v{z}i za verzioniranje i organizaciju koda i funkcionira na na\v{c}in da korisnik grupira napravljene promjene u cjeline (commit-ove) koji \v{c}ine logi\v{c}ke cjeline (branch-eve) koje obi\v{c}no predstavljaju funkcionalnosti aplikacije. Na taj na\v{c}in je cijeli razvoj projekta evidentiran i u bilo kojem trenutku se mo\v{z}e vratiti na neko pro\v{s}lo stanje. Posebno je koristan u organizaciji timova od vi\v{s}e ljudi jer omogu\'{c}ava da vi\v{s}e ljudi radi na razl\v{c}iitim djelovima projketa (\v{c}ak i na istom kodu jer posjeduje mehanizam za rje\v{s}avanje konflikata nastalih ure\dj enjem iste linije koda od vi\v{s}e programera). U praksi se koriste i razli\v{c}ite metode kori\v{s}tenja Git-a, od kojih je naj\'{c}e\v{s}\'{c}e kori\v{s}tena ``Git flow'' \cite{git_flow}, koja specificira organizaciju branch-eva s ciljem standardizacije i efektivnijeg kori\v{s}tenja Git-a. Nadalje, u praksi se Git koristi u kombinaciji sa platformama za pohranjivanje projekata \v{s}to omogu\'{c}uje decentralizaciju projekta, kolaboraciju vi\v{s}e programera i sigurnost (rezervna kopija je serveru). Oba projekta koriste platformu Github \cite{github} koja je jedna od najkori\v{s}tenijih platformi za projekte otvorenog koda. Uz navedene prednosti, Github pru\v{z}a i dodatne statistike i informacije o projektu, kao npr. aktivnost graf napravljenih commitova u vremenu, prikazan na slici  ~\ref{fig:commits}.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -9,6 +9,47 @@ Sustav kreiran kao prakti\v{c}ni dio ovoga rada se sastoji od mobilne i internet
  \label{fig:commits}
 	\end{center}
 \end{figure}
+
+\section{Mobilna aplikacija}
+
+\subsection{Tehnologija}
+Klijenstska mobilna aplikacija je razvijena za Android operativni sustav, \v{c}iji je logo prikazan na slici ~\ref{fig:android}. Android je baziran na Linux jezgri te je kao takav projekt otvorenog otvorenog koda. Razoj Androida vodi tvrtka Google (2005. godine Google kupuje tvrtku Android Inc. koja je po\v{c}ela sa razvojem Android-a \cite{kupnjaAndroida}) koja u suradnji s proizvo\dj a\v{c}ima pametnih telefona kreira Android operativni sustav kojeg ure\dj aji na tr\v{z}i\v{s}tu imaju instaliranog. Takav Android nije u potpunosti otvorenog koda jer uklju\v{c}uje aplikacije koje nisu otvorenog koda (najva\v{z}nija je Google Play \cite{googlePlay}, centralna platforma za distibuciju aplikacija, glazbe i filmova).
+
+\begin{figure}[!htbp]
+	\begin{center}
+ \includegraphics[height=4cm,keepaspectratio=true]{android}
+ \caption{Logo Android-a}
+ \label{fig:android}
+	\end{center}
+\end{figure}
+
+Zbog otvorenosti koda i mogu\'{c}nosti da svaki proizvo\dj a\v{c} kreira svoju verziju sustava (sa Google-ovim modulima ili bez), Android je danas najrasprostranjenija mobilna plaforma (danas svako drugo kupljeno ra\v{c}unalo ima instaliran Android operativni sustav \cite{androidDominacija}).
+
+Aplikacije za Android platformu se razvijaju u Java programskom jeziku (iako danas postoje kvalitetne alternative, prvenstveno zbog zastarijelosti Jave, koja je razvijena po\v{c}etkom 1990. godine, npr. Kotlin \cite{kotlin}), na na\v{c}in da se jezgra Java-e pro\v{s}iri sa Android SDK-om (Software Developtment Kit - skup alata, biblioteka i dokumentacije koji skupa \v{c}ine platformu za razvoj Android aplikacija). 
+
+Android aplikacije se na pametnom telefonu izvr\v{s}avaju na na\v{c}in da se za svaku aplikaciju u okru\v{z}ju za izvr\v{s}avanje kreira instanca virtualnog stroja. 
+Virtualni stroj pokre\'{c}e aplikacije tako da pokrene .dex datoteke koje se dobivaju prevo\dj enjem bytecode datoteka aplikacije (bytecode datoteke nastaju prevo\dj enjem izvornih .java datoteka i to radi okru\v{z}je za razvoj Android aplikacija). Do Android verzije 5.0 se za okru\v{z}je za izvr\v{s}avanje koristilo Dalvik VM okru\v{z}je, koje je kod svakog pokretanja aplikacije prevodio bytecode u .dex datoteke. Od Android 5.0 se koristi ART okru\v{z}enje koje vr\v{s}i prevo\dj enje bytecode datoteka unaprijed, odnosno prilikom instalacije aplikacije. Na taj na\v{c}in se smanjuje broj prevo\dj enja \v{s}to rezultira smanjivanjem kori\v{s}tenja procesora ure\dj aja i smanjenjem potro\v{s}nje baterije \cite{dalvikArt}.
+
+
+
+\subsection{Alati}
+Android studio
+http://developer.android.com/tools/studio/index.html
+
+Razvoj Android aplikacija se vr\v{s}i u integriranom razvojnom okru\v{z}enju Android Studio \cite{androidStudio}. Baziran je na okru\v{z}enju IntelliJ IDEA \cite{inteliJ} tvrtke JetBrains (ista tvrtka koja razvija programski jezik Kotlin \cite{kotlin}). Programerima pru\v{z}a razne funkcionalnosti koje uklju\v{c}uju:
+
+\begin{itemize}
+		\item Sustav izgradnje baziran na sustavu Gradle \cite{gradle}
+		\begin{itemize}
+			\item Pru\v{z}a jednostavno verzioniranje aplikacija, dodavanje knji\v{z}ica, testiranje aplikacije
+		\end{itemize}
+		\item Omogu\'{c}avanja izgradnje razli\v{c}itih verzija iste aplikacije
+		\begin{itemize}
+			\item Korisno ako programer \v{z}eli napraviti besplatu i pla\'{c}enu verziju aplikacije ili imati verziju aplikacije za testno i produkcijsko okru\v{z}enje
+		\end{itemize}
+		\item Intuitivni ure\dj iva\v{c} korisni\v{c}kih su\v{c}elja
+	\end{itemize}
+
 
 \section{Internetska aplikacija}
 
@@ -42,15 +83,5 @@ Kori\v{s}teni alati za izradu internetske aplikacije su:
 		\item Klijent za SFTP (Secure File Transfer Protocol) prijenos datoteka na poslu\v{z}itelj
 	\end{itemize}
 \end{itemize}
-
-
-\section{Mobilna aplikacija}
-
-\subsection{Tehnologija}
-
-
-\subsection{Alati}
-Android studio
-
 
 

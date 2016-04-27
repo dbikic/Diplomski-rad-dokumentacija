@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  27 APR 2016 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  27 APR 2016 20:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,8 +674,13 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 LaTeX Warning: Unused global option(s):
     [11].
 
-(./JMBAG_Ime_Prezime.aux (./07_Internetska_aplikacija.aux) (./08_Usporedba.aux)
-(./09_Zakljucak.aux) (./Prilog_1.aux) (./Literatura.aux) (./Reference.aux))
+(./JMBAG_Ime_Prezime.aux (./01_Uvod.aux) (./02_Specifikacija_rada.aux)
+(./03_NFC.aux) (./04_BLE.aux) (./05_Izvedba.aux) (./06_Android_aplikacija.aux
+
+LaTeX Warning: Label `fig:mvp' multiply defined.
+
+) (./07_Internetska_aplikacija.aux) (./08_Usporedba.aux) (./09_Zakljucak.aux)
+(./Prilog_1.aux) (./Literatura.aux) (./Reference.aux))
 \openout1 = `JMBAG_Ime_Prezime.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -761,50 +766,333 @@ Non-PDF special ignored!
 
 ] [4
 
-] (./JMBAG_Ime_Prezime.toc [5
+] (./JMBAG_Ime_Prezime.toc
+Underfull \vbox (badness 2334) has occurred while \output is active []
 
-])
+ [5
+
+]
+[6] [7])
 \tf@toc=\write5
 \openout5 = `JMBAG_Ime_Prezime.toc'.
 
- [6]
-(./JMBAG_Ime_Prezime.lof)
+ [8] (./JMBAG_Ime_Prezime.lof [9
+
+] [10])
 \tf@lof=\write6
 \openout6 = `JMBAG_Ime_Prezime.lof'.
 
- [7
-
-] (./JMBAG_Ime_Prezime.lot)
-\tf@lot=\write7
-\openout7 = `JMBAG_Ime_Prezime.lot'.
-
- [8
-
-] (./Kratice.tex)
-[9
+ [11] (./Kratice.tex) [12
 
 ]
+\openout2 = `01_Uvod.aux'.
+
+
+(./01_Uvod.tex
+Poglavlje 1.
+
+Underfull \vbox (badness 6157) has occurred while \output is active []
+
+ [1
+
+
+
+])
+[2]
+\openout2 = `02_Specifikacija_rada.aux'.
+
+ (./02_Specifikacija_rada.tex
+Poglavlje 2.
+<slike/nfc_sken.png, id=399, 466.74374pt x 613.29124pt>
+File: slike/nfc_sken.png Graphic file (type png)
+
+<use slike/nfc_sken.png>
+Package pdftex.def Info: slike/nfc_sken.png used on input line 10.
+(pdftex.def)             Requested size: 259.84349pt x 341.43306pt.
+ [3
+
+
+
+]
+<slike/ble_sken.png, id=405, 736.7525pt x 616.3025pt>
+File: slike/ble_sken.png Graphic file (type png)
+ <use slike/ble_sken.png>
+Package pdftex.def Info: slike/ble_sken.png used on input line 20.
+(pdftex.def)             Requested size: 408.17175pt x 341.43306pt.
+
+[4 <./slike/nfc_sken.png>] [5 <./slike/ble_sken.png>] [6]) [7]
+\openout2 = `03_NFC.aux'.
+
+ (./03_NFC.tex
+Poglavlje 3.
+<slike/nfc_forsquare.png, id=437, 1128.215pt x 1200.485pt>
+File: slike/nfc_forsquare.png Graphic file (type png)
+
+<use slike/nfc_forsquare.png>
+Package pdftex.def Info: slike/nfc_forsquare.png used on input line 8.
+(pdftex.def)             Requested size: 160.428pt x 170.71652pt.
+ [8
+
+
+
+]
+<slike/nfc_logo.png, id=446, 513.92pt x 513.92pt>
+File: slike/nfc_logo.png Graphic file (type png)
+ <use slike/nfc_logo.png>
+Package pdftex.def Info: slike/nfc_logo.png used on input line 18.
+(pdftex.def)             Requested size: 113.80771pt x 113.81102pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./slike/nfc_forsquare.png> <./slike/nfc_logo.png>]
+<slike/nfc_diagram.png, id=455, 860.21375pt x 248.93pt>
+File: slike/nfc_diagram.png Graphic file (type png)
+
+<use slike/nfc_diagram.png>
+Package pdftex.def Info: slike/nfc_diagram.png used on input line 37.
+(pdftex.def)             Requested size: 393.3011pt x 113.81102pt.
+ [10 <./slike/nfc_diagram.png>] [11] [12] [13]
+<slike/NTAG2161.png, id=484, 602.25pt x 542.025pt>
+File: slike/NTAG2161.png Graphic file (type png)
+ <use slike/NTAG2161.png>
+Package pdftex.def Info: slike/NTAG2161.png used on input line 148.
+(pdftex.def)             Requested size: 252.9157pt x 227.62204pt.
+
+[14 <./slike/NTAG2161.png>]) [15]
+\openout2 = `04_BLE.aux'.
+
+ (./04_BLE.tex
+Poglavlje 4.
+<slike/ble_logo.png, id=501, 321.2pt x 120.45pt>
+File: slike/ble_logo.png Graphic file (type png)
+ <use slike/ble_logo.png>
+Package pdftex.def Info: slike/ble_logo.png used on input line 6.
+(pdftex.def)             Requested size: 227.6272pt x 85.35826pt.
+
+Underfull \vbox (badness 4366) has occurred while \output is active []
+
+ [16
+
+
+
+ <./slike/ble_logo.png>] [17]
+<slike/dugmasta_baterija.jpg, id=515, 652.4375pt x 652.4375pt>
+File: slike/dugmasta_baterija.jpg Graphic file (type jpg)
+
+<use slike/dugmasta_baterija.jpg>
+Package pdftex.def Info: slike/dugmasta_baterija.jpg used on input line 32.
+(pdftex.def)             Requested size: 113.80992pt x 113.81102pt.
+
+Overfull \hbox (9.92749pt too wide) in paragraph at lines 43--44
+\OT1/cmr/m/n/12 BLE ure[]daj mo^^Tze ko-mu-ni-ci-rati sa dru-gim ure[]dajima pr
+eko dva na^^Tcina rada: ogla^^Tsavanje
+ []
+
+
+Underfull \vbox (badness 3735) has occurred while \output is active []
+
+ [18 <./slike/dugmasta_baterija.jpg>] [19] [20]
+Overfull \hbox (6.37737pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/12 nje oko-line s ci-ljem os-tva-ri-va-nja si-gurn ko-nek-cije te 
+os-tva-ri-va-nje i odr^^Tzavanje
+ []
+
+[21] [22] <slike/gimbal_s10.png, id=549, 115.632pt x 93.951pt>
+File: slike/gimbal_s10.png Graphic file (type png)
+
+<use slike/gimbal_s10.png>
+Package pdftex.def Info: slike/gimbal_s10.png used on input line 153.
+(pdftex.def)             Requested size: 245.16513pt x 199.16928pt.
+ [23 <./slike/gimbal_s10.png>]) [24]
+\openout2 = `05_Izvedba.aux'.
+
+
+(./05_Izvedba.tex
+Poglavlje 5.
+[25
+
+
+
+] <slike/git_commits.png, id=571, 491.8375pt x 195.73125pt>
+File: slike/git_commits.png Graphic file (type png)
+
+<use slike/git_commits.png>
+Package pdftex.def Info: slike/git_commits.png used on input line 7.
+(pdftex.def)             Requested size: 300.2906pt x 119.50148pt.
+ <slike/android.jpg, id=575, 1027.84pt x 770.88pt>
+File: slike/android.jpg Graphic file (type jpg)
+
+<use slike/android.jpg>
+Package pdftex.def Info: slike/android.jpg used on input line 20.
+(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
+ [26 <./slike/git_commits.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <./slike/android.jpg>] [28] [29]) [30]
+\openout2 = `06_Android_aplikacija.aux'.
+
+ (./06_Android_aplikacija.tex
+Poglavlje 6.
+[31
+
+
+
+] <slike/mvp.png, id=633, 974.64125pt x 241.90375pt>
+File: slike/mvp.png Graphic file (type png)
+ <use slike/mvp.png>
+Package pdftex.def Info: slike/mvp.png used on input line 21.
+(pdftex.def)             Requested size: 401.22653pt x 99.58464pt.
+
+[32 <./slike/mvp.png>]
+<slike/mvp_primjer.png, id=639, 541.27219pt x 273.27094pt>
+File: slike/mvp_primjer.png Graphic file (type png)
+
+<use slike/mvp_primjer.png>
+Package pdftex.def Info: slike/mvp_primjer.png used on input line 38.
+(pdftex.def)             Requested size: 422.67789pt x 213.39566pt.
+ [33 <./slike/mvp_primjer.png>]
+<slike/progressDialog.png, id=646, 1084.05pt x 370.38374pt>
+File: slike/progressDialog.png Graphic file (type png)
+
+<use slike/progressDialog.png>
+Package pdftex.def Info: slike/progressDialog.png used on input line 51.
+(pdftex.def)             Requested size: 249.8225pt x 85.35826pt.
+
+Overfull \hbox (34.89934pt too wide) in paragraph at lines 57--58
+[]\OT1/cmr/m/n/12 Metoda get-Sto-re-Con-fi-gu-ra-tion() kre-ira zah-tjev za kon
+-fi-gu-ra-ci-jom pos-lov-nice poslu^^Tzitelju.
+ []
+
+[34 <./slike/progressDialog.png>]
+<slike/storeCallback.png, id=652, 301.8778pt x 95.6072pt>
+File: slike/storeCallback.png Graphic file (type png)
+
+<use slike/storeCallback.png>
+Package pdftex.def Info: slike/storeCallback.png used on input line 62.
+(pdftex.def)             Requested size: 269.53177pt x 85.35826pt.
+ [35 <./slike/storeCallback.png>]
+<slike/intentFilter.png, id=659, 350.05782pt x 186.6975pt>
+File: slike/intentFilter.png Graphic file (type png)
+
+<use slike/intentFilter.png>
+Package pdftex.def Info: slike/intentFilter.png used on input line 78.
+(pdftex.def)             Requested size: 320.10745pt x 170.71652pt.
+
+Underfull \vbox (badness 7631) has occurred while \output is active []
+
+ [36 <./slike/intentFilter.png>] <slike/zapis_nfca.png, id=669, 3513.125pt x 20
+87.8pt>
+File: slike/zapis_nfca.png Graphic file (type png)
+
+<use slike/zapis_nfca.png>
+Package pdftex.def Info: slike/zapis_nfca.png used on input line 93.
+(pdftex.def)             Requested size: 430.88425pt x 256.0748pt.
+
+Overfull \hbox (0.88425pt too wide) in paragraph at lines 93--94
+ [] 
+ []
+
+[37]
+Underfull \vbox (badness 6510) has occurred while \output is active []
+
+ [38 <./slike/zapis_nfca.png>]
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 111.
+
+[39] <slike/dijalozi.png, id=698, 3176.86874pt x 691.58376pt>
+File: slike/dijalozi.png Graphic file (type png)
+
+<use slike/dijalozi.png>
+Package pdftex.def Info: slike/dijalozi.png used on input line 119.
+(pdftex.def)             Requested size: 431.28253pt x 93.89418pt.
+
+Overfull \hbox (1.28253pt too wide) in paragraph at lines 119--120
+ [] 
+ []
+
+<slike/pocetni_ekran.png, id=700, 1084.05pt x 1927.2pt>
+File: slike/pocetni_ekran.png Graphic file (type png)
+
+<use slike/pocetni_ekran.png>
+Package pdftex.def Info: slike/pocetni_ekran.png used on input line 134.
+(pdftex.def)             Requested size: 192.0439pt x 341.43306pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <./slike/dijalozi.png>] <slike/poslovnica.png, id=707, 3463.94125pt x 2058
+.69125pt>
+File: slike/poslovnica.png Graphic file (type png)
+
+<use slike/poslovnica.png>
+Package pdftex.def Info: slike/poslovnica.png used on input line 151.
+(pdftex.def)             Requested size: 430.82452pt x 256.0748pt.
+
+Overfull \hbox (0.82452pt too wide) in paragraph at lines 151--152
+ [] 
+ []
+
+
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+ [41 <./slike/pocetni_ekran.png>]
+Underfull \vbox (badness 2229) has occurred while \output is active []
+
+ [42 <./slike/poslovnica.png>]
+<slike/detalji_poslovnice.png, id=722, 3502.08376pt x 2054.67625pt>
+File: slike/detalji_poslovnice.png Graphic file (type png)
+
+<use slike/detalji_poslovnice.png>
+Package pdftex.def Info: slike/detalji_poslovnice.png used on input line 168.
+(pdftex.def)             Requested size: 436.42346pt x 256.0748pt.
+
+Overfull \hbox (6.42346pt too wide) in paragraph at lines 168--169
+ [] 
+ []
+
+
+Overfull \hbox (13.22191pt too wide) in paragraph at lines 176--178
+\OT1/cmr/m/n/12 Ekran po-pusta sadr^^Tzi op-ciju za pos-tav-lja-nje gor-nje gra
+-nice ja^^Tcine sig-nala BLE ogla^^Tsiva^^Tca
+ []
+
+<slike/postavke.png, id=724, 1084.05pt x 1927.2pt>
+File: slike/postavke.png Graphic file (type png)
+ <use slike/postavke.png>
+Package pdftex.def Info: slike/postavke.png used on input line 182.
+(pdftex.def)             Requested size: 192.0439pt x 341.43306pt.
+
+[43] [44 <./slike/detalji_poslovnice.png>] [45 <./slike/postavke.png>] [46
+
+]
+Overfull \hbox (5.58987pt too wide) in paragraph at lines 215--216
+[]\OT1/cmr/m/n/12 Knji^^Tzica koja uvodi ano-ta-cije koje po-ve-zuju kom-po-nen
+tu ko-risni^^Tckog su^^Tcelja
+ []
+
+) [47]
 \openout2 = `07_Internetska_aplikacija.aux'.
 
  (./07_Internetska_aplikacija.tex
-Poglavlje 1.
-<slike/web_baza.png, id=154, 963.6pt x 645.41125pt>
+Poglavlje 7.
+<slike/web_baza.png, id=762, 963.6pt x 645.41125pt>
 File: slike/web_baza.png Graphic file (type png)
  <use slike/web_baza.png>
 Package pdftex.def Info: slike/web_baza.png used on input line 12.
 (pdftex.def)             Requested size: 424.79399pt x 284.52756pt.
 
-[1
+[48
 
 
 
-] [2 <./slike/web_baza.png>]
+] [49 <./slike/web_baza.png>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 50.
 
-<slike/web_login.png, id=166, 402.50375pt x 297.11pt>
+<slike/web_login.png, id=773, 402.50375pt x 297.11pt>
 File: slike/web_login.png Graphic file (type png)
 
 <use slike/web_login.png>
@@ -821,8 +1109,8 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 63.
 
-[3 <./slike/web_login.png>]
-<slike/web_glavni.png, id=172, 1087.06125pt x 358.33875pt>
+[50 <./slike/web_login.png>]
+<slike/web_glavni.png, id=779, 1087.06125pt x 358.33875pt>
 File: slike/web_glavni.png Graphic file (type png)
 
 <use slike/web_glavni.png>
@@ -833,21 +1121,21 @@ Overfull \hbox (1.58229pt too wide) in paragraph at lines 70--71
  [] 
  []
 
-<slike/web_poslovnicaa.png, id=174, 558.085pt x 330.23375pt>
+<slike/web_poslovnicaa.png, id=781, 558.085pt x 330.23375pt>
 File: slike/web_poslovnicaa.png Graphic file (type png)
 
 <use slike/web_poslovnicaa.png>
 Package pdftex.def Info: slike/web_poslovnicaa.png used on input line 85.
 (pdftex.def)             Requested size: 336.5993pt x 199.16928pt.
 
-<slike/web_popusti.png, id=177, 1086.0575pt x 283.0575pt>
+<slike/web_popusti.png, id=783, 1086.0575pt x 283.0575pt>
 File: slike/web_popusti.png Graphic file (type png)
 
 <use slike/web_popusti.png>
 Package pdftex.def Info: slike/web_popusti.png used on input line 95.
 (pdftex.def)             Requested size: 425.7482pt x 110.96556pt.
- [4 <./slike/web_glavni.png>]
-<slike/web_dodaj_popust.png, id=184, 310.15875pt x 532.99126pt>
+ [51 <./slike/web_glavni.png>]
+<slike/web_dodaj_popust.png, id=789, 310.15875pt x 532.99126pt>
 File: slike/web_dodaj_popust.png Graphic file (type png)
 
 <use slike/web_dodaj_popust.png>
@@ -856,8 +1144,8 @@ Package pdftex.def Info: slike/web_dodaj_popust.png used on input line 110.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./slike/web_poslovnicaa.png> <./slike/web_popusti.png>]
-<slike/web_kodovi.png, id=191, 1084.05pt x 161.60374pt>
+ [52 <./slike/web_poslovnicaa.png> <./slike/web_popusti.png>]
+<slike/web_kodovi.png, id=796, 1084.05pt x 161.60374pt>
 File: slike/web_kodovi.png Graphic file (type png)
 
 <use slike/web_kodovi.png>
@@ -866,27 +1154,28 @@ Package pdftex.def Info: slike/web_kodovi.png used on input line 123.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./slike/web_dodaj_popust.png>]
+ [53 <./slike/web_dodaj_popust.png>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 131.
 
-[7 <./slike/web_kodovi.png>] <slike/web_json.png, id=203, 429.605pt x 481.8pt>
+[54 <./slike/web_kodovi.png>]
+<slike/web_json.png, id=808, 429.605pt x 481.8pt>
 File: slike/web_json.png Graphic file (type png)
-
-<use slike/web_json.png>
+ <use slike/web_json.png>
 Package pdftex.def Info: slike/web_json.png used on input line 138.
 (pdftex.def)             Requested size: 228.33853pt x 256.0748pt.
-) [8 <./slike/web_json.png>]
+)
+[55 <./slike/web_json.png>]
 \openout2 = `08_Usporedba.aux'.
 
  (./08_Usporedba.tex
-Poglavlje 2.
+Poglavlje 8.
 
 Underfull \vbox (badness 6758) has occurred while \output is active []
 
- [9
+ [56
 
 
 
@@ -895,71 +1184,123 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [10]) [11]
+) [57]) [58]
 \openout2 = `09_Zakljucak.aux'.
 
 
 (./09_Zakljucak.tex
-Poglavlje 3.
+Poglavlje 9.
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 1.
 
-) [12
+) [59
 
 
 
-] [13]
+] [60]
 \openout2 = `Prilog_1.aux'.
 
  (./Prilog_1.tex
 Dodatak A.
-) [14
+) [61
 
 
 
 ]
 \openout2 = `Literatura.aux'.
 
- (./Literatura.tex (./JMBAG_Ime_Prezime.bbl)) [15
+ (./Literatura.tex (./JMBAG_Ime_Prezime.bbl
+Underfull \hbox (badness 1521) in paragraph at lines 26--29
+[]\OT1/cmr/m/n/12 Ericsson. (2016) Eric-sson mo-bi-lity re-port. [Online]. Dos-
+
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 26--29
+\OT1/cmr/m/n/12 tupno na: [][]$http : / / www . ericsson . com / res / docs / 2
+016 / mobility-[]report /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+\OT1/cmr/m/n/12 www . nxp . com / products / identi^^Lcation-[]and-[]security /
+ smart-[]label-[]and-[]tag-[]ics /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+\OT1/cmr/m/n/12 ntag / nfc-[]forum-[]type-[]2-[]tag-[]compliant-[]ic-[]with-[]1
+44-[]504-[]888-[]bytes-[]user-[]memory :
+ []
+
+[62
 
 
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
+
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
+ [63]
+Underfull \hbox (badness 4739) in paragraph at lines 235--238
+[]\OT1/cmr/m/n/12 Android ac-tion ndef dis-co-ve-red. [Online]. Dos-tupno
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
+\OT1/cmr/m/n/12 android . com / intl / es / reference / android / telephony / T
+elephonyManager . html #
+ []
+
+[64])) [65]
 \openout2 = `Reference.aux'.
 
 
 No file Reference.tex.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
-(./JMBAG_Ime_Prezime.aux (./07_Internetska_aplikacija.aux) (./08_Usporedba.aux)
-(./09_Zakljucak.aux) (./Prilog_1.aux) (./Literatura.aux) (./Reference.aux))
+(./JMBAG_Ime_Prezime.aux (./01_Uvod.aux) (./02_Specifikacija_rada.aux)
+(./03_NFC.aux) (./04_BLE.aux) (./05_Izvedba.aux) (./06_Android_aplikacija.aux)
+(./07_Internetska_aplikacija.aux) (./08_Usporedba.aux) (./09_Zakljucak.aux)
+(./Prilog_1.aux) (./Literatura.aux) (./Reference.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `JMBAG_Ime_Prezime.out' has not changed.
-(rerunfilecheck)             Checksum: 253EC66BEC2C483E8100331BB5EE6BB4;1076.
+(rerunfilecheck)             Checksum: C5B126621E11ADCFD7C4EA5F760FE409;3072.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 16486 strings out of 493089
- 320260 string characters out of 6134842
- 358453 words of memory out of 5000000
- 19665 multiletter control sequences out of 15000+600000
- 13793 words of font info for 51 fonts, out of 8000000 for 9000
+ 16930 strings out of 493089
+ 327260 string characters out of 6134842
+ 374545 words of memory out of 5000000
+ 19878 multiletter control sequences out of 15000+600000
+ 14140 words of font info for 52 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 44i,7n,39p,10418b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,7n,39p,10418b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on JMBAG_Ime_Prezime.pdf (24 pages, 406192 bytes).
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on JMBAG_Ime_Prezime.pdf (77 pages, 2595538 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1038 PDF objects out of 1200 (max. 8388607)
+ 899 compressed objects within 9 object streams
+ 231 named destinations out of 1000 (max. 500000)
+ 551 words of extra memory for PDF output out of 10000 (max. 10000000)
 
