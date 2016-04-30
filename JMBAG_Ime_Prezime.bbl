@@ -21,12 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{mobilityReport}
-\BIBentryALTinterwordspacing
-Ericsson. (2016) Ericsson mobility report. [Online]. Dostupno na:
-  \url{http://www.ericsson.com/res/docs/2016/mobility-report/ericsson-mobility-report-feb-2016-interim.pdf}
-\BIBentrySTDinterwordspacing
-
 \bibitem{foursquare}
 \BIBentryALTinterwordspacing
 Forsquare. [Online]. Dostupno na: \url{https://foursquare.com/}
@@ -39,35 +33,44 @@ Nfc forum. [Online]. Dostupno na: \url{http://nfc-forum.org/}
 
 \bibitem{nfc_techonology}
 R.~. Schwarz, ``Near field communication (nfc) technology and measurements,''
-  2013.
+  06.03.2013.
+
+\bibitem{mobilityReport}
+\BIBentryALTinterwordspacing
+Ericsson. (02.2016) Ericsson mobility report. [Online]. Dostupno na:
+  \url{http://www.ericsson.com/res/docs/2016/mobility-report/ericsson-mobility-report-feb-2016-interim.pdf}
+\BIBentrySTDinterwordspacing
 
 \bibitem{nfc_types}
 \BIBentryALTinterwordspacing
-Nearfieldcommunication.org. Nfc signaling technologies. [Online]. Dostupno na:
-  \url{http://www.nearfieldcommunication.org/nfc-signaling.html}
+NearFieldCommunication.org. (15.12.2011.) Nfc signaling technologies. [Online].
+  Dostupno na: \url{http://www.nearfieldcommunication.org/nfc-signaling.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfc_arhitektura}
 \BIBentryALTinterwordspacing
-------. Near field communication technology standards. [Online]. Dostupno na:
+------. (15.12.2011.) Nfc technology standards. [Online]. Dostupno na:
   \url{http://www.nearfieldcommunication.org/technology.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfc_pasivni}
 \BIBentryALTinterwordspacing
-N.~forum. Tag type technical specifications. [Online]. Dostupno na:
+NFCForum. (17.07.2007.) Tag type technical specifications. [Online]. Dostupno
+  na:
   \url{http://nfc-forum.org/our-work/specifications-and-application-documents/specifications/tag-type-technical-specifications/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{whiztags}
 \BIBentryALTinterwordspacing
-Whiztags. [Online]. Dostupno na:
+Whiztags. Ntag 216 10 pack with free bonus tag and free nfc enabled keychain.
+  [Online]. Dostupno na:
   \url{http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nat_modul}
 \BIBentryALTinterwordspacing
-Ntag216 nfc modul specifikacija. [Online]. Dostupno na:
+N.~Products. (02.08.2013.) Ntag216 nfc modul specifikacija. [Online]. Dostupno
+  na:
   \url{http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216}
 \BIBentrySTDinterwordspacing
 
@@ -79,21 +82,22 @@ SIG. Bluetooth special interest group. [Online]. Dostupno na:
 
 \bibitem{ble_specification}
 \BIBentryALTinterwordspacing
-(2016) Bluetooth core specification. Bluetooth Special Interest Group.
+------. (2016) Bluetooth core specification. Bluetooth Special Interest Group.
   [Online]. Dostupno na:
   \url{https://www.bluetooth.com/specifications/adopted-specifications}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ble_introduction}
 \BIBentryALTinterwordspacing
-Argenox. Introduction to bluetooth low energy (ble) v4.0. [Online]. Dostupno
-  na:
+Argenox. (06.12.2014.) Introduction to bluetooth low energy (ble) v4.0.
+  [Online]. Dostupno na:
   \url{http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ble_getting_started}
 C.~C. K.~T. Robert~Davidson, Akiba, \emph{Getting Started with Bluetooth Low
-  Energy}.\hskip 1em plus 0.5em minus 0.4em\relax O'Reilly Media, Inc.
+  Energy}.\hskip 1em plus 0.5em minus 0.4em\relax O'Reilly Media, Inc.,
+  01.05.2014.
 
 \bibitem{automatic_museum_guide}
 \BIBentryALTinterwordspacing
@@ -109,8 +113,8 @@ Scosche. Heart rate monitor armband. [Online]. Dostupno na:
 
 \bibitem{ble_profiles}
 \BIBentryALTinterwordspacing
-C.~S. Corp. (2015) Bluetooth® low energy (ble) profiles and services. [Online].
-  Dostupno na:
+C.~S. Corp. (04.12.2015.) Bluetooth® low energy (ble) profiles and services.
+  [Online]. Dostupno na:
   \url{http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services}
 \BIBentrySTDinterwordspacing
 
@@ -122,13 +126,14 @@ G.~Store. Gimbal proximity beacon series 10. [Online]. Dostupno na:
 
 \bibitem{git}
 \BIBentryALTinterwordspacing
-L.~Torvalds. (2005). [Online]. Dostupno na: \url{https://git-scm.com/}
+L.~Torvalds. (2005) Git --fast-version-control. [Online]. Dostupno na:
+  \url{https://git-scm.com/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{git_flow}
 \BIBentryALTinterwordspacing
-V.~Driessen. (2010) A successful git branching model. [Online]. Dostupno na:
-  \url{http://nvie.com/posts/a-successful-git-branching-model/}
+V.~Driessen. (05.01.2010.) A successful git branching model. [Online]. Dostupno
+  na: \url{http://nvie.com/posts/a-successful-git-branching-model/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{github}
@@ -138,8 +143,8 @@ Github. [Online]. Dostupno na: \url{https://github.com/}
 
 \bibitem{kupnjaAndroida}
 \BIBentryALTinterwordspacing
-O.~Thomas. (2010) Google exec: Android was “best deal ever”. [Online]. Dostupno
-  na:
+O.~Thomas. (27.10.2010.) Google exec: Android was “best deal ever”. [Online].
+  Dostupno na:
   \url{http://venturebeat.com/2010/10/27/google-exec-android-was-best-deal-ever/}
 \BIBentrySTDinterwordspacing
 
@@ -150,8 +155,8 @@ Google play. [Online]. Dostupno na: \url{https://play.google.com/store}
 
 \bibitem{androidDominacija}
 \BIBentryALTinterwordspacing
-F.~Manjoo. (2015) A murky road ahead for android, despite market dominance.
-  [Online]. Dostupno na:
+F.~Manjoo. (28.05.2015.) A murky road ahead for android, despite market
+  dominance. [Online]. Dostupno na:
   \url{http://www.nytimes.com/2015/05/28/technology/personaltech/a-murky-road-ahead-for-android-despite-market-dominance.html}
 \BIBentrySTDinterwordspacing
 
@@ -162,7 +167,7 @@ Kotlin. [Online]. Dostupno na: \url{https://kotlinlang.org/}
 
 \bibitem{dalvikArt}
 \BIBentryALTinterwordspacing
-Art and dalvik. [Online]. Dostupno na:
+Google. (13.06.2014.) Art and dalvik. [Online]. Dostupno na:
   \url{https://source.android.com/devices/tech/dalvik/}
 \BIBentrySTDinterwordspacing
 
@@ -214,31 +219,31 @@ Filezilla. [Online]. Dostupno na: \url{https://filezilla-project.org/}
 
 \bibitem{mvp}
 \BIBentryALTinterwordspacing
-A.~Leiva. (2014) Mvp for android: how to organize the presentation layer.
-  [Online]. Dostupno na: \url{http://antonioleiva.com/mvp-android/}
+A.~Leiva. (15.04.2014.) Mvp for android: how to organize the presentation
+  layer. [Online]. Dostupno na: \url{http://antonioleiva.com/mvp-android/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{androidManifest}
 \BIBentryALTinterwordspacing
-Android manifest. [Online]. Dostupno na:
+Google. Android manifest. [Online]. Dostupno na:
   \url{http://developer.android.com/guide/topics/manifest/manifest-intro.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{NdefMessage}
 \BIBentryALTinterwordspacing
- [Online]. Dostupno na:
+Ndefmessage. [Online]. Dostupno na:
   \url{http://developer.android.com/reference/android/nfc/NdefMessage.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ndef_discovered}
 \BIBentryALTinterwordspacing
-Android action ndef discovered. [Online]. Dostupno na:
+Google. Android action ndef discovered. [Online]. Dostupno na:
   \url{http://developer.android.com/reference/android/nfc/NfcAdapter.html#ACTION_NDEF_DISCOVERED}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfcTools}
 \BIBentryALTinterwordspacing
-(2016) Nfc tools. [Online]. Dostupno na:
+Nfc tools. [Online]. Dostupno na:
   \url{https://play.google.com/store/apps/details?id=com.wakdev.wdnfc}
 \BIBentrySTDinterwordspacing
 
@@ -262,14 +267,14 @@ Material design. [Online]. Dostupno na:
 
 \bibitem{androidDialog}
 \BIBentryALTinterwordspacing
-Android dialogs. [Online]. Dostupno na:
-  \url{http://developer.android.com/intl/es/guide/topics/ui/dialogs.html}
+Google. Android dialogs. [Online]. Dostupno na:
+  \url{http://developer.android.com/guide/topics/ui/dialogs.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{telephonyManager}
 \BIBentryALTinterwordspacing
-Android teplephony manager. [Online]. Dostupno na:
-  \url{http://developer.android.com/intl/es/reference/android/telephony/TelephonyManager.html#getDeviceId()}
+------. Android teplephony manager, getdeviceid(). [Online]. Dostupno na:
+  \url{http://developer.android.com/reference/android/telephony/TelephonyManager.html#getDeviceId()}
 \BIBentrySTDinterwordspacing
 
 \bibitem{groovy}
@@ -310,21 +315,24 @@ Json. [Online]. Dostupno na: \url{http://www.json.org/}
 
 \bibitem{bleSecurity}
 \BIBentryALTinterwordspacing
-B.~SIG. (2016) Bluetooth smart (low energy) security. [Online]. Dostupno na:
+B.~SIG. (28.02.2015.) Bluetooth smart (low energy) security. [Online]. Dostupno
+  na:
   \url{https://developer.bluetooth.org/TechnologyOverview/Pages/LE-Security.aspx}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfcSecurity}
 \BIBentryALTinterwordspacing
-NearFieldCommunication.org. Security concerns with nfc technology. [Online].
-  Dostupno na: \url{http://www.nearfieldcommunication.org/nfc-security.html}
+NearFieldCommunication.org. (15.12.2011.) Security concerns with nfc
+  technology. [Online]. Dostupno na:
+  \url{http://www.nearfieldcommunication.org/nfc-security.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfcSecurityTwo}
 E.~Haselsteiner and K.~Breitfuß, ``Security in near field communication
-  (nfc).''
+  (nfc),'' 28.1.2012.
 
 \bibitem{mobilePayments}
 S.~van Klaarbergen, ``Mobile payment transactions: Ble and/or nfc?''
+  13.05.2014.
 
 \end{thebibliography}
