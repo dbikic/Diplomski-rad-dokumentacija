@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: JMBAG_Ime_Prezime.aux
+The top-level auxiliary file: 0069053128_Dino_Bikić.aux
 A level-1 auxiliary file: 01_Uvod.aux
 A level-1 auxiliary file: 02_Specifikacija_rada.aux
 A level-1 auxiliary file: 03_NFC.aux
@@ -10,7 +10,6 @@ A level-1 auxiliary file: 06_Android_aplikacija.aux
 A level-1 auxiliary file: 07_Internetska_aplikacija.aux
 A level-1 auxiliary file: 08_Usporedba.aux
 A level-1 auxiliary file: 09_Zakljucak.aux
-A level-1 auxiliary file: Prilog_1.aux
 A level-1 auxiliary file: Literatura.aux
 The style file: tex_aux/IEEEtranHR.bst
 A level-1 auxiliary file: Reference.aux
@@ -32,7 +31,7 @@ Warning--empty journal in mobilePayments
 Done.
 You've used 55 entries,
             4024 wiz_defined-function locations,
-            1042 strings with 12865 characters,
+            1041 strings with 12865 characters,
 and the built_in function-call counts, 16330 in all, are:
 = -- 1135
 > -- 147

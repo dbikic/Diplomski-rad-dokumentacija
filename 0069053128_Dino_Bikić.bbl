@@ -21,6 +21,12 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{mobilityReport}
+\BIBentryALTinterwordspacing
+Ericsson. (02.2016) Ericsson mobility report. [Online]. Dostupno na:
+  \url{http://www.ericsson.com/res/docs/2016/mobility-report/ericsson-mobility-report-feb-2016-interim.pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{foursquare}
 \BIBentryALTinterwordspacing
 Forsquare. [Online]. Dostupno na: \url{https://foursquare.com/}
@@ -34,12 +40,6 @@ Nfc forum. [Online]. Dostupno na: \url{http://nfc-forum.org/}
 \bibitem{nfc_techonology}
 R.~. Schwarz, ``Near field communication (nfc) technology and measurements,''
   06.03.2013.
-
-\bibitem{mobilityReport}
-\BIBentryALTinterwordspacing
-Ericsson. (02.2016) Ericsson mobility report. [Online]. Dostupno na:
-  \url{http://www.ericsson.com/res/docs/2016/mobility-report/ericsson-mobility-report-feb-2016-interim.pdf}
-\BIBentrySTDinterwordspacing
 
 \bibitem{nfc_types}
 \BIBentryALTinterwordspacing
