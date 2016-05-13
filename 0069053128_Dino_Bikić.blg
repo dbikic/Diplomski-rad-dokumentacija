@@ -39,7 +39,7 @@ Warning--empty journal in mobilePayments
 Done.
 You've used 57 entries,
             4024 wiz_defined-function locations,
-            1047 strings with 12937 characters,
+            1047 strings with 12963 characters,
 and the built_in function-call counts, 16896 in all, are:
 = -- 1177
 > -- 149

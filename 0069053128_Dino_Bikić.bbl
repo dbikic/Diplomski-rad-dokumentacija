@@ -34,7 +34,7 @@ Forsquare. [Online]. Dostupno na: \url{https://foursquare.com/}
 
 \bibitem{nfc_forum}
 \BIBentryALTinterwordspacing
-Nfc forum. [Online]. Dostupno na: \url{http://nfc-forum.org/}
+{NFC} forum. [Online]. Dostupno na: \url{http://nfc-forum.org/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfc_techonology}
@@ -49,7 +49,7 @@ NearFieldCommunication.org. (15.12.2011.) Nfc signaling technologies. [Online].
 
 \bibitem{nfc_arhitektura}
 \BIBentryALTinterwordspacing
-------. (15.12.2011.) Nfc technology standards. [Online]. Dostupno na:
+------. (15.12.2011.) {NFC} technology standards. [Online]. Dostupno na:
   \url{http://www.nearfieldcommunication.org/technology.html}
 \BIBentrySTDinterwordspacing
 
@@ -62,15 +62,15 @@ NFCForum. (17.07.2007.) Tag type technical specifications. [Online]. Dostupno
 
 \bibitem{whiztags}
 \BIBentryALTinterwordspacing
-Whiztags. Ntag 216 10 pack with free bonus tag and free nfc enabled keychain.
-  [Online]. Dostupno na:
+Whiztags. {NTAG} 216 10 pack with free bonus tag and free {NFC} enabled
+  keychain. [Online]. Dostupno na:
   \url{http://www.whiztags.com/products/ntag216-10-pack-with-free-bonus-tag-and-free-nfc-enabled-keychain}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nat_modul}
 \BIBentryALTinterwordspacing
-N.~Products. (02.08.2013.) Ntag216 nfc modul specifikacija. [Online]. Dostupno
-  na:
+N.~Products. (02.08.2013.) {NTAG}216 {NFC} modul specifikacija. [Online].
+  Dostupno na:
   \url{http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216}
 \BIBentrySTDinterwordspacing
 
@@ -113,8 +113,8 @@ Scosche. Heart rate monitor armband. [Online]. Dostupno na:
 
 \bibitem{ble_profiles}
 \BIBentryALTinterwordspacing
-C.~S. Corp. (04.12.2015.) Bluetooth� low energy (ble) profiles and services.
-  [Online]. Dostupno na:
+C.~S. Corp. (04.12.2015.) Bluetooth� low energy ({BLE}) profiles and
+  services. [Online]. Dostupno na:
   \url{http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services}
 \BIBentrySTDinterwordspacing
 
@@ -155,7 +155,7 @@ Google play. [Online]. Dostupno na: \url{https://play.google.com/store}
 
 \bibitem{androidDominacija}
 \BIBentryALTinterwordspacing
-F.~Manjoo. (28.05.2015.) A murky road ahead for android, despite market
+F.~Manjoo. (28.05.2015.) A murky road ahead for {A}ndroid, despite market
   dominance. [Online]. Dostupno na:
   \url{http://www.nytimes.com/2015/05/28/technology/personaltech/a-murky-road-ahead-for-android-despite-market-dominance.html}
 \BIBentrySTDinterwordspacing
@@ -229,7 +229,7 @@ Filezilla. [Online]. Dostupno na: \url{https://filezilla-project.org/}
 
 \bibitem{mvp}
 \BIBentryALTinterwordspacing
-A.~Leiva. (15.04.2014.) Mvp for android: how to organize the presentation
+A.~Leiva. (15.04.2014.) {MVP} for {A}ndroid: how to organize the presentation
   layer. [Online]. Dostupno na: \url{http://antonioleiva.com/mvp-android/}
 \BIBentrySTDinterwordspacing
 
@@ -253,7 +253,7 @@ Google. Android action ndef discovered. [Online]. Dostupno na:
 
 \bibitem{nfcTools}
 \BIBentryALTinterwordspacing
-Nfc tools. [Online]. Dostupno na:
+{NFC} tools. [Online]. Dostupno na:
   \url{https://play.google.com/store/apps/details?id=com.wakdev.wdnfc}
 \BIBentrySTDinterwordspacing
 
@@ -342,7 +342,7 @@ E.~Haselsteiner and K.~Breitfu�, ``Security in near field communication
   (nfc),'' 28.1.2012.
 
 \bibitem{mobilePayments}
-S.~van Klaarbergen, ``Mobile payment transactions: Ble and/or nfc?''
+S.~van Klaarbergen, ``Mobile payment transactions: {BLE} and/or {NFC}?''
   13.05.2014.
 
 \end{thebibliography}
