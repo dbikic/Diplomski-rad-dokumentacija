@@ -1,6 +1,6 @@
 
 \chapter{BLE tehnologija}
-BLE ( naziva se jo\v{s} i Bluetooth Smart) je be\v{z}i\v{c}ni protokol koji uz pomo\'{c} radiovalova omogu\'{c}uje komunikaciju dva ili vi\v{s}e ure\dj aja. Protokol je prvotno je razvila tvrtka Nokia pod imenom Wibree, ali 2007. godine dolazi pod nadle\v{z}nost neprofitnog tijela SIG \cite{sig}. SIG je organizacija koja nadgleda razvoj Bluetooth tehnologije i osigurava standardizaciju ure\dj aja kompatibilnih s Bluetooth tehnologijom. BLE tijekom 2010. godine postaje nova iteracija Bluetooth protokola (verzija 4.0.) iako je u po\v{c}etku bio zami\v{s}ljen kao komplementarni protokol. Aktualna verzija specifikacije je 4.2 \cite{ble_specification}. Na slici ~\ref{fig:ble} je prikazan logo BLE-a.
+BLE ( naziva se jo\v{s} i Bluetooth Smart) je be\v{z}i\v{c}ni protokol koji uz pomo\'{c} radiovalova omogu\'{c}uje komunikaciju dva ili vi\v{s}e ure\dj aja. Protokol je prvotno je razvila tvrtka Nokia pod imenom Wibree \cite{wibree}, ali 2007. godine dolazi pod nadle\v{z}nost neprofitnog tijela SIG \cite{sig}. SIG je organizacija koja nadgleda razvoj Bluetooth tehnologije i osigurava standardizaciju ure\dj aja kompatibilnih s Bluetooth tehnologijom. BLE tijekom 2010. godine postaje nova iteracija Bluetooth protokola (verzija 4.0.) iako je u po\v{c}etku bio zami\v{s}ljen kao komplementarni protokol. Aktualna verzija specifikacije je 4.2 \cite{ble_specification}. Na slici ~\ref{fig:ble} je prikazan logo BLE-a.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -19,13 +19,13 @@ Glavna ideja BLE protokola je omogu\'{c}iti funkcionanost Bluetooth-a uz \v{s}to
 \end{itemize}
 
 
-BLE tehnologiju se mo\v{z}e gledati kao pro\v{s}irenje funkcionalnosti klasi\v{c}nog Bluetootha koji je primarno usmjeren na kontinuiranu razmjenu podataka relativno velikom brzinom, dok je BLE usmjeren na manju potro\v{s}nju energije pri komunikaciji. Manja potro\v{s}nja energije rezultira i ve\'{c}im brojem paralelnih konekcija (klasi\v{c}ni Bluetooth mo\v{z}e imati do 7 paralelnih konekcija, a BLE teoretski beskona\v{c}no). Danas obje iteracije Bluetooth specifikacije mogu koegzistirati na tr\v{z}i\v{s}tu, upravo zbog razli\v{c}itih primjena.
+BLE tehnologiju se mo\v{z}e gledati kao pro\v{s}irenje funkcionalnosti klasi\v{c}nog Bluetootha koji je primarno usmjeren na kontinuiranu razmjenu podataka relativno velikom brzinom, dok je BLE usmjeren na manju potro\v{s}nju energije pri komunikaciji. Manja potro\v{s}nja energije rezultira i ve\'{c}im brojem paralelnih konekcija (klasi\v{c}ni Bluetooth mo\v{z}e imati do 7 paralelnih konekcija, a BLE teoretski beskona\v{c}no). Danas obje verzije Bluetooth specifikacije mogu koegzistirati na tr\v{z}i\v{s}tu, upravo zbog razli\v{c}itih primjena.
 
-BLE je temelj za iBeacon tehnologiju koja pru\v{z}a gotovo identi\v{c}ne funkcionalnosti, ali ju je razvio Apple, pa se shodno tome striktno koristi samo sa Apple-ovim ure\dj ajima.
+BLE je temelj za iBeacon tehnologiju koja pru\v{z}a gotovo identi\v{c}ne funkcionalnosti. iBeacon je razvila tvrtka Apple, pa se shodno tome striktno koristi samo sa Apple-ovim ure\dj ajima.
 
 \section{Arhitektura}
 
-BLE komunikacija zasniva se na radio valovima, u rasponu od 2.4 - 2.2835 GHz, preko kojih se \v{s}alju podaci podijeljeni na pakete. Frekventni spektar BLE-a je podijeljen na 40 kanala od 2 MHz, te se svaki paket \v{s}alje zasebno kroz kanal \cite{ble_introduction}. Paket se prije slanja modulira GFSK modulacijom i zatim \v{s}alje kroz kanal, teoretski maksimalnom brzinom od 1 Mbit/s (u praksi je to \v{c}esto manje zbog ograni\v{c}enja protokola i komunikacije radio valovima). Potro\v{s}nja energije je dvostruko manja od klasi\v{c}nog Bluetooth-a i iznosi 15 mA pri maksimalnom optere\'{c}enju modula, te se stoga ure\dj aji mogu napajati sa dugmastim baterijama (na ~\ref{fig:ble_baterija} je prikazana baterija koja je napajala BLE ure\dj aj kori\v{s}ten u ovom radu), \v{s}to prili\v{c}no pridonosi prenosivosti, veli\v{c}ini i cjenovnoj prihvatljivosti BLE ure\dj aja.
+BLE komunikacija zasniva se na radio valovima, u rasponu od 2.4 - 2.4835 GHz, preko kojih se \v{s}alju podaci podijeljeni na pakete. Frekvencijski spektar BLE-a je podijeljen na 40 kanala od 2 MHz, s time da su 3 kanala ogla\v{s}iva\v{c}ka i slu\v{z}e samo sa uspostavljanje konekcije. Paket se prije slanja modulira GFSK modulacijom i zatim \v{s}alje kroz kanal, teoretski maksimalnom brzinom od 1 Mbit/s (u praksi je to \v{c}esto manje zbog ograni\v{c}enja protokola i komunikacije radio valovima). Potro\v{s}nja energije je dvostruko manja od klasi\v{c}nog Bluetooth-a i iznosi 15 mA pri maksimalnom optere\'{c}enju modula, te se stoga ure\dj aji mogu napajati sa dugmastim baterijama (na ~\ref{fig:ble_baterija} je prikazana baterija koja je napajala BLE ure\dj aj kori\v{s}ten u ovom radu), \v{s}to prili\v{c}no pridonosi prenosivosti, veli\v{c}ini i cjenovnoj prihvatljivosti BLE ure\dj aja.
 
 
 \begin{figure}[!htbp]
@@ -53,18 +53,18 @@ Kod ogla\v{s}avanja ure\dj aj periodi\v{c}ki oda\v{s}ilje signal kojeg detektira
 	\begin{itemize}
 		\item Postavljaju se u blizini muzejskih eksponata
 	\end{itemize}
-	\item CMS-a
+	\item CMS (Content Management System)
 	\begin{itemize}
 		\item Sustav preko kojeg kustosi postavljaju informacije o eksponatu u audio, video i tekstualnom obliku
 	\end{itemize}
 	
 	\item Personaliziranu mobilnu aplikaciju
 	\begin{itemize}
-		\item Koriste\'{c}i BLE modul pametnog telefona, konstantno skenira prostor i tra\v{z}i ogla\v{s}iva\v{c}e
+		\item Aplikacija pomo\'{c} BLE modula pametnog telefona konstantno skenira prostor i tra\v{z}i ogla\v{s}iva\v{c}e
 	\end{itemize}
 \end{itemize}
 
-Svrha prozivoda je ta da korisnik sa upaljenom mobilnom aplikacijom dobiva preko pametnog telefona odre\dj eni sadr\v{z}aj kada u\dj e u domet ogla\v{s}iva\v{c}a. To se posti\v{z}e tako da mobilna aplikacija parsira ogla\v{s}iva\v{c}ev paket sa dodatnim podacima i na temelju dobivenih informacija preko CMS-a dobiva odgovaraju\'{c}i sadr\v{z}aj za specifi\v{c}an eksponat.
+Svrha proizvoda je ta da korisnik sa upaljenom mobilnom aplikacijom dobiva preko pametnog telefona odre\dj eni sadr\v{z}aj kada u\dj e u domet ogla\v{s}iva\v{c}a. To se posti\v{z}e tako da mobilna aplikacija parsira ogla\v{s}iva\v{c}ev paket sa dodatnim podacima i na temelju dobivenih informacija preko CMS-a dobiva odgovaraju\'{c}i sadr\v{z}aj za specifi\v{c}an eksponat.
 Prednosti ovakvog ogla\v{s}avanja su brzina i jednostavnost prijenosa, a mana je sigurnost, jer poslane pakete mogu primiti i ure\dj aji u dometu kojima ti paketi nisu bili prvotno namijenjeni.
 
 
@@ -93,12 +93,12 @@ Prednost uparivanja, kao na\v{c}ina rada BLE protokola, je sigurnost i optimizac
 Primjena BLE ure\dj aja se temelji na profilu ure\dj aja koji je specificiran od strane SIG-a. Profili su uvedeni s namjerom da BLE ure\dj aji proizvedeni od razli\v{c}itih proizvo\dj a\v{c}a budu standardizirani i me\dj usobno kompatibilni. Tako\dj er, profili garantiraju da ure\dj aj, ovisno o svojoj primjeni, koristi BLE protokol na optimiziran na\v{c}in. Postoje dva op\'{c}a profila koja definiraju osnovna svojstva protokola \cite{ble_getting_started}:
 
 \begin{itemize}
-	\item GAP
+	\item Generic Access Profile (GAP)
 	\begin{itemize}
 		\item Specificira komunikaciju na najni\v{z}oj razini (ogla\v{s}avanje paketa i skeniranje okoline s ciljem ostvarivanja sigurne konekcije te ostvarivanje i odr\v{z}avanje veze me\dj u ure\dj ajima)
 		\item Obavezno ga implementiraju svi BLE ure\dj aji
 	\end{itemize}
-	\item GATT
+	\item Generic Attribute Profile (GATT)
 	\begin{itemize}
 		\item Oslanja se na GAP te na vi\v{s}oj razini definira modele paketa i mehanizme za otkrivanje ure\dj aja i samu komunikaciju
 	\end{itemize}
@@ -108,38 +108,38 @@ Nadalje, SIG je u specifikaciji BLE-a pru\v{z}io i konfiguraciju GATT profila za
 
 
 \begin{itemize}
-	\item Prona\dj i me profil (FMP)
+	\item Find Me Profile (FMP)
 	\begin{itemize}
 		\item Omogu\'{c}uje ure\dj aju da detektira lokaciju drugog ure\dj aja
 	\end{itemize}
 	
-	\item Profil neposredne blizine (PXP)
+	\item Proximity Profile (PXP)
 	\begin{itemize}
 		\item Oslanja se na GAP te na vi\v{s}oj razini definira modele paketa i mehanizme za otkrivanje ure\dj aja i samu komunikaciju
 	\end{itemize}
 	
-	\item Profil HID preko GATT-a (HOGP)
+	\item HID over GATT Profile (HOGP)
 	\begin{itemize}
 		\item Omogu\'{c}ava slanje HID (Human Interface Device) podataka preko BLE ure\dj aja
 		\item Ovaj profil se naj\v{c}e\v{s}\'{c}e koristi za upravljanje tipkovnicama, mi\v{s}evima i daljinskim ure\dj ajima
 	\end{itemize}
 	
-	\item Glukozni profil (GLP)
+	\item Glucose Profile (GLP)
 	\begin{itemize}
 		\item Koristi se za mjerenje glukoze kod pacijenata
 	\end{itemize}
 	
-	\item Profil krvnog tlaka (BLP)
+	\item Blood Pressure Profile (BLP)
 	\begin{itemize}
 		\item Koristi se za mjerenje krvnog tlaka
 	\end{itemize}
 	
-	\item Profil otkucaja srca (HRP)
+	\item Heart Rate Profile (HRP)
 	\begin{itemize}
 		\item Koristi se za mjerenje otkucaja srca
 	\end{itemize}
 	
-	\item Profil biciklisti\v{c}ke brzine i ritma (CSCP)
+	\item Cycling Speed and Cadence Profile (CSCP)
 	\begin{itemize}
 		\item Omogu\'{c}ava pra\'{c}enje brzine i ritma biciklisti\v{c}ke vo\v{z}nje
 	\end{itemize}
@@ -152,7 +152,7 @@ Za potrebe ovog projekta kori\v{s}ten je Gimbal Proximity Beacon Series 10 BLE u
 \begin{figure}[!htbp]
 	\begin{center}
  \includegraphics[height=7cm,keepaspectratio=true]{gimbal_s10}
- \caption{Komunikacija dva NFC ure\dj aja}
+ \caption{Gimbal Proximity Beacon Series 10 BLE ogla\v{s}iva\v{c}}
  \label{fig:gimbal_oglasivac}
 	\end{center}
 \end{figure}

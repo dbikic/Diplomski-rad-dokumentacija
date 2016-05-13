@@ -74,6 +74,13 @@ N.~Products. (02.08.2013.) Ntag216 nfc modul specifikacija. [Online]. Dostupno
   \url{http://www.nxp.com/products/identification-and-security/smart-label-and-tag-ics/ntag/nfc-forum-type-2-tag-compliant-ic-with-144-504-888-bytes-user-memory:NTAG213_215_216}
 \BIBentrySTDinterwordspacing
 
+\bibitem{wibree}
+\BIBentryALTinterwordspacing
+Nokia. (03.10.2006) Nokia introduces wibree technology as open industry
+  initiative. [Online]. Dostupno na:
+  \url{http://company.nokia.com/en/news/press-releases/2006/10/03/nokia-introduces-wibree-technology-as-open-industry-initiative}
+\BIBentrySTDinterwordspacing
+
 \bibitem{sig}
 \BIBentryALTinterwordspacing
 SIG. Bluetooth special interest group. [Online]. Dostupno na:
@@ -85,13 +92,6 @@ SIG. Bluetooth special interest group. [Online]. Dostupno na:
 ------. (2016) Bluetooth core specification. Bluetooth Special Interest Group.
   [Online]. Dostupno na:
   \url{https://www.bluetooth.com/specifications/adopted-specifications}
-\BIBentrySTDinterwordspacing
-
-\bibitem{ble_introduction}
-\BIBentryALTinterwordspacing
-Argenox. (06.12.2014.) Introduction to bluetooth low energy (ble) v4.0.
-  [Online]. Dostupno na:
-  \url{http://www.argenox.com/bluetooth-low-energy-ble-v4-0-development/library/introduction-to-bluetooth-low-energy-v4-0/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ble_getting_started}
@@ -113,7 +113,7 @@ Scosche. Heart rate monitor armband. [Online]. Dostupno na:
 
 \bibitem{ble_profiles}
 \BIBentryALTinterwordspacing
-C.~S. Corp. (04.12.2015.) Bluetooth® low energy (ble) profiles and services.
+C.~S. Corp. (04.12.2015.) Bluetoothï¿½ low energy (ble) profiles and services.
   [Online]. Dostupno na:
   \url{http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services}
 \BIBentrySTDinterwordspacing
@@ -143,8 +143,8 @@ Github. [Online]. Dostupno na: \url{https://github.com/}
 
 \bibitem{kupnjaAndroida}
 \BIBentryALTinterwordspacing
-O.~Thomas. (27.10.2010.) Google exec: Android was “best deal ever”. [Online].
-  Dostupno na:
+O.~Thomas. (27.10.2010.) Google exec: Android was ï¿½best deal everï¿½.
+  [Online]. Dostupno na:
   \url{http://venturebeat.com/2010/10/27/google-exec-android-was-best-deal-ever/}
 \BIBentrySTDinterwordspacing
 
@@ -200,6 +200,16 @@ Css. [Online]. Dostupno na: \url{https://www.w3.org/Style/CSS/Overview.en.html}
 \bibitem{javascript}
 \BIBentryALTinterwordspacing
 Javascript. [Online]. Dostupno na: \url{https://www.javascript.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{mysql}
+\BIBentryALTinterwordspacing
+Mysql. MySQL. [Online]. Dostupno na: \url{http://www.mysql.com}
+\BIBentrySTDinterwordspacing
+
+\bibitem{php}
+\BIBentryALTinterwordspacing
+Php. PHP. [Online]. Dostupno na: \url{http://www.php.net}
 \BIBentrySTDinterwordspacing
 
 \bibitem{atom}
@@ -328,7 +338,7 @@ NearFieldCommunication.org. (15.12.2011.) Security concerns with nfc
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfcSecurityTwo}
-E.~Haselsteiner and K.~Breitfuß, ``Security in near field communication
+E.~Haselsteiner and K.~Breitfuï¿½, ``Security in near field communication
   (nfc),'' 28.1.2012.
 
 \bibitem{mobilePayments}

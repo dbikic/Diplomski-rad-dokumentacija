@@ -19,55 +19,63 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literatura.bib
+Repeated entry---line 170 of file Literatura.bib
+ : @www{mysql
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 175 of file Literatura.bib
+ : @www{php
+ :         ,
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in nfc_techonology
-Too many commas in name 1 of "Robert Davidson, Akiba, Carles Cufí, Kevin Townsend" for entry ble_getting_started
+Too many commas in name 1 of "Robert Davidson, Akiba, Carles Cufï¿½, Kevin Townsend" for entry ble_getting_started
 while executing---line 2411 of file tex_aux/IEEEtranHR.bst
 Warning--empty journal in nfcSecurityTwo
 Warning--empty journal in mobilePayments
 
 Done.
-You've used 55 entries,
+You've used 57 entries,
             4024 wiz_defined-function locations,
-            1041 strings with 12865 characters,
-and the built_in function-call counts, 16330 in all, are:
-= -- 1135
-> -- 147
+            1047 strings with 12937 characters,
+and the built_in function-call counts, 16896 in all, are:
+= -- 1177
+> -- 149
 < -- 0
-+ -- 86
++ -- 88
 - -- 30
-* -- 393
-:= -- 2972
-add.period$ -- 85
-call.type$ -- 55
-change.case$ -- 54
+* -- 405
+:= -- 3074
+add.period$ -- 89
+call.type$ -- 57
+change.case$ -- 56
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 1411
-empty$ -- 1790
+cite$ -- 60
+duplicate$ -- 1461
+empty$ -- 1854
 format.name$ -- 31
-if$ -- 3484
+if$ -- 3608
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 352
-newline$ -- 290
+int.to.str$ -- 57
+missing$ -- 364
+newline$ -- 300
 num.names$ -- 29
-pop$ -- 1255
+pop$ -- 1299
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1257
+skip$ -- 1301
 stack$ -- 0
 substring$ -- 3
-swap$ -- 706
+swap$ -- 730
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 55
+type$ -- 57
 warning$ -- 3
 while$ -- 29
-width$ -- 57
-write$ -- 500
-(There was 1 error message)
+width$ -- 59
+write$ -- 518
+(There were 3 error messages)

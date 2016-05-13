@@ -8,12 +8,12 @@ Glavna svrha sustava je kreirati platformu za mobilno ogla\v{s}avanje. Sustav \v
 \begin{figure}[!htbp]
 	\begin{center}
  \includegraphics[height=12cm,keepaspectratio=true]{nfc_sken}
- \caption{Prikaz procesa skeniranja NFC naljepnice (1), zahtjeva za konfiguracijom poslovnice (2) i dobivanje konfiguracje poslovnice (3).}
+ \caption{Prikaz procesa skeniranja NFC naljepnice (1), zahtjeva za poslovnicom (2) i dobivanje konfiguracje poslovnice (3).}
  \label{fig:skeniranjeNaljepnice}
 	\end{center}
 \end{figure}
 
-Kada aplikacija dobije konfiguraciju, po\v{c}inje sa skeniranjem okoline s ciljem nala\v{z}enja BLE ure\dj aja. Proizvodi na akciji imaju u svojoj neposrednoj blizini BLE ogla\v{s}iva\v{c} te korisniku koji prolazi pokraj police od proizvoda, ukoliko ima upaljenu aplikaciju, prona\dj eni popust postaje vidljiv u aplikaciji. Ukoliko se korisnik odlu\v{c}i na iskori\v{s}tavanje popusta, podnese zahtjev za kodom popusta. Zahtjev je vezan za korisnikov ure\dj aj (zbog za\v{s}tite od zloupotrebe - svaki ure\dj aj mo\v{z}e jedan popust ostvariti maksimalno jednom) te korisnik dobiva kod za popust kojeg je, s ciljem ostvarivanja popusta, du\v{z}an prikazati na blagajni. Opisani postupci su prikazani na slici  ~\ref{fig:otkrivanjeBLEa}.
+Kada aplikacija dobije konfiguraciju, po\v{c}inje sa skeniranjem okoline s ciljem nala\v{z}enja BLE ure\dj aja. Proizvodi na akciji imaju u svojoj neposrednoj blizini BLE ogla\v{s}iva\v{c} te korisniku koji prolazi pokraj proizvoda, ukoliko ima upaljenu aplikaciju, prona\dj eni popust postaje vidljiv u aplikaciji. Ukoliko se korisnik odlu\v{c}i na iskori\v{s}tavanje popusta, podnese zahtjev za kodom popusta. Zahtjev je vezan za korisnikov ure\dj aj (zbog za\v{s}tite od zloupotrebe - svaki ure\dj aj mo\v{z}e jedan popust ostvariti maksimalno jednom) te korisnik dobiva kod za popust kojeg je, s ciljem ostvarivanja popusta, du\v{z}an prikazati na blagajni. Opisani postupci su prikazani na slici  ~\ref{fig:otkrivanjeBLEa}.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -49,7 +49,7 @@ Rezultat ovog rada je teoretska obrada dva sli\v{c}na be\v{z}i\v{c}na protokola 
 	\item Su\v{c}elje za trgova\v{c}ke lance
 	\begin{itemize}
 		\item Implementirano dodavanje i ure\dj ivanje poslovnica
-		\item Implementirano dodavanje popusta za odre\dj eni proizvod i povezivanje popusta sa odgovaraju\v{c}im ogla\v{s}iva\v{c}em
+		\item Implementirano dodavanje popusta za odre\dj eni proizvod i povezivanje popusta s odgovaraju\'{c}im ogla\v{s}iva\v{c}em
 		\item Implementirano upravljanje popustima i pregledavanje iskori\v{s}tenih popusta
 	\end{itemize}
 	\item API su\v{c}elje
