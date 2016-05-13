@@ -1,4 +1,3 @@
-
 \chapter{Android aplikacija}
 
 \section{Arhitektura}
@@ -155,14 +154,22 @@ Slika \ref{fig:poslovnica} prikazuje inicijalizirani ekran te dodatne informacij
 	\end{center}
 \end{figure}
 
-Kada je poslovnica inicijalizirana po\v{c}inje potraga za ogla\v{s}iva\v{c}ima pomo\'{c}u opisane BLE komunikacije. Metoda za uspje\v{s}ni pronalazak ogla\v{s}iva\v{c}a poziva se svaki put kada telefon detektira ogla\v{s}iva\v{c} (konstantno se poziva dokle god je ogla\v{s}iva\v{c} u dometu telefona), te je zato implementirana logika pam\'{c}enja pronalazaka. Stoga, kada ogla\v{s}iva\v{c} bude prona\dj en prolazi se kroz popis popusta poslovnice te se uspore\dj uju zadana strojna adresa ogla\v{s}iva\v{c}a vezanog za popust i strojna adresa prona\dj enog ogla\v{s}iva\v{c}a. Ukoliko su jednake i popust jo\v{s} nije prikazan, popust se dodaje na listu popusta. Time je postignuta funkcionalnost da se korisniku puni lista popusta dok hoda kroz poslovnicu, koja je tako\dj er prikazana na slici \ref{fig:poslovnica}. Kada korisnik klikne na neki od popusta prikazuje mu se ekran detalja popusta.
-
+Kada je poslovnica inicijalizirana po\v{c}inje potraga za ogla\v{s}iva\v{c}ima pomo\'{c}u opisane BLE komunikacije. Potraga uklju\v{c}uje skeniranje okoline telefona te pozivanje metode za uspje\v{s}ni pronalazak ogla\v{s}iva\v{c}a. Implementirana je i logika pam\'{c}enja pronalazaka jer ogla\v{s}iva\v{c} oda\v{s}ilje signal te ga telefon  detektira dok god je u njegovom dometu. Stoga, kada ogla\v{s}iva\v{c} bude prona\dj en prolazi se kroz popis popusta poslovnice te se uspore\dj uju zadana strojna adresa ogla\v{s}iva\v{c}a vezanog za popust i strojna adresa prona\dj enog ogla\v{s}iva\v{c}a. Ukoliko su jednake i popust jo\v{s} nije prikazan, popust se dodaje na listu popusta. Time je postignuta funkcionalnost da se korisniku puni lista popusta dok hoda kroz poslovnicu, koja je tako\dj er prikazana na slici \ref{fig:poslovnica}. Kada korisnik klikne na neki od popusta prikazuje mu se ekran detalja popusta.
 
 \subsection{Ekran detalja popusta}
 
-Kada korisnik prvi put otvori ekran detalja odgovaraju\'{c}eg popusta prikazani su mu detalji popusta u obliku: jedan detalj -  jedna kartica. Detalji se sastoje od imena proizvoda, stare i nove cijene, postotaka popusta i datuma isteka popusta. Ukoliko nije aktivirao popust, korisniku je predstavljen omogu\'{c}eni FAB gumb (univerzalna Android komponenta za aktiviranje glavne akcije ekrana, definirana u Material design specifikaciji \cite{materialDesign}) koji slu\v{z}i za kreiranje zahtjeva za kodom popusta. Prilikom kreiranja zahtjeva \v{c}ita se identifikator ure\dj aja (koriste\'{c}i Andorid-ovu klasu TelephonyManager \cite{telephonyManager} koja u ovisnosti o dostupnosti vra\'{c}a IMEI, MEID ili ESN broj koji je jednozna\v{c}an za svaki ure\dj aj) s ciljem ograni\v{c}avanja izdanih kodova na jedan po ure\dj aju. Ukoliko je zahtjev uspje\v{s}an korisnik je o tome obavje\v{s}ten odgovaraju\'{c}om porukom te mu se na detaljima popusta pojavljuje nova kartica koja sadr\v{z}i kod kojeg je du\v{z}an prikazati na blagajni. Na slici \ref{fig:detalji_poslovnice} je prikazan opisan ekran i stanja u kojima se mo\v{z}e nalaziti.
+Kada korisnik prvi put otvori ekran detalja odgovaraju\'{c}eg popusta prikazani su mu detalji popusta u obliku: jedan detalj -  jedna kartica. Detalji se sastoje od imena proizvoda, stare i nove cijene, postotaka popusta i datuma isteka popusta. Ukoliko nije aktivirao popust, korisniku je predstavljen omogu\'{c}eni FAB gumb (univerzalna Android komponenta za aktiviranje glavne akcije ekrana, definirana u Material design specifikaciji \cite{materialDesign}), prikazan na slici \ref{fig:fab} .
+
+\begin{figure}[!htbp]
+	\begin{center}
+ \includegraphics[height=3cm,keepaspectratio=true]{fab}
+ \caption{FAB komponenta za aktivaciju popusta}
+ \label{fig:fab}
+	\end{center}
+\end{figure}
 
 
+Pritiskom na FAB kreira se zahtjev za kodom popusta. Zahtjev sadr\v{z}i identifikator ure\dj aja (koriste\'{c}i Andorid klasu TelephonyManager \cite{telephonyManager} koja u ovisnosti o dostupnosti vra\'{c}a IMEI, MEID ili ESN broj koji je jednozna\v{c}an za svaki ure\dj aj) s ciljem ograni\v{c}avanja izdanih kodova na jedan po ure\dj aju. Ukoliko je zahtjev uspje\v{s}an, korisnik je o tome obavije\v{s}ten odgovaraju\'{c}om porukom. Tada mu se na detaljima popusta pojavljuje nova kartica koja sadr\v{z}i kod koji je du\v{z}an prikazati na blagajni. Na slici \ref{fig:detalji_poslovnice} je prikazan opisani ekran i stanja u kojima se mo\v{z}e nalaziti.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -174,14 +181,12 @@ Kada korisnik prvi put otvori ekran detalja odgovaraju\'{c}eg popusta prikazani 
 
 
 \subsection{Ekran postavki}
-Ekran popusta sadr\v{z}i opciju za postavljanje gornje granice ja\v{c}ine signala BLE ogla\v{s}iva\v{c}a koja je dovoljna da aplikacija detektira ogla\v{s}iva\v{c}. Granica ozna\v{c}ava numeri\v{c}ku vrijednost u decibelima te se prilikom detekcije BLE ogla\v{s}iva\v{c}a evaluira vrijednost detekiranog signala te, ukoliko je unutar unutrar zadane granice, aplikacija nastavlja sa obra\dj ivanjem BLE ogla\v{s}iva\v{c}a.
-Odabrana numeri\v{c}ka vrijednost se zapisuje u internu memoriju pametnog telefona te ona ostaje dostupna i nakon \v{s}to aplikacija prestane sa radom. Slika \ref{fig:postavke} prikazuje ekran postavki.
-
+Ekran popusta sadr\v{z}i opciju za postavljanje donje granice ja\v{c}ine signala BLE ogla\v{s}iva\v{c}a koja je dovoljna da aplikacija detektira ogla\v{s}iva\v{c}. Donja granica ozna\v{c}ava numeri\v{c}ku vrijednost u decibelima te se prilikom detekcije BLE ogla\v{s}iva\v{c}a evaluira ja\v{c}ina detekiranog signala. Ukoliko je ja\v{c}ina signala unutrar zadane granice, aplikacija nastavlja sa obra\dj ivanjem detektiranog BLE ogla\v{s}iva\v{c}a. Odabrana numeri\v{c}ka vrijednost se zapisuje u internu memoriju pametnog telefona te ona ostaje dostupna i nakon \v{s}to aplikacija prestane sa radom. Slika \ref{fig:postavke} prikazuje ekran postavki.
 
 \begin{figure}[!htbp]
 	\begin{center}
  \includegraphics[height=12cm,keepaspectratio=true]{postavke}
- \caption{Ekran postavki u kojemu je korisniku dopu\v{s}teno odabrati gornju granicu ja\v{c}ine signala, dovoljnog za detekciju od strane aplikacije}
+ \caption{Ekran postavki u kojemu je korisnik mo\v{z}e birati koliko slab signal \'{c}e biti uzet u obzir prilikom skeniranja okoline u potrazi BLE ogla\v{s}iva\v{c}ima}
  \label{fig:postavke}
 	\end{center}
 \end{figure}
@@ -189,7 +194,7 @@ Odabrana numeri\v{c}ka vrijednost se zapisuje u internu memoriju pametnog telefo
 
 \section{Kori\v{s}tene knji\v{z}nice}
 
-Knji\v{z}nica ozna\v{c}ava skup resursa koji se dodaju u izvorni kod projekta, a slu\v{z}e za pru\v{z}anje odre\dj enih funkcionalnosti. Uklju\v{c}ivanjem knji\v{z}nica u projekt se mo\v{z}e bitno skratiti vrijeme potrebno za razvoj jer nije potrebno implementirati ne\v{s}to \v{s}to je ve\'{c} implementirano, dobro testirano i stavljeno na tr\v{z}i\v{s}te. S druge strane, dodavanjem knji\v{z}nice se dobivaju sve njene funkcionalnosti koje mogu pove\'{c}ati veli\v{c}inu projekta (potencijalni problem kod Androida jer korisnici ne preferiraju aplikacije koje zauzimaju puno memorije).
+Knji\v{z}nica ozna\v{c}ava skup resursa koji se dodaju u izvorni kod projekta, a slu\v{z}e za pru\v{z}anje odre\dj enih funkcionalnosti. Uklju\v{c}ivanje knji\v{z}nica u projekt mo\v{z}e bitno skratiti vrijeme potrebno za razvoj jer nije potrebno implementirani ne\v{s}to \v{s}to je ve\'{c} razvijeno, dobro testirano i stavljeno na tr\v{z}i\v{s}te. S druge strane, dodavanjem knji\v{z}nice se dobivaju sve njene funkcionalnosti koje mogu pove\'{c}ati veli\v{c}inu projekta (potencijalni problem kod Androida jer korisnici ne preferiraju aplikacije koje zauzimaju puno memorije).
 Dodavanje knji\v{z}nica se u Android-u se radi preko Gradle priklju\v{c}ka \cite{gradle} koji slu\v{z}i za izgradnju projekta. Proces dodavanja knji\v{z}nice uklju\v{c}uje upis lokacije knji\v{z}nice u datoteku build.gradle (konfiguracijska datoteka zapisana u programskom jeziku Groovy \cite{groovy}, koja definira izgradnju projekta). Lokacija knji\v{z}nice je zapravo ime paketa i verzija \v{z}eljene knji\v{z}nice, \v{s}to je dovoljno informacija Gradle priklju\v{c}ku da je prona\dj e na repozitoriju jCenter \cite{jcenter} (centralni repozitor za Android knji\v{z}nice otvorenog koda) i preuzme. Tada kod knji\v{z}nice postaje dostupan za kori\v{s}tenje u cijelom projektu.
 Kori\v{s}tene knji\v{z}nice su:
 

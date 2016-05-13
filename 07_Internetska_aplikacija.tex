@@ -18,30 +18,12 @@ Baza podataka sastoji se od \v{s}est tablica te je modelirana po tre\'{c}oj norm
 
 Baza podataka se sastoji od sljede\'{c}ih tablica:
 \begin{itemize}
-	\item Lanac trgovina
-	\begin{itemize}
-		\item Sadr\v{z}i naziv i e-mail adresu lanca trgovina
-	\end{itemize}
-	\item Poslovnica
-	\begin{itemize}
-		\item Sadr\v{z}i osnovne informacije o poslovnici i referencu na lanac trgovina
-	\end{itemize}
-	\item Popust
-	\begin{itemize}
-		\item Sadr\v{z}i osnovne informacije o popustu i referencu na poslovnicu i ogla\v{s}iva\v{c}
-	\end{itemize}
-	\item Ogla\v{s}iva\v{c}
-	\begin{itemize}
-		\item Sadr\v{z}i naziv i strojnu adresu ogla\v{s}iva\v{c}a
-	\end{itemize}
-	\item Kod za popust
-	\begin{itemize}
-		\item Sadr\v{z}i kod, vrijeme aktivacije i identifikator korisnika te referencu na popust
-	\end{itemize}
-	\item Korisnik
-	\begin{itemize}
-		\item Korisnik internetske aplikacije, vezan je za lanac trgovina
-	\end{itemize}
+	\item Lanac trgovina - sadr\v{z}i naziv i e-mail adresu lanca trgovina
+	\item Poslovnica - sadr\v{z}i osnovne informacije o poslovnici i referencu na lanac trgovina
+	\item Popust - sadr\v{z}i osnovne informacije o popustu i referencu na poslovnicu i ogla\v{s}iva\v{c}
+	\item Ogla\v{s}iva\v{c} - sadr\v{z}i naziv i strojnu adresu ogla\v{s}iva\v{c}a
+	\item Kod za popust - sadr\v{z}i kod, vrijeme aktivacije i identifikator korisnika te referencu na popust
+	\item Korisnik - korisnik internetske aplikacije, vezan je za lanac trgovina
 \end{itemize}
 
 
@@ -79,7 +61,7 @@ Kada se korisnik prijavi u sustav u centralnom dijelu su\v{c}elja mu se prika\v{
 
 \subsection{Poslovnica}
 
-U aplikaciji je implementirano dodavanje, ure\dj ivanje i brisanje poslovnice, a odgovaraju\'{c}a su\v{c}elja su prikazana na slici ~\ref{fig:web_poslovnicaa}.
+U aplikaciji je implementirano dodavanje, ure\dj ivanje i brisanje poslovnice, a odgovaraju\'{c}a su\v{c}elja prikazana su na slici ~\ref{fig:web_poslovnicaa}.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -113,7 +95,7 @@ Korisniku je omogu\'{c}eno kreiranje, ure\dj ivanje i brisanje popusta. Na slici
  \label{fig:web_dodaj_popust}
 	\end{center}
 \end{figure}
-Kod kreiranja popusta je potrebno unijeti osnovne informacije o popustu koje uklju\v{c}uju i ogla\v{s}iva\v{c} za kojeg je popust vezan, kao i poslovnice u kojim se popust mo\v{z}e ostvariti. Kod ure\dj ivanja popusta koji je ve\'{c} vezan za poslovnicu korisnik mo\v{z}e, uz osnovne informacije, promijeniti samo ogla\v{s}iva\v{c} za kojeg je popust vezan.
+Kod kreiranja popusta potrebno je unijeti osnovne informacije o popustu koje uklju\v{c}uju i ogla\v{s}iva\v{c} za kojeg je popust vezan, kao i poslovnice u kojim se popust mo\v{z}e ostvariti. Kod ure\dj ivanja popusta koji je ve\'{c} vezan za poslovnicu korisnik mo\v{z}e, uz osnovne informacije, promijeniti samo ogla\v{s}iva\v{c} za kojeg je popust vezan.
 
 
 \subsection{Pregled kodova popusta}

@@ -34,22 +34,22 @@
 \contentsline {subsection}{\numberline {6.2.2}Ekran poslovnice}{40}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Ekran detalja popusta}{42}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}Ekran postavki}{42}{subsection.6.2.4}
-\contentsline {section}{\numberline {6.3}Kori\v {s}tene knji\v {z}nice}{45}{section.6.3}
+\contentsline {section}{\numberline {6.3}Kori\v {s}tene knji\v {z}nice}{44}{section.6.3}
 \contentsline {chapter}{\numberline {7}Internetska aplikacija}{47}{chapter.7}
 \contentsline {section}{\numberline {7.1}Baza podataka}{47}{section.7.1}
 \contentsline {section}{\numberline {7.2}Internetska aplikacija}{49}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Su\v {c}elje za pristup}{49}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Po\v {c}etno su\v {c}elje}{50}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}Po\v {c}etno su\v {c}elje}{49}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Poslovnica}{50}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Popust}{52}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Pregled kodova popusta}{53}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.4}Popust}{51}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Pregled kodova popusta}{52}{subsection.7.2.5}
 \contentsline {subsection}{\numberline {7.2.6}API su\v {c}elje}{53}{subsection.7.2.6}
 \contentsline {chapter}{\numberline {8}Usporedba NFC-a i BLE-a}{55}{chapter.8}
-\contentsline {subsubsection}{Domet}{55}{section*.35}
-\contentsline {subsubsection}{Sigurnost}{56}{section*.36}
-\contentsline {subsubsection}{Potro\v {s}nja energije}{56}{section*.37}
-\contentsline {subsubsection}{Cijena}{56}{section*.38}
-\contentsline {subsubsection}{Dostupnost}{57}{section*.39}
-\contentsline {subsubsection}{Primjena}{57}{section*.40}
+\contentsline {subsubsection}{Domet}{55}{section*.36}
+\contentsline {subsubsection}{Sigurnost}{56}{section*.37}
+\contentsline {subsubsection}{Potro\v {s}nja energije}{56}{section*.38}
+\contentsline {subsubsection}{Cijena}{56}{section*.39}
+\contentsline {subsubsection}{Dostupnost}{57}{section*.40}
+\contentsline {subsubsection}{Primjena}{57}{section*.41}
 \contentsline {chapter}{\numberline {9}Zaklju\v {c}ak}{58}{chapter.9}
-\contentsline {chapter}{Bibliografija}{60}{chapter*.41}
+\contentsline {chapter}{Bibliografija}{60}{chapter*.42}
