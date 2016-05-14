@@ -66,12 +66,12 @@ U aplikaciji je implementirano dodavanje, ure\dj ivanje i brisanje poslovnice, a
 \begin{figure}[!htbp]
 	\begin{center}
  \includegraphics[height=7cm,keepaspectratio=true]{web_poslovnicaa}
- \caption{Dodavanje i ure\dj ivanje poslovnice}
+ \caption{Dodavanje (a) i ure\dj ivanje (b) poslovnice}
  \label{fig:web_poslovnicaa}
 	\end{center}
 \end{figure}
 
-Korisnik sa popisa poslovnica mo\v{z}e odabrati i pregled popusta poslovnice, te mu se tada u centralnom dijelu su\v{c}elja prikazuju svi popusti poslovnice prikazani na slici ~\ref{fig:web_popusti}.
+Korisnik sa popisa poslovnica mo\v{z}e odabrati i pregled popusta poslovnice, te mu se tada u centralnom dijelu su\v{c}elja prikazuju svi popusti poslovnice. Popusti su strukturirani u tablicu iz koje korisnik mo\v{z}e pro\v{c}itati podatke o popustu, kao i napraviti akcije koje uklju\v{c}uju ure\dj ivanje i brisanje popusta te pregled aktivacijskih kodova poslovnice. Na slici ~\ref{fig:web_popusti} je prikazano opisano su\v{c}elje.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -81,35 +81,32 @@ Korisnik sa popisa poslovnica mo\v{z}e odabrati i pregled popusta poslovnice, te
 	\end{center}
 \end{figure}
 
-Popusti su strukturirani u tablicu iz koje korisnik mo\v{z}e pro\v{c}itati podatke o popustu, kao i napraviti akcije koje uklju\v{c}uju ure\dj ivanje i brisanje popusta te pregled aktivacijskih kodova poslovnice.
 
 
 \subsection{Popust}
 
-Korisniku je omogu\'{c}eno kreiranje, ure\dj ivanje i brisanje popusta. Na slici ~\ref{fig:web_dodaj_popust} su prikazane forme za kreiranje i ure\dj ivanje popusta.
+Korisniku je omogu\'{c}eno kreiranje, ure\dj ivanje i brisanje popusta. Kod kreiranja popusta potrebno je unijeti osnovne informacije o popustu koje uklju\v{c}uju i ogla\v{s}iva\v{c} za kojeg je popust vezan, kao i poslovnice u kojim se popust mo\v{z}e ostvariti. Kod ure\dj ivanja popusta koji je ve\'{c} vezan za poslovnicu korisnik mo\v{z}e, uz osnovne informacije, promijeniti samo ogla\v{s}iva\v{c} za kojeg je popust vezan. Na slici ~\ref{fig:web_dodaj_popust} su prikazane forme za kreiranje i ure\dj ivanje popusta.
 
 \begin{figure}[!htbp]
 	\begin{center}
- \includegraphics[height=10cm,keepaspectratio=true]{web_dodaj_popust}
- \caption{Popusti poslovnice}
+ \includegraphics[height=12cm,keepaspectratio=true]{web_dodaj_popust}
+ \caption{Dodavanje (a) i ure\dj ivanje (b) popusta.}
  \label{fig:web_dodaj_popust}
 	\end{center}
 \end{figure}
-Kod kreiranja popusta potrebno je unijeti osnovne informacije o popustu koje uklju\v{c}uju i ogla\v{s}iva\v{c} za kojeg je popust vezan, kao i poslovnice u kojim se popust mo\v{z}e ostvariti. Kod ure\dj ivanja popusta koji je ve\'{c} vezan za poslovnicu korisnik mo\v{z}e, uz osnovne informacije, promijeniti samo ogla\v{s}iva\v{c} za kojeg je popust vezan.
+
 
 
 \subsection{Pregled kodova popusta}
-Za svaki popust u poslovnici je omogu\'{c}eno i pregledavanje kodova koji su izdani za popuste. Primjer aktiviranih kodova je prikazan na slici ~\ref{fig:web_kodovi}.
+Za svaki popust u poslovnici je omogu\'{c}eno i pregledavanje kodova koji su izdani za popuste. Primjer aktiviranih kodova je prikazan na slici ~\ref{fig:web_kodovi}. Na su\v{c}elju su prikazane informacije o popustu koje uklju\v{c}uju identifikator korisnika (IMEI broj njegovog pametnog telefona), aktivacijski kod, vrijeme aktiviranja koda i opcija brisanja aktivacije.
 
 \begin{figure}[!htbp]
 	\begin{center}
- \includegraphics[height=2.2cm,keepaspectratio=true]{web_kodovi}
+ \includegraphics[height=3.5cm,keepaspectratio=true]{web_kodovi}
  \caption{Aktivirani kodovi popusta}
  \label{fig:web_kodovi}
 	\end{center}
 \end{figure}
-
-Na su\v{c}elju su prikazane informacije o popustu koje uklju\v{c}uju identifikator korisnika (IMEI broj njegovog pametnog telefona), aktivacijski kod, vrijeme aktiviranja koda i opcija brisanja aktivacije.
 
 \subsection{API su\v{c}elje}
 
@@ -118,7 +115,7 @@ API su\v{c}elje ozna\v{c}ava skup pravila komunikacije kojeg koriste dva ra\v{c}
 
 \begin{figure}[!htbp]
 	\begin{center}
- \includegraphics[height=9cm,keepaspectratio=true]{web_json}
+ \includegraphics[height=11cm,keepaspectratio=true]{web_json}
  \caption{Aktivirani kodovi popusta}
  \label{fig:web_json}
 	\end{center}

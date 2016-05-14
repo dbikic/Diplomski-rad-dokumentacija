@@ -14,7 +14,7 @@ Glavna ideja BLE protokola je omogu\'{c}iti funkcionanost Bluetooth-a uz \v{s}to
 
 \begin{itemize}
 	\item Danas gotovo svaki novi pametni telefon na tr\v{z}i\v{s}tu ima BLE \v{c}ip, \v{c}ime je ta tehnologija dostupna mnogo ve\'{c}em tr\v{z}i\v{s}tu
-	\item \v{c}ipovi su jeftiniji, manji i zahtijevaju manje energije, \v{s}to otvara vrata mnogim novim implementacijama elektroni\v{c}kih ure\dj aja
+	\item \v{C}ipovi su jeftiniji, manji i zahtijevaju manje energije, \v{s}to otvara vrata mnogim novim implementacijama elektroni\v{c}kih ure\dj aja
 	\item Protokol je br\v{z}i za odre\dj ene primjene jer, za razliku od klasi\v{c}nog Bluetooth-a, ne zahtijeva autentifikaciju ure\dj aja
 \end{itemize}
 
@@ -25,7 +25,7 @@ BLE je temelj za iBeacon tehnologiju koja pru\v{z}a gotovo identi\v{c}ne funkcio
 
 \section{Arhitektura}
 
-BLE komunikacija zasniva se na radio valovima, u rasponu od 2.4 - 2.4835 GHz, preko kojih se \v{s}alju podaci podijeljeni na pakete. Frekvencijski spektar BLE-a je podijeljen na 40 kanala od 2 MHz, s time da su 3 kanala ogla\v{s}iva\v{c}ka i slu\v{z}e samo sa uspostavljanje konekcije. Paket se prije slanja modulira GFSK modulacijom i zatim \v{s}alje kroz kanal, teoretski maksimalnom brzinom od 1 Mbit/s (u praksi je to \v{c}esto manje zbog ograni\v{c}enja protokola i komunikacije radio valovima). Potro\v{s}nja energije je dvostruko manja od klasi\v{c}nog Bluetooth-a i iznosi 15 mA pri maksimalnom optere\'{c}enju modula, te se stoga ure\dj aji mogu napajati sa dugmastim baterijama (na ~\ref{fig:ble_baterija} je prikazana baterija koja je napajala BLE ure\dj aj kori\v{s}ten u ovom radu), \v{s}to prili\v{c}no pridonosi prenosivosti, veli\v{c}ini i cjenovnoj prihvatljivosti BLE ure\dj aja.
+BLE komunikacija zasniva se na radio valovima, u rasponu od 2.4 - 2.4835 GHz, preko kojih se \v{s}alju podaci podijeljeni na pakete. Frekvencijski spektar BLE-a je podijeljen na 40 kanala od 2 MHz, s time da su 3 kanala ogla\v{s}iva\v{c}ka i slu\v{z}e samo za uspostavljanje konekcije. Paket se prije slanja modulira GFSK modulacijom i zatim \v{s}alje kroz kanal, teoretski maksimalnom brzinom od 1 Mb/s (u praksi je to \v{c}esto manje zbog ograni\v{c}enja protokola i komunikacije radio valovima). Potro\v{s}nja energije je dvostruko manja od klasi\v{c}nog Bluetooth-a i iznosi 15 mA pri maksimalnom optere\'{c}enju modula, te se stoga ure\dj aji mogu napajati sa dugmastim baterijama (na ~\ref{fig:ble_baterija} je prikazana baterija koja je napajala BLE ure\dj aj kori\v{s}ten u ovom radu), \v{s}to prili\v{c}no pridonosi prenosivosti, veli\v{c}ini i cjenovnoj prihvatljivosti BLE ure\dj aja.
 
 
 \begin{figure}[!htbp]
@@ -53,14 +53,14 @@ Kod ogla\v{s}avanja ure\dj aj periodi\v{c}ki oda\v{s}ilje signal kojeg detektira
 	\begin{itemize}
 		\item Postavljaju se u blizini muzejskih eksponata
 	\end{itemize}
-	\item CMS (Content Management System)
+	\item Content Management System (CMS)
 	\begin{itemize}
 		\item Sustav preko kojeg kustosi postavljaju informacije o eksponatu u audio, video i tekstualnom obliku
 	\end{itemize}
 	
 	\item Personaliziranu mobilnu aplikaciju
 	\begin{itemize}
-		\item Aplikacija pomo\'{c} BLE modula pametnog telefona konstantno skenira prostor i tra\v{z}i ogla\v{s}iva\v{c}e
+		\item Aplikacija pomo\'{c}u BLE modula pametnog telefona konstantno skenira prostor i tra\v{z}i ogla\v{s}iva\v{c}e
 	\end{itemize}
 \end{itemize}
 

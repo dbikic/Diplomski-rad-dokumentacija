@@ -30,14 +30,14 @@ Sloj Presenter sadr\v{z}i glavnu logiku Android aplikacije iz razloga \v{s}to je
 
 Sloj Model je zadu\v{z}en za dohva\'{c}anje podataka (iz interne memorije ure\dj aja, baze podataka aplikacije ili internetskog poslu\v{z}itelja) i serijaliziranje istih u modele koji se koriste u ostatku aplikacije. Iz tog razloga se dijeli na dva dijela: interactor (vr\v{s}i interakciju sa podacima) i same modele (Java klase).
 
-MVP se na Android platformi, u programskom jeziku Java, implementira uz pomo\'{c} su\v{c}elja u kojima su definirani prototipi metoda koje klasa koja implementira su\v{c}elje mora implementirati. Ovaj na\v{c}in podi\v{z}e razinu apstraktnosti i dopu\v{s}ta programeru da prvo dobro logi\v{c}ki osmisli najbolji na\v{c}in za napraviti MVP sa datim zahtjevima, s ciljem maksimiziranja efekata obrasca, a zatim da se posveti i samoj implementaciji. Na slici ~\ref{fig:mvp} je na primjeru dohva\'{c}anja konfiguracije poslovnice prikazana implementacija MVP obrasca u napravljenoj Android aplikaciji.
+MVP se na Android platformi, u programskom jeziku Java, implementira uz pomo\'{c} su\v{c}elja u kojima su definirani prototipi metoda koje klasa koja implementira su\v{c}elje mora implementirati. Ovaj na\v{c}in podi\v{z}e razinu apstraktnosti i dopu\v{s}ta programeru da prvo dobro logi\v{c}ki osmisli najbolji na\v{c}in za napraviti MVP sa datim zahtjevima, s ciljem maksimiziranja efekata obrasca, a zatim da se posveti i samoj implementaciji. Na slici ~\ref{fig:mvp_primjer} je na primjeru dohva\'{c}anja konfiguracije poslovnice prikazana implementacija MVP obrasca u napravljenoj Android aplikaciji.
 
 
 \begin{figure}[!htbp]
 	\begin{center}
  \includegraphics[height=7.5cm,keepaspectratio=true]{mvp_primjer}
  \caption{Primjer MVP-a u napravljenoj aplikaciji}
- \label{fig:mvp}
+ \label{fig:mvp_primjer}
 	\end{center}
 \end{figure}
 

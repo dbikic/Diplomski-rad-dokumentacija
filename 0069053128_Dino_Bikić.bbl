@@ -38,13 +38,14 @@ Forsquare. [Online]. Dostupno na: \url{https://foursquare.com/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfc_techonology}
-R.~. Schwarz, ``Near field communication (nfc) technology and measurements,''
+R.~. Schwarz, ``Near field communication ({NFC}) technology and measurements,''
   06.03.2013.
 
 \bibitem{nfc_types}
 \BIBentryALTinterwordspacing
-NearFieldCommunication.org. (15.12.2011.) Nfc signaling technologies. [Online].
-  Dostupno na: \url{http://www.nearfieldcommunication.org/nfc-signaling.html}
+NearFieldCommunication.org. (15.12.2011.) {NFC} signaling technologies.
+  [Online]. Dostupno na:
+  \url{http://www.nearfieldcommunication.org/nfc-signaling.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfc_arhitektura}
@@ -113,8 +114,8 @@ Scosche. Heart rate monitor armband. [Online]. Dostupno na:
 
 \bibitem{ble_profiles}
 \BIBentryALTinterwordspacing
-C.~S. Corp. (04.12.2015.) Bluetooth� low energy ({BLE}) profiles and
-  services. [Online]. Dostupno na:
+C.~S. Corp. (04.12.2015.) Bluetooth low energy ({BLE}) profiles and services.
+  [Online]. Dostupno na:
   \url{http://www.cypress.com/documentation/software-and-drivers/bluetooth-low-energy-ble-profiles-and-services}
 \BIBentrySTDinterwordspacing
 
@@ -143,8 +144,8 @@ Github. [Online]. Dostupno na: \url{https://github.com/}
 
 \bibitem{kupnjaAndroida}
 \BIBentryALTinterwordspacing
-O.~Thomas. (27.10.2010.) Google exec: Android was �best deal ever�.
-  [Online]. Dostupno na:
+O.~Thomas. (27.10.2010.) Google exec: Android was best deal ever. [Online].
+  Dostupno na:
   \url{http://venturebeat.com/2010/10/27/google-exec-android-was-best-deal-ever/}
 \BIBentrySTDinterwordspacing
 
@@ -209,7 +210,7 @@ Mysql. MySQL. [Online]. Dostupno na: \url{http://www.mysql.com}
 
 \bibitem{php}
 \BIBentryALTinterwordspacing
-Php. PHP. [Online]. Dostupno na: \url{http://www.php.net}
+Php. [Online]. Dostupno na: \url{http://www.php.net}
 \BIBentrySTDinterwordspacing
 
 \bibitem{atom}
@@ -332,14 +333,14 @@ B.~SIG. (28.02.2015.) Bluetooth smart (low energy) security. [Online]. Dostupno
 
 \bibitem{nfcSecurity}
 \BIBentryALTinterwordspacing
-NearFieldCommunication.org. (15.12.2011.) Security concerns with nfc
+NearFieldCommunication.org. (15.12.2011.) Security concerns with {NFC}
   technology. [Online]. Dostupno na:
   \url{http://www.nearfieldcommunication.org/nfc-security.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{nfcSecurityTwo}
-E.~Haselsteiner and K.~Breitfu�, ``Security in near field communication
-  (nfc),'' 28.1.2012.
+E.~Haselsteiner and K.~Breitfuss, ``Security in near field communication
+  ({NFC}),'' 28.1.2012.
 
 \bibitem{mobilePayments}
 S.~van Klaarbergen, ``Mobile payment transactions: {BLE} and/or {NFC}?''

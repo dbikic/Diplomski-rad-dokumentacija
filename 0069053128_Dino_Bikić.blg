@@ -19,11 +19,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literatura.bib
-Repeated entry---line 170 of file Literatura.bib
+Repeated entry---line 169 of file Literatura.bib
  : @www{mysql
  :           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 175 of file Literatura.bib
+Repeated entry---line 174 of file Literatura.bib
  : @www{php
  :         ,
 I'm skipping whatever remains of this entry
@@ -39,37 +39,37 @@ Warning--empty journal in mobilePayments
 Done.
 You've used 57 entries,
             4024 wiz_defined-function locations,
-            1047 strings with 12963 characters,
-and the built_in function-call counts, 16896 in all, are:
-= -- 1177
+            1047 strings with 12961 characters,
+and the built_in function-call counts, 16866 in all, are:
+= -- 1171
 > -- 149
 < -- 0
 + -- 88
 - -- 30
-* -- 405
-:= -- 3074
-add.period$ -- 89
+* -- 404
+:= -- 3065
+add.period$ -- 88
 call.type$ -- 57
 change.case$ -- 56
 chr.to.int$ -- 0
 cite$ -- 60
-duplicate$ -- 1461
-empty$ -- 1854
+duplicate$ -- 1460
+empty$ -- 1853
 format.name$ -- 31
-if$ -- 3608
+if$ -- 3601
 int.to.chr$ -- 0
 int.to.str$ -- 57
 missing$ -- 364
 newline$ -- 300
 num.names$ -- 29
-pop$ -- 1299
+pop$ -- 1301
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1301
+skip$ -- 1298
 stack$ -- 0
 substring$ -- 3
-swap$ -- 730
+swap$ -- 728
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
@@ -77,5 +77,5 @@ type$ -- 57
 warning$ -- 3
 while$ -- 29
 width$ -- 59
-write$ -- 518
+write$ -- 517
 (There were 3 error messages)

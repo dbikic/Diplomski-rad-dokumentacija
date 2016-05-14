@@ -3,45 +3,47 @@
 \BOOKMARK [0][-]{chapter.1}{Uvod}{}% 3
 \BOOKMARK [0][-]{chapter.2}{Specifikacija rada}{}% 4
 \BOOKMARK [1][-]{section.2.1}{Specifikacija sustava}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.2}{Rezultati}{chapter.2}% 6
-\BOOKMARK [0][-]{chapter.3}{NFC tehnologija}{}% 7
-\BOOKMARK [1][-]{section.3.1}{Arhitektura}{chapter.3}% 8
-\BOOKMARK [2][-]{subsection.3.1.1}{Aktivna komunikacija}{section.3.1}% 9
-\BOOKMARK [2][-]{subsection.3.1.2}{Pasivna komunikacija}{section.3.1}% 10
-\BOOKMARK [1][-]{section.3.2}{Primjena}{chapter.3}% 11
-\BOOKMARK [0][-]{chapter.4}{BLE tehnologija}{}% 12
-\BOOKMARK [1][-]{section.4.1}{Arhitektura}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.2}{Topologija mre\236e}{chapter.4}% 14
-\BOOKMARK [2][-]{subsection.4.2.1}{Ogla\235avanje}{section.4.2}% 15
-\BOOKMARK [2][-]{subsection.4.2.2}{Uparivanje}{section.4.2}% 16
-\BOOKMARK [1][-]{section.4.3}{Primjena}{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{Izvedba}{}% 18
-\BOOKMARK [1][-]{section.5.1}{Mobilna aplikacija}{chapter.5}% 19
-\BOOKMARK [2][-]{subsection.5.1.1}{Tehnologija}{section.5.1}% 20
-\BOOKMARK [2][-]{subsection.5.1.2}{Alati}{section.5.1}% 21
-\BOOKMARK [1][-]{section.5.2}{Internetska aplikacija}{chapter.5}% 22
-\BOOKMARK [2][-]{subsection.5.2.1}{Tehnologije}{section.5.2}% 23
-\BOOKMARK [2][-]{subsection.5.2.2}{Alati}{section.5.2}% 24
-\BOOKMARK [0][-]{chapter.6}{Android aplikacija}{}% 25
-\BOOKMARK [1][-]{section.6.1}{Arhitektura}{chapter.6}% 26
-\BOOKMARK [2][-]{subsection.6.1.1}{MVP}{section.6.1}% 27
-\BOOKMARK [2][-]{subsection.6.1.2}{NFC komunikacija}{section.6.1}% 28
-\BOOKMARK [2][-]{subsection.6.1.3}{BLE komunikacija}{section.6.1}% 29
-\BOOKMARK [1][-]{section.6.2}{Implementacija ekrana}{chapter.6}% 30
-\BOOKMARK [2][-]{subsection.6.2.1}{Pocetni ekran}{section.6.2}% 31
-\BOOKMARK [2][-]{subsection.6.2.2}{Ekran poslovnice}{section.6.2}% 32
-\BOOKMARK [2][-]{subsection.6.2.3}{Ekran detalja popusta}{section.6.2}% 33
-\BOOKMARK [2][-]{subsection.6.2.4}{Ekran postavki}{section.6.2}% 34
-\BOOKMARK [1][-]{section.6.3}{Kori\235tene knji\236nice}{chapter.6}% 35
-\BOOKMARK [0][-]{chapter.7}{Internetska aplikacija}{}% 36
-\BOOKMARK [1][-]{section.7.1}{Baza podataka}{chapter.7}% 37
-\BOOKMARK [1][-]{section.7.2}{Internetska aplikacija}{chapter.7}% 38
-\BOOKMARK [2][-]{subsection.7.2.1}{Sucelje za pristup}{section.7.2}% 39
-\BOOKMARK [2][-]{subsection.7.2.2}{Pocetno sucelje}{section.7.2}% 40
-\BOOKMARK [2][-]{subsection.7.2.3}{Poslovnica}{section.7.2}% 41
-\BOOKMARK [2][-]{subsection.7.2.4}{Popust}{section.7.2}% 42
-\BOOKMARK [2][-]{subsection.7.2.5}{Pregled kodova popusta}{section.7.2}% 43
-\BOOKMARK [2][-]{subsection.7.2.6}{API sucelje}{section.7.2}% 44
-\BOOKMARK [0][-]{chapter.8}{Usporedba NFC-a i BLE-a}{}% 45
-\BOOKMARK [0][-]{chapter.9}{Zakljucak}{}% 46
-\BOOKMARK [0][-]{chapter*.42}{Bibliografija}{}% 47
+\BOOKMARK [1][-]{section.2.2}{Aktivnost potrebne za izradu sustava}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Resursi}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Rezultati}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{NFC tehnologija}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Arhitektura}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.1.1}{Aktivna komunikacija}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.2}{Pasivna komunikacija}{section.3.1}% 12
+\BOOKMARK [1][-]{section.3.2}{Primjena}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{BLE tehnologija}{}% 14
+\BOOKMARK [1][-]{section.4.1}{Arhitektura}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{Topologija mre\236e}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.2.1}{Ogla\235avanje}{section.4.2}% 17
+\BOOKMARK [2][-]{subsection.4.2.2}{Uparivanje}{section.4.2}% 18
+\BOOKMARK [1][-]{section.4.3}{Primjena}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Izvedba}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Mobilna aplikacija}{chapter.5}% 21
+\BOOKMARK [2][-]{subsection.5.1.1}{Tehnologija}{section.5.1}% 22
+\BOOKMARK [2][-]{subsection.5.1.2}{Alati}{section.5.1}% 23
+\BOOKMARK [1][-]{section.5.2}{Internetska aplikacija}{chapter.5}% 24
+\BOOKMARK [2][-]{subsection.5.2.1}{Tehnologije}{section.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.2.2}{Alati}{section.5.2}% 26
+\BOOKMARK [0][-]{chapter.6}{Android aplikacija}{}% 27
+\BOOKMARK [1][-]{section.6.1}{Arhitektura}{chapter.6}% 28
+\BOOKMARK [2][-]{subsection.6.1.1}{MVP}{section.6.1}% 29
+\BOOKMARK [2][-]{subsection.6.1.2}{NFC komunikacija}{section.6.1}% 30
+\BOOKMARK [2][-]{subsection.6.1.3}{BLE komunikacija}{section.6.1}% 31
+\BOOKMARK [1][-]{section.6.2}{Implementacija ekrana}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.2.1}{Pocetni ekran}{section.6.2}% 33
+\BOOKMARK [2][-]{subsection.6.2.2}{Ekran poslovnice}{section.6.2}% 34
+\BOOKMARK [2][-]{subsection.6.2.3}{Ekran detalja popusta}{section.6.2}% 35
+\BOOKMARK [2][-]{subsection.6.2.4}{Ekran postavki}{section.6.2}% 36
+\BOOKMARK [1][-]{section.6.3}{Kori\235tene knji\236nice}{chapter.6}% 37
+\BOOKMARK [0][-]{chapter.7}{Internetska aplikacija}{}% 38
+\BOOKMARK [1][-]{section.7.1}{Baza podataka}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.2}{Internetska aplikacija}{chapter.7}% 40
+\BOOKMARK [2][-]{subsection.7.2.1}{Sucelje za pristup}{section.7.2}% 41
+\BOOKMARK [2][-]{subsection.7.2.2}{Pocetno sucelje}{section.7.2}% 42
+\BOOKMARK [2][-]{subsection.7.2.3}{Poslovnica}{section.7.2}% 43
+\BOOKMARK [2][-]{subsection.7.2.4}{Popust}{section.7.2}% 44
+\BOOKMARK [2][-]{subsection.7.2.5}{Pregled kodova popusta}{section.7.2}% 45
+\BOOKMARK [2][-]{subsection.7.2.6}{API sucelje}{section.7.2}% 46
+\BOOKMARK [0][-]{chapter.8}{Usporedba NFC-a i BLE-a}{}% 47
+\BOOKMARK [0][-]{chapter.9}{Zakljucak}{}% 48
+\BOOKMARK [0][-]{chapter*.43}{Bibliografija}{}% 49

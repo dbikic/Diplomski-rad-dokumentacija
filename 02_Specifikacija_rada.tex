@@ -3,7 +3,17 @@
 
 \section{Specifikacija sustava}
 
-Glavna svrha sustava je kreirati platformu za mobilno ogla\v{s}avanje. Sustav \v{c}ine mobilna aplikacija i administrativno su\v{c}elje koje bi trgova\v{c}ki lanci mogli koristiti za promociju proizvoda u svojim poslovnicama. Ideja je da trgova\v{c}ki lanaci putem internetskog su\v{c}elja kreiraju popuste za svoje proizvode u odabranim poslovnicama, a zatim kupci pomo\'{c}u mobilne aplikacije ostvaruju kreirane popuste. Korisni\v{c}ko iskustvo je zami\v{s}ljeno tako da korisnik prilikom ulaza u poslovnicu pomo\'{c}u pametnog telefona sa instaliranom aplikacijom te NFC i BLE modulom skenira NFC naljepnicu koja aplikaciji daje informaciju u koju je poslovnicu korisnik u\v{s}ao. Mobilna aplikacija zatim dohva\'{c}a konfiguraciju odabrane poslovnice sa poslu\v{z}itelja, te je ta akcija je prikazana na slici ~\ref{fig:skeniranjeNaljepnice}.
+Glavna svrha sustava je kreirati platformu za mobilno ogla\v{s}avanje. Sustav \v{c}ine mobilna aplikacija i administrativno su\v{c}elje koje bi trgova\v{c}ki lanci mogli koristiti za promociju proizvoda u svojim poslovnicama. Ideja je da trgova\v{c}ki lanaci putem internetskog su\v{c}elja kreiraju popuste za svoje proizvode u odabranim poslovnicama, a zatim kupci pomo\'{c}u mobilne aplikacije ostvaruju kreirane popuste. Da bi poslodavci koristili sustav, potrebno je u poslovnice postaviti BLE i NFC ure\dj aje, na na\v{c}in prikazan na slici ~\ref{fig:tlocrt}. Na slici je prikazan tlocrt poslovnice koja sadr\v{z}i: NFC naljepnicu koja se nalazi na ulazu u poslovnicu gdje je vidljiva svakom kupcu koji u\dj e u poslovnicu, BLE ogla\v{s}iva\v{c}e koji su postavljeni na police pokraj proizvoda sa popustima i blagajnu na kojoj se kupcu verificira i odobrava popust.
+
+\begin{figure}[!htbp]
+	\begin{center}
+ \includegraphics[height=7cm,keepaspectratio=true]{tlocrt}
+ \caption{Prikaz tlocrta poslovnice koja sadr\v{z}i NFC naljepnicu (a), BLE ogla\v{s}iva\v{c}e (b) i blagajnu (c).}
+ \label{fig:tlocrt}
+	\end{center}
+\end{figure}
+
+Korisni\v{c}ko iskustvo je zami\v{s}ljeno tako da korisnik prilikom ulaza u poslovnicu pomo\'{c}u pametnog telefona s instaliranom aplikacijom te NFC i BLE modulom skenira NFC naljepnicu koja aplikaciji daje informaciju u koju je poslovnicu korisnik u\v{s}ao. Mobilna aplikacija zatim dohva\'{c}a konfiguraciju odabrane poslovnice sa poslu\v{z}itelja, te je ta akcija je prikazana na slici ~\ref{fig:skeniranjeNaljepnice}.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -23,6 +33,8 @@ Kada aplikacija dobije konfiguraciju, po\v{c}inje sa skeniranjem okoline s cilje
 	\end{center}
 \end{figure}
 
+\section{Aktivnost potrebne za izradu sustava}
+
 Za implementaciju opisanog sustava potrebne su sljede\'{c}e aktivnosti:
 \begin{enumerate}
 	\item Kreiranje web aplikacije sa su\v{c}eljem za poslovne subjekte
@@ -31,6 +43,8 @@ Za implementaciju opisanog sustava potrebne su sljede\'{c}e aktivnosti:
 	\item Kreiranje mobilne aplikacije
 	
 \end{enumerate}
+
+\section{Resursi}
 
 Resursi potrebni za ostvarivanje aktivnosti uklju\v{c}uju:
 \begin{enumerate}
