@@ -17,6 +17,7 @@
 
 \author{Dino Biki\'{c}}  % upisati svoje ime i prezime
 \jmbag{0069053128}  % upisati vlastiti JMBAG
+
 \maketitle		% ne dirati
 
 %\makecopyright
@@ -33,6 +34,7 @@
 %\end{acknowledgments}
 
 \mentor{Miroslav Joler}   % zamijeniti podacima o svojem mentoru
+
 \maketitleabstract
 
 % kreira mjesto za umetnuti stranicu s opisom zadatka - ne dirati
@@ -45,14 +47,9 @@
 
 % kreiranje popisa sadrzaja, slika i tabela - nita ne dirati
 \tableofcontents
-\listoffigures
 
 
-% Lista kratica koristenih u tekstu. Kratice upisati u datoteku ``Kratice.tex'' koja je prilozena u paketu.
-% Nije obavezno. Ako se ne zeli koristiti, onda ovaj blok staviti u komentar pomocu znaka %
-\begin{glossary}{Longest string}
-	\input{Kratice}
-\end{glossary}
+
 
 % kreiranje glavnoga dijela rada
 \mainmatter		% ne dirati
@@ -78,7 +75,15 @@
 %
 
 \include{Literatura}  % ovo je ime Bibtex datoteke koju korisnik kreira
-\include{Reference}  % ovo je ime Bibtex datoteke koju korisnik kreira
+%\include{Reference}  % ovo je ime Bibtex datoteke koju korisnik kreira
 
+% Lista kratica koristenih u tekstu. Kratice upisati u datoteku ``Kratice.tex'' koja je prilozena u paketu.
+% Nije obavezno. Ako se ne zeli koristiti, onda ovaj blok staviti u komentar pomocu znaka %
+\begin{glossary}{Longest string}
+	\input{Kratice}
+\end{glossary}
+\listoffigures
+
+\include{sazetak}  % ovo je ime Bibtex datoteke koju korisnik kreira
 
 \end{document}

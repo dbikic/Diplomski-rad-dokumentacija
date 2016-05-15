@@ -1,42 +1,42 @@
 \select@language {croatian}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Prikaz tlocrta poslovnice koja sadr\v {z}i NFC naljepnicu (a), BLE ogla\v {s}iva\v {c}e (b) i blagajnu (c).\relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Prikaz procesa skeniranja NFC naljepnice (1), zahtjeva za poslovnicom (2) i dobivanje konfiguracje poslovnice (3).\relax }}{5}{figure.caption.5}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Prikaz procesa otkrivanja BLE ogla\v {s}iva\v {c}a (1), zahtjev za kodom skeniranog popusta (2), dobivanje koda za popust (3) i prikazivanje koda na blagajni za kona\v {c}no ostvarivanje popusta (4).\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Prikaz tlocrta poslovnice koja sadr\v {z}i NFC naljepnicu (a), BLE ogla\v {s}iva\v {c}e (b) i blagajnu (c).\relax }}{4}{figure.caption.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Prikaz procesa skeniranja NFC naljepnice (1), zahtjeva za poslovnicom (2) i dobivanje konfiguracje poslovnice (3).\relax }}{5}{figure.caption.3}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Prikaz procesa otkrivanja BLE ogla\v {s}iva\v {c}a (1), zahtjev za kodom skeniranog popusta (2), dobivanje koda za popust (3) i prikazivanje koda na blagajni za kona\v {c}no ostvarivanje popusta (4).\relax }}{6}{figure.caption.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo aplikacije Forsquare\relax }}{10}{figure.caption.7}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Logo NFC protokola\relax }}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Komunikacija dva NFC ure\dj aja\relax }}{11}{figure.caption.9}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Kori\v {s}tene NFC naljepnice\relax }}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo aplikacije Forsquare\relax }}{10}{figure.caption.5}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Logo NFC protokola\relax }}{10}{figure.caption.6}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Komunikacija dva NFC ure\dj aja\relax }}{11}{figure.caption.7}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Kori\v {s}tene NFC naljepnice\relax }}{15}{figure.caption.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo BLE protokola\relax }}{16}{figure.caption.11}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Dugmasta baterija koja pokre\'{c}e BLE ure\dj aj\relax }}{18}{figure.caption.12}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Gimbal Proximity Beacon Series 10 BLE ogla\v {s}iva\v {c}\relax }}{23}{figure.caption.13}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo BLE protokola\relax }}{16}{figure.caption.9}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dugmasta baterija koja pokre\'{c}e BLE ure\dj aj\relax }}{18}{figure.caption.10}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Gimbal Proximity Beacon Series 10 BLE ogla\v {s}iva\v {c}\relax }}{23}{figure.caption.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Graf commit-ova u vremenskom periodu za projekt mobilne aplikacije\relax }}{26}{figure.caption.14}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Logo Android-a\relax }}{27}{figure.caption.15}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Graf commit-ova u vremenskom periodu za projekt mobilne aplikacije\relax }}{26}{figure.caption.12}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Logo Android-a\relax }}{27}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Komunikacija slojeva u MVP oblikovnom obrascu\relax }}{32}{figure.caption.16}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Primjer MVP-a u napravljenoj aplikaciji\relax }}{33}{figure.caption.17}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces ProgressDialog koji korisniku daje do znanja da mora pri\v {c}ekati jer se neka operacija obavlja u pozadini\relax }}{34}{figure.caption.18}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Su\v {c}elje StoreCallback sa prototipima metoda za uspjeh i neuspjeh zahtjeva za konfiguracijom poslovnice.\relax }}{35}{figure.caption.19}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Primjer definiranja aktivnosti sa IntentFilter-om u AndroidManifest-u\relax }}{36}{figure.caption.20}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Na slici je prikazan proces zapisivanja URI-a na NFC naljepnicu. Ekran (a) prikazuje odabir zapisivanja URI-a, ekran (b) prikazuje upisivanje URI-a. Nakon \v {s}to je URI upisan potrebno je prisloniti naljepnicu na pametni telefon, s ciljem zapisivanja podataka. Ekran (c) prikazuje pro\v {c}itani zapis naljepnice kojoj smo prethodno zapisali URI.\relax }}{38}{figure.caption.22}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Obavijesti o neaktivnosti modula i akcije za uklju\v {c}ivanje istih. Obavijest (a) je vezana za Internet modul, (b) za Bluetooth modul a (c) za NFC modul\relax }}{40}{figure.caption.23}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Po\v {c}etni ekran\relax }}{41}{figure.caption.24}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Prikaz inicijaliziranog ekrana poslovnice (a), informacija poslovnice (b) i ekrana poslovnice s otkrivenim popustima (c)\relax }}{42}{figure.caption.25}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces FAB komponenta za aktivaciju popusta\relax }}{43}{figure.caption.26}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Slika sadr\v {z}i prikaz inicijalnog ekrana sa detaljima popusta (a), poruka uspje\v {s}nog primanja koda (b) i ekran sa detaljima popusta koji uklju\v {c}uje i kod za popust (c)\relax }}{44}{figure.caption.27}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Ekran postavki u kojemu je korisnik mo\v {z}e birati koliko slab signal \'{c}e biti uzet u obzir prilikom skeniranja okoline u potrazi BLE ogla\v {s}iva\v {c}ima\relax }}{45}{figure.caption.28}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Komunikacija slojeva u MVP oblikovnom obrascu\relax }}{32}{figure.caption.14}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Primjer MVP-a u napravljenoj aplikaciji\relax }}{33}{figure.caption.15}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces ProgressDialog koji korisniku daje do znanja da mora pri\v {c}ekati jer se neka operacija obavlja u pozadini\relax }}{34}{figure.caption.16}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Su\v {c}elje StoreCallback sa prototipima metoda za uspjeh i neuspjeh zahtjeva za konfiguracijom poslovnice.\relax }}{35}{figure.caption.17}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Primjer definiranja aktivnosti sa IntentFilter-om u AndroidManifest-u\relax }}{36}{figure.caption.18}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Na slici je prikazan proces zapisivanja URI-a na NFC naljepnicu. Ekran (a) prikazuje odabir zapisivanja URI-a, ekran (b) prikazuje upisivanje URI-a. Nakon \v {s}to je URI upisan potrebno je prisloniti naljepnicu na pametni telefon, s ciljem zapisivanja podataka. Ekran (c) prikazuje pro\v {c}itani zapis naljepnice kojoj smo prethodno zapisali URI.\relax }}{38}{figure.caption.20}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Obavijesti o neaktivnosti modula i akcije za uklju\v {c}ivanje istih. Obavijest (a) je vezana za Internet modul, (b) za Bluetooth modul a (c) za NFC modul\relax }}{40}{figure.caption.21}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Po\v {c}etni ekran\relax }}{41}{figure.caption.22}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Prikaz inicijaliziranog ekrana poslovnice (a), informacija poslovnice (b) i ekrana poslovnice s otkrivenim popustima (c)\relax }}{42}{figure.caption.23}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces FAB komponenta za aktivaciju popusta\relax }}{43}{figure.caption.24}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Slika sadr\v {z}i prikaz inicijalnog ekrana sa detaljima popusta (a), poruka uspje\v {s}nog primanja koda (b) i ekran sa detaljima popusta koji uklju\v {c}uje i kod za popust (c)\relax }}{44}{figure.caption.25}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Ekran postavki u kojemu je korisnik mo\v {z}e birati koliko slab signal \'{c}e biti uzet u obzir prilikom skeniranja okoline u potrazi BLE ogla\v {s}iva\v {c}ima\relax }}{45}{figure.caption.26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Struktura baze podataka\relax }}{49}{figure.caption.29}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Forma za unos kredencija\relax }}{50}{figure.caption.30}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Popis poslovnica trgova\v {c}kog lanca\relax }}{51}{figure.caption.31}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Dodavanje (a) i ure\dj ivanje (b) poslovnice\relax }}{52}{figure.caption.32}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Popusti poslovnice\relax }}{52}{figure.caption.33}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Dodavanje (a) i ure\dj ivanje (b) popusta.\relax }}{53}{figure.caption.34}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Aktivirani kodovi popusta\relax }}{54}{figure.caption.35}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Aktivirani kodovi popusta\relax }}{55}{figure.caption.36}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Struktura baze podataka\relax }}{49}{figure.caption.27}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Forma za unos kredencija\relax }}{50}{figure.caption.28}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Popis poslovnica trgova\v {c}kog lanca\relax }}{51}{figure.caption.29}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Dodavanje (a) i ure\dj ivanje (b) poslovnice\relax }}{52}{figure.caption.30}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Popusti poslovnice\relax }}{52}{figure.caption.31}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Dodavanje (a) i ure\dj ivanje (b) popusta.\relax }}{53}{figure.caption.32}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Aktivirani kodovi popusta\relax }}{54}{figure.caption.33}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Aktivirani kodovi popusta\relax }}{55}{figure.caption.34}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
