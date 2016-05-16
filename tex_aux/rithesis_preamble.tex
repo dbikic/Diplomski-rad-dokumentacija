@@ -7,9 +7,6 @@
 %%%%%%% adjustment for croatian
 \usepackage[croatian]{babel}
 \usepackage[cp1250]{inputenc}	% this ensures croatian special letters are correctly printed with Windows
-%\usepackage[utf8]{inputenc}
-%\usepackage[croatian]{babel}
-
 
 \usepackage{graphicx}	% this enables import of graphics
 \usepackage[labelsep=space,format=hang]{caption}  % adjusts caption style
@@ -26,7 +23,6 @@
 \usepackage{epsfig}		% to use eps figures; maybe not necessary to use here with Mac
 \usepackage{epstopdf}	% this automatically converts any eps-figure into a pdf-figure
 \usepackage[section]{placeins} % da slika ne upada u sljedeci section
-\usepackage{siunitx}
 
 \hyphenation{sko-ko-vi-toj}
 
@@ -43,7 +39,6 @@
 \usepackage{psfrag}
 %\usepackage{url} 
 \usepackage{hyperref}
-%\usepackage[unicode=true]{hyperref}
 \hypersetup{
 breaklinks,
 colorlinks=true,
@@ -52,7 +47,7 @@ citecolor=black,
 filecolor=black,
 urlcolor=black
 }
-
+\usepackage{siunitx}
 \setcounter{topnumber}{1} \setcounter{bottomnumber}{1}
 
 \newcommand{\navod}[1]{``#1''}
